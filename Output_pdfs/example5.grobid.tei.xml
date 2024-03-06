@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Prevalence, Patterns, and Characteristics of Eye Injuries in Professional Mixed Martial Arts</title>
+				<funder ref="#_jvhyZwN #_wKhfqBu">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Informa UK Limited</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-06-25">25 June 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Fliotsos</surname></persName>
+							<email>michael.fliotsos@yale.edu</email>
+							<idno type="ORCID">0000-0001-8429-0831</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Wilmer Eye Institute</orgName>
+								<orgName type="institution">The Johns Hopkins University School of Medicine</orgName>
+								<address>
+									<settlement>Baltimore</settlement>
+									<region>MD</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Donovan</forename><forename type="middle">S</forename><surname>Reed</surname></persName>
+							<idno type="ORCID">0000-0002-7209-4646</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Ophthalmology</orgName>
+								<address>
+									<addrLine>Wilford Hall Eye Center San Antonio</addrLine>
+									<region>TX</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gregory</forename><forename type="middle">B</forename><surname>Giles</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Ophthalmology</orgName>
+								<orgName type="department" key="dep2">Brooke Army Medical Center</orgName>
+								<address>
+									<settlement>San Antonio</settlement>
+									<region>TX</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Adam</forename><forename type="middle">Hh</forename><surname>Altman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Ophthalmology</orgName>
+								<address>
+									<addrLine>Wilford Hall Eye Center San Antonio</addrLine>
+									<region>TX</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joseph</forename><forename type="middle">A</forename><surname>Santamaria</surname></persName>
+							<idno type="ORCID">0000-0003-4990-2710</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Ophthalmology</orgName>
+								<address>
+									<addrLine>Wilford Hall Eye Center San Antonio</addrLine>
+									<region>TX</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sidra</forename><surname>Zafar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Wilmer Eye Institute</orgName>
+								<orgName type="institution">The Johns Hopkins University School of Medicine</orgName>
+								<address>
+									<settlement>Baltimore</settlement>
+									<region>MD</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Darrel</forename><forename type="middle">K</forename><surname>Carlton</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Ophthalmology</orgName>
+								<orgName type="department" key="dep2">Brooke Army Medical Center</orgName>
+								<address>
+									<settlement>San Antonio</settlement>
+									<region>TX</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anthony</forename><forename type="middle">J</forename><surname>Johnson</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Ophthalmology</orgName>
+								<orgName type="department" key="dep2">Brooke Army Medical Center</orgName>
+								<address>
+									<settlement>San Antonio</settlement>
+									<region>TX</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Brett</forename><forename type="middle">W</forename><surname>Davies</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Ophthalmology</orgName>
+								<address>
+									<addrLine>Wilford Hall Eye Center San Antonio</addrLine>
+									<region>TX</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gary</forename><forename type="middle">L</forename><surname>Legault</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Ophthalmology</orgName>
+								<orgName type="department" key="dep2">Brooke Army Medical Center</orgName>
+								<address>
+									<settlement>San Antonio</settlement>
+									<region>TX</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Uniformed Services University of the Health Sciences</orgName>
+								<address>
+									<settlement>Bethesda</settlement>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fasika</forename><forename type="middle">A</forename><surname>Woreta</surname></persName>
+							<idno type="ORCID">0000-0001-9401-4283</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Wilmer Eye Institute</orgName>
+								<orgName type="institution">The Johns Hopkins University School of Medicine</orgName>
+								<address>
+									<settlement>Baltimore</settlement>
+									<region>MD</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Grant</forename><forename type="middle">A</forename><surname>Justin</surname></persName>
+							<idno type="ORCID">0000-0001-6084-6399</idno>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Ophthalmology</orgName>
+								<orgName type="department" key="dep2">Brooke Army Medical Center</orgName>
+								<address>
+									<settlement>San Antonio</settlement>
+									<region>TX</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Uniformed Services University of the Health Sciences</orgName>
+								<address>
+									<settlement>Bethesda</settlement>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Wilmer Eye Institute</orgName>
+								<orgName type="institution">The Johns Hopkins University School of Medicine</orgName>
+								<address>
+									<addrLine>600 N Wolfe Street</addrLine>
+									<postCode>21287</postCode>
+									<settlement>Baltimore</settlement>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Prevalence, Patterns, and Characteristics of Eye Injuries in Professional Mixed Martial Arts</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Clinical Ophthalmology</title>
+						<title level="j" type="abbrev">OPTH</title>
+						<idno type="eISSN">1177-5483</idno>
+						<imprint>
+							<publisher>Informa UK Limited</publisher>
+							<biblScope unit="volume">Volume15</biblScope>
+							<biblScope unit="page" from="2759" to="2766"/>
+							<date type="published" when="2021-06-25">25 June 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7722F9F35BCA1C0CD34A640C90809645</idno>
+					<idno type="DOI">10.2147/opth.s319025</idno>
+					<note type="submission">Received: 7 May 2021 Accepted: 15 June 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1-SNAPSHOT" ident="GROBID" when="2024-03-06T21:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>ophthalmic trauma</term>
+					<term>eye trauma</term>
+					<term>mixed martial arts</term>
+					<term>boxing</term>
+					<term>MMA</term>
+					<term>combat sports</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Purpose: To describe the frequency and type of eye injuries in fighters in mixed martial arts (MMA) competition. Methods: Fight result data were collected from the Nevada Athletic Commission database from 2001 to 2020. Any fighters in a professional mixed martial arts (MMA) contest with an eye injury were included. Main outcome measures included frequency and rate of eye injuries per fight and the types of eye injuries. Secondary outcome measures were gender, laterality, decision type, and length of no-contact recommended. Results: Of the 256 MMA events in the database, 187 events (73.3%) had at least one eye injury. Of a total 2208 fights at these events, there were 363 fighters who sustained 369 eye injuries, with the yearly rate of eye injuries per 100 fighters ranging from 2.56 to 12.22. The most common injuries were eyebrow and eyelid lacerations (n=160, 43%), lacerations around the eye (n=98, 27%), and orbital fractures (n=62, 17%). Most eye injuries were right sided (n=197, 53.3%) and the majority of fighters with eye injuries lost their match (n=228, 62.8%). Fifty-seven fighters were recommended for further ophthalmology clearance after the match. The most common reasons for recommended ophthalmology follow-up was orbital fracture (n=25, 44%) and retinal injury (n=7, 12%). Forty-three fighters received nocontact requirements relating to their injury for an average of 8.9 weeks (range 1-24 weeks). Conclusion: Ophthalmic injuries in professional MMA were prevalent, were most often lacerations surrounding the eye, and often accompanied the fighter losing their match.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Mixed martial arts (MMA) is a full-contact combat sport between two athletes that allows striking and grappling while either standing or on the ground. MMA matches can occur in any contest enclosure ranging from a boxing ring to a hexagonal or octagonal cage. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> A typical MMA match is composed of three rounds lasting 5 minutes each. Rules and regulations pertaining to MMA competition have increased since 1993, such as the implementation of ringside physicians who can advise cessation of fighting in the event of disproportionate danger to the health of each fighter.</p><p>Recent estimates have placed the overall average injury rate in MMA to be between 228.7 and 246.4/1000 athletic encounters. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b2">3</ref> The head is the most commonly injured anatomical location by far, ranging from 32.4% to 76.5% of all injuries, <ref type="bibr" target="#b1">2</ref> with lacerations, fractures and concussions being the most frequent types of head injuries. <ref type="bibr" target="#b3">4</ref> Few studies have evaluated eye injuries in MMA. In one survey-based study of 55 professional MMA fighters, eye injuries were reported at a prevalence of 5.8% of all injuries sustained, although that study was limited by assessing only the prior 12 months of MMA competition in which each fighter had participated. <ref type="bibr" target="#b4">5</ref> In retrospective review of 171 professional MMA fight records from 2001 to 2004, eye injuries comprised 8.3% of all total injuries reported, albeit limited by sample size. <ref type="bibr" target="#b5">6</ref> The aims of the present study were to assess the frequency and rate of eye injuries per fight and elucidate types of eye injuries experienced by professional athletes in mixed martial arts. We also assessed characteristics of eye injuries (such as laterality of injury and type of followup care recommended) and whether the eye injury was associated with the win-lose outcome of each match in the study cohort.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head><p>MMA results data from all professional matches in the state of Nevada from September 2001 to March 2020 were obtained from the Nevada State Athletic Commission (NSAC). Few states sanction MMA competitions, and the NSAC has a large database that has been used in a previous study. <ref type="bibr" target="#b5">6</ref> These data were available in the public domain and accessible on the website of the Nevada State Athletic Commission (http://boxing.nv.gov, last accessed April 2020). Of note, in October 2020, the NSAC removed data from their website, and it is no longer publicly available. All professional MMA matches occurring in the state during the study period were included, except the Ultimate Fighting Championship (UFC) "The Ultimate Fighter (TUF)" matches, as these are considered amateur fights. Data obtained included gender, date of the match, whether the fighter won or lost, how the match was decided, the types of ophthalmic injuries sustained in the match, and laterality of the affected eye.</p><p>Injuries in the dataset were based on the clinical report of the physician at ringside. No radiographic or additional diagnostic testing was performed to confirm the presence of these injuries in the dataset. An ophthalmic injury was classified according to the physician reports in the NSAC database and included eye injury, eyelid and eyebrow lacerations, eye laceration (laceration around the eye, not an open-globe injury), orbital fractures, contusion/ hematoma, retinal injuries, and corneal abrasions, other, and unknown. The following injuries were categorized as "other": blurry vision, double vision, dilated pupil, conjunctival laceration, glaucoma, and eye irritation. Orbital fractures included a suspected orbit fracture, maxillary sinus fracture, medial wall fracture, or if the ringside physician recommended follow-up with an ophthalmologist regarding the fracture. Lacerations were included if they explicitly stated that the eye, eyelid or eyebrow were involved. All other lacerations including facial, scalp and forehead lacerations were excluded. In MMA, matches are either decided by submission (where a competitor signals verbally or physically their wish to discontinue the fight), knockout (KO), technical knockout (TKO; where the referee stops the fighting), and by a panel of three judges as a unanimous or split decision, or draw. In addition, for certain injuries in the dataset, fighters were given an explicit "no-contact" time by the ringside physician. No-contact time is defined as a length of time, determined by the ringside physician, where the fighter is prohibited from engaging in further fights after their injury was sustained.</p><p>All statistical work was accomplished using Stata version 13.0 (StataCorp, College Station, TX, USA). Chisquared testing was used to analyze proportions of different types of eye injuries. Mann-Kendall testing was used to compare the rate of eye injuries over time. For the purposes of our statistical analysis, significance is defined as p &lt; 0.05. The research study protocol was reviewed by the Johns Hopkins University School of Medicine Institutional Review Board and deemed exempt. All study activities adhered to the principles of the Declaration of Helsinki. The study adhered to all regulations outlined in the Health Information Portability and Accountability Act (HIPAA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Results were reviewed from 256 events. The mean (standard deviation [SD]) number of fights per event was 8.6 (2.4), while the mean number of fighters involved in each event was 17.3 (4.9). Data were collected on 2208 total fights, representing 4416 fighters. There were 187 events (73.3%) that reported at least one eye injury; the mean number of fighters sustaining an eye injury per event was 1.4 (range 1-6). There were 363 fighters that sustained 369 eye injuries. Injuries were sustained by male fighters in 359 instances (97.3% of all injuries). The rate of eye injuries sustained per 100 fighters each year ranged from as low as 2.56 in 2002 to as high as 12.22 in 2004 (Table <ref type="table" target="#tab_0">1</ref>). There was no significant trend when comparing this rate over time using Mann-Kendall testing (continuity corrected p-value = 0.53, Figure <ref type="figure" target="#fig_1">1</ref>).</p><p>The most common injuries were eyebrow and eyelid lacerations (n=160, 43%), eye lacerations (n=98, 27%) and https://doi.org/10.2147/OPTH.S319025</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DovePress</head><p>Clinical Ophthalmology 2021:15 2760 orbital fractures (n=62, 17%, Figure <ref type="figure" target="#fig_2">2</ref>). Twelve fighters had bilateral injuries, and four fighters sustained two concomitant injuries, and the majority of eye injuries were right sided (n=197, 53.3%). The most common decisions rendered by referees in matches where an eye injury was sustained were unanimous decision (n=139, 38.3%), technical knockout (TKO, n=116, 32.0%) submission (n=59, 16.3%) and split decision (n=31, 8.5%; Table <ref type="table" target="#tab_2">2</ref>).</p><p>Most fighters with eye injuries lost their match (n=228, 62.8% of all injuries) compared to those who won their fights (n=130, 35.8%) or for whom the match resulted in a draw or no-contest decision (n=5, 1.38%). Among the group of fighters who sustained an eye injury and ended up losing their match, there was a statistically higher proportion of orbital fractures (21.1%) compared to those who sustained an injury and won their match (10%; p = 0.02). The proportion of fighters winning their match with an eyebrow or eyelid laceration (40.8%) was not statistically different from the proportion of fighters losing their match sustaining the same injury (42.2%).</p><p>Upon examination by the ringside physician, 57 fighters were recommended for further ophthalmology clearance after the match. The most common reasons for recommended ophthalmology follow-up were orbital fracture (n=25, 44%), unknown (n=9, 16%), and retina injury (n=7, 12%). Overall, 43 fighters were given no-contact requirements relating to their injury (Table <ref type="table" target="#tab_3">3</ref>). The average no-contact time among all injury types was 8.9 weeks (range 1-24 weeks). The majority (n=23, 53.5%) of those fighters for whom the ringside physician mandated no-contact time had an orbital floor fracture (average nocontact time 3.2 weeks). Retinal injuries required on average longer no-contact clearance (4.5 weeks), but the sample size was small (n=2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>While sports-related eye injuries have been the subject of previous investigations, <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> the present study explored the rate of ophthalmic injuries in the increasingly popular area of professional MMA competition. Eye and facial injuries occur frequently in sports competition, and younger participants are more often injured. In one study of sportsrelated visits to the emergency department, 52.5% (n=601) of facial injuries due to combat sports occurred in individuals under the age of 19 years. <ref type="bibr" target="#b8">9</ref> One study found a significantly higher prevalence (58%) of visionthreatening injuries and retinal tears among 74 professional boxers in New York compared to 7% in a smaller   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2761</head><p>group (n=7) of other athletes who served as controls. <ref type="bibr" target="#b9">10</ref> A separate study of both amateur and professional boxers in Italy found a statistically higher proportion of conjunctival, corneal, lenticular, vitreal, ocular papilla, and retinal problems in the boxing group (prevalence 40.9%) than in a comparison control group (prevalence 3.1%). <ref type="bibr" target="#b10">11</ref> In addition, different patterns of injuries have been identified within various subtypes of combat sports. For example, in one study, the striking predominant combat sports such as boxing, karate, muay thai, taekwondo were more likely to result in loss of consciousness (prevalence 7.1% among all involved fighters) and eye injury (prevalence 1.1% of all involved fighters) compared to MMA (4.2% and 0.3%, respectively). <ref type="bibr" target="#b11">12</ref> Submission-predominant combat sports such as Brazilian jiu-jitsu, judo, and wrestling have been demonstrated to have a lower prevalence of injury overall. <ref type="bibr" target="#b12">13</ref> By focusing on ophthalmic injuries, our study adds to the current understanding of type and prevalence of injuries in combat sports overall. It was previously known that MMA competition most frequently results in head injuries, including lacerations, concussions, and fractures. <ref type="bibr" target="#b2">3</ref> This mirrors the trends found in other combat sports as well; for example, a previous meta-analysis and systematic review found a 30% prevalence of dentofacial injuries in combat sports, <ref type="bibr" target="#b13">14</ref> while a separate cross-sectional study of 478 Brazilian athletes identified a particularly high rate of musculoskeletal joint injuries in combat sports compared to other non-combat sports such as rugby (61%) and soccer (49.4%). <ref type="bibr" target="#b14">15</ref> Heterogeneous patterns of injury type have been documented previously among different types of combat sports, <ref type="bibr" target="#b15">16</ref> likely due to differences between each sport in terms of what body parts are typically used or targeted by participants. A previous study of MMA competitions in Nevada from September 2001 to December 2004 found a rate of 2.37 eye injuries per 100 fighters. This is lower than the rate observed in our study, which is likely due to the fact that in that study, eyelid lacerations were categorized as facial injuries as opposed to eyelid injuries. <ref type="bibr" target="#b5">6</ref> It has been previously established that head trauma the potential associated neurological sequelae are an important injury trend to address in MMA competition specifically. <ref type="bibr" target="#b16">17</ref> Our study found more specifically that lacerations around the eye and those involving the eyebrow and eyelid comprised approximately 70% of all ophthalmic injuries sustained during professional MMA fights over the study period. We found that the prevalence of orbital fractures is approximately 14% of all eye injuries sustained in professional MMA competition. A previous retrospective review of over 10 years of clinical cases found that sportsrelated facial bone fractures were sustained most commonly in soccer (38.1%), followed by baseball (16.1%), basketball (12.7%), martial arts (6.4%). <ref type="bibr" target="#b17">18</ref> A four-year study of all training-and sports-related injuries in the US Armed Forces found that skull/facial fractures and intracranial injuries accounted for 2.1% of all injuries, and that these cases were more common among boxingrelated cases. <ref type="bibr" target="#b18">19</ref> Only one other study to our knowledge examined the rate of facial fractures in MMA fighting specifically; this was an observational cohort study of 116 bouts of professional MMA competitions held in   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2763</head><p>Hawaii between 1999 and 2006. In that study-where fighters were assessed by a physician and after the fight-only five facial injuries were observed (with two nasal fractures and one Le Fort fracture). <ref type="bibr" target="#b19">20</ref> We found that individuals that sustained eye injuries in MMA matches more often lost their match (74%). Furthermore, orbital fractures represented a larger share of eye injuries in fighters who ended up losing their match when compared to those who won their match; this finding can be explained by the severe nature of that injury. In our study, it was identified that the most common outcome decision rendered in matches where a fighter experienced an ophthalmic injury was unanimous decision (38%) followed by TKO (32%), while submission was less common (16%). A previous study examined the relationship between match outcome decision and rate of injuries sustained and found that matches that were KO/TKO incurred two times as many injuries as fighters participating in matches ending with submission. <ref type="bibr" target="#b20">21</ref> In both studies, the increased prevalence of injuries in KO/TKO versus submission can be explained by the increased duration of fighting (and subsequent increased time where the fighters are at risk of injury) that occurs when fights are decided by the judges' decision as opposed to submission. However, in cases where the individual lost via unanimous decision, it may be the case that eye injuries are likely distracting, but not debilitating to the point of needing to retire from the match.</p><p>Given the frequency of ophthalmic injuries that are sustained during MMA competition, it is important for ringside physicians to be aware of basic management for ophthalmic injuries and to be well equipped for assessment of injuries. Current guidelines recommend ringside physicians to have an ophthalmoscope in the medical kit, as well as suture kits for managing lacerations. <ref type="bibr" target="#b21">22</ref> Although there were no reported cases of retrobulbar hemorrhage, consideration of training in lateral canthotomy and cantholysis may be necessary. In addition, we found that there was variability in the no-contact times suggested by ringside physicians when stratified by injury type and recommendation to see an ophthalmologist based on certain injury types, although statistical inferences were limited by sample size. The promotion companies and state athletic associations should consider development of ophthalmic guidelines for various injury types.</p><p>There are several important limitations to consider when interpreting results from our study. First, the definitions of the injuries were limited by the descriptions of the ringside doctor, who are not ophthalmologists. Thus, descriptions such as eye injury are generic and could be open-globe injuries, conjunctival lacerations, periorbital lacerations, etc. An additional limitation is the fact that orbital fractures were diagnosed based on physician assessment on physical exam without imaging. While physical exam findings such as lacerations, bony stepoffs, hypoglobus, and/or enophthalmos are clinically useful for diagnosis, <ref type="bibr" target="#b22">23</ref> definitive CT scans are often necessary in confirmation, assessment, and operative planning for such injuries. Going further, this study is limited in that it is a retrospective review of publicly available information of professional MMA competition in the state of Nevada. This means that trends observed may not be generalizable to amateur competition or trends in other states where professional MMA fights occur. Our reliance on this dataset also limits further classification and clarification of injury types; for example, there is likely overlap in the reported categories of "eyebrow," "eye," and "eyelid" lacerations as reported in the NSAC database.</p><p>Furthermore, we did not look at the effect of fighter weights on rate of ophthalmic injury, which is a factor that has been identified as associated with overall injury rates in previous studies. <ref type="bibr" target="#b24">24,</ref><ref type="bibr" target="#b25">25</ref> Our inclusion of whether or not a fighter was injured was limited to the report of the physician at ringside, as we did not review individual fight videos to confirm injuries or mechanism of injury. We also did not include information on age or the round when the injury was sustained, which are factors that were identified with overall injury in previous studies. <ref type="bibr" target="#b4">5</ref> Despite these limitations, there are several strengths of our study that add to our previous understanding of patterns of injury in MMA competition. While previous studies focused mostly on the prevalence of overall injury in MMA competition stratified by body location (ie, torso, limbs, head); there were very few studies that were able to identify ophthalmic injuries specifically and determine relevant patterns as a result. It is our hope that the findings in this study can serve as the foundation for further study of eye injuries in MMA competition, considering issues such as weight class, age, and mechanism of injury, and lay the groundwork for future guidelines to prevent eye injury.</p><p>Ophthalmic injuries in professional MMA are prevalent and are most often lacerations to structures surrounding the eye. Critically, fighters who sustain ophthalmic injuries were more likely to lose their match. No-contact clearance for injured fighters was recommended by https://doi.org/10.2147/OPTH.S319025</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DovePress</head><p>Clinical Ophthalmology 2021:15 ringside physicians most often for orbital floor fractures; however, there was variability in the recommended ance time and guidelines should be considered by the different state athletic associations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disclaimer</head><p>The view(s) expressed herein are those of the author(s) and do not reflect the official policy or position of Brooke Army Medical Center, the Henry M. Jackson Foundation for the Advancement of Military Medicine, Inc., the US Army Medical Department, the US Army Office of the Surgeon General, the Department of the Air Force, the Department of the Army, Department of Defense, the Uniformed Services University of the Health Sciences or any other agency of the US Government. Mention of trade names, commercial products, or organizations does not imply endorsement by the US Government.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1</head><label>1</label><figDesc>Figure 1 Relationship between year of competition and rate of eye injuries sustained per 100 fighters involved from September 2001 to March 2020, with corresponding p-value for Mann-Kendall testing in the upper right-hand corner.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2</head><label>2</label><figDesc>Figure 2 Type of eye injuries sustained by fighters in professional mixed martial arts competitions from September 2001 to March 2020.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Frequency and Rates of Eye Injuries in Professional Mixed Martial Arts Competition in Nevada from September 2001 to March 2020</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>Decisions Rendered for Fighters Who Sustained an Ophthalmic Injury During Professional Mixed Martial Arts Competition from September 2001 to March 2020</figDesc><table><row><cell>Decision Type</cell><cell>N</cell><cell>%</cell></row><row><cell>Unanimous</cell><cell>139</cell><cell>38.3</cell></row><row><cell>Technical knockout (TKO)</cell><cell>116</cell><cell>32.0</cell></row><row><cell>Submission</cell><cell>59</cell><cell>16.3</cell></row><row><cell>Split decision</cell><cell>31</cell><cell>8.5</cell></row><row><cell>Knockout (KO)</cell><cell>7</cell><cell>1.9</cell></row><row><cell>Majority decision</cell><cell>6</cell><cell>1.7</cell></row><row><cell>No decision</cell><cell>3</cell><cell>0.8</cell></row><row><cell>Draw</cell><cell>1</cell><cell>0.3</cell></row><row><cell>No contest</cell><cell>1</cell><cell>0.3</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3</head><label>3</label><figDesc>Mean No-Contact Time Recommended by Ringside Physicians for Mixed Martial Arts Fighters Sustaining Various Ophthalmic Injuries, September 2001 to March 2020</figDesc><table><row><cell>Injury Type</cell><cell>N</cell><cell>Average No-Contact Time</cell></row><row><cell>Orbital fracture</cell><cell>23</cell><cell>3.2 weeks</cell></row><row><cell>Unknown</cell><cell>4</cell><cell>5 weeks</cell></row><row><cell>Eye injury</cell><cell>3</cell><cell>3.7 weeks</cell></row><row><cell>Retina injury</cell><cell>2</cell><cell>4.5 weeks</cell></row><row><cell>Eye laceration</cell><cell>2</cell><cell>3 weeks</cell></row><row><cell>Eyelid laceration</cell><cell>2</cell><cell>4 weeks</cell></row><row><cell>Eyebrow laceration</cell><cell>1</cell><cell>4 weeks</cell></row><row><cell>Corneal abrasion</cell><cell>1</cell><cell>3 weeks</cell></row><row><cell>Contusion/hematoma</cell><cell>1</cell><cell>3 weeks</cell></row></table><note><p>https://doi.org/10.2147/OPTH.S319025 DovePress</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Powered by TCPDF (www.tcpdf.org)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Powered by TCPDF (www.tcpdf.org) Powered by TCPDF (www.tcpdf.org)</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>Select study findings were presented as a poster at the American Academy of Ophthalmology Virtual Annual Meeting November <rs type="grantNumber">13-15</rs>, <rs type="grantNumber">2020</rs>. The authors would like to thank <rs type="person">Daniel Brooks, PhD</rs> for assistance in the analysis of the data in this manuscript and <rs type="person">George Q Zhang, MD, MPH</rs> for his biostatistical support.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_jvhyZwN">
+					<idno type="grant-number">13-15</idno>
+				</org>
+				<org type="funding" xml:id="_wKhfqBu">
+					<idno type="grant-number">2020</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>All authors made a significant contribution to the work reported, whether that is in the conception, study design, execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising or critically reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disclosure</head><p>None of the following authors have any proprietary interests or conflicts of interest related to this submission.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Mixed martial arts</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Bledsoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Levy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Combat Sports Medicine</title>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Kordi</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">N</forename><surname>Maffulli</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Wroble</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Wallace</forename><forename type="middle">Wa</forename></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="page" from="323" to="330" />
+			<date type="published" when="2009">2009</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The epidemiology of injuries in mixed martial arts: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lystad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gregory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/2325967113518492</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Orthop J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">2325967113518492</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Systematic review of injuries in mixed martial arts</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Thomas</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00913847.2018.1430451</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Sportsmed</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="155" to="167" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Craniofacial and traumatic brain injuries in mixed martial arts</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Fares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Salhab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fares</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00913847.2020.1847623</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Sportsmed</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Determining the prevalence and assessing the severity of injuries in mixed martial arts athletes</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Rainey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Am J Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="190" to="199" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Incidence of injury in professional mixed martial arts competitions</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Bledsoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Grabowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Brill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci Med</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="136" to="142" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Field management of facial injuries in sports</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hwang</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/scs.0000000000006132</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Craniofac Surg</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="179" to="e182" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Epidemiology of sports-related eye injuries in the United States</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Haring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Sheffield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Canner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Schneider</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamaophthalmol.2016.4253</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Ophthalmol</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1382" to="1390" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Adding injury to insult: a national analysis of combat sport-related facial injury</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hojjat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Svider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0003489416644617</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Otol Rhinol Laryngol</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="652" to="659" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The ocular complications of boxing</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Giovinazzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Yannuzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sorenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Delrowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Cambell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0161-6420(87)33404-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ophthalmology</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="587" to="596" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Ocular complications of boxing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bianco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Vaiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Colella</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bjsm.2003.006643</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="70" to="74" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Combative sports injuries: an Edmonton retrospective</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Karpman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Gross</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/jsm.0000000000000235</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin J Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="332" to="334" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Injuries sustained by the mixed martial arts athlete</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Maciel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Petrigliano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Brooks</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1941738116664860</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Health</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="64" to="69" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Prevalence of dentofacial injuries among combat sports practitioners: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Polmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Melo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Conti</forename><surname>Réus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/edt.12508</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dent Traumatol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="124" to="140" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Musculoskeletal injuries in athletes from five modalities: a cross-sectional study</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Goes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Lopes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vra</forename><surname>Cossich</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12891-020-3141-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Musculoskelet Disord</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">122</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A systematic review of prospective epidemiological research into injury and illness in Olympic combat sport</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bromley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Drew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Talpey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Mcintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Finch</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bjsports-2016-097313</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="8" to="16" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Analysis of injury types for mixed martial arts athletes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ji</surname></persName>
+		</author>
+		<idno type="DOI">10.1589/jpts.28.1544</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Ther Sci</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1544" to="1546" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Outcome analysis of sports-related multiple facial fractures</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/SCS.0b013e3181a14cda</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Craniofac Surg</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="825" to="829" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Armed Forces Health Surveillance Center</title>
+	</analytic>
+	<monogr>
+		<title level="m">Injuries associated with combat sports, active component, U.S. Armed Forces</title>
+		<imprint>
+			<date type="published" when="2010">2010-2013. 2014</date>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="16" to="18" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Assessment of injuries sustained in mixed martial arts competition</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Scoggin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Brusovanik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Orthop</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="247" to="251" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Current review of injuries sustained in mixed martial arts competition</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Walrod</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/JSR.0b013e31822dc2c2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Sports Med Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="288" to="289" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Mixed martial arts: injury patterns and issues for the ringside physician</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Seidenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/JSR.0b013e31821cc952</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Sports Med Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="147" to="150" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Evidence-based medicine: orbital floor fractures</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Gart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Gosain</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/prs.0000000000000719</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plast Reconstr Surg</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1345" to="1355" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.2147/OPTH.S319025DovePress</idno>
+		<ptr target="https://doi.org/10.2147/OPTH.S319025DovePress" />
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Ophthalmology</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Head trauma exposure in mixed martial arts varies according to sex and weight class</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Follmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Dellagrana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Zehr</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1941738119827966</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="280" to="285" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Injury trends in sanctioned mixed martial arts competition: a 5-year review from 2002 to 2007</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Ngai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Hsu</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bjsm.2007.044891</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="686" to="689" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">This journal is indexed on PubMed Central and CAS, and is the official journal of The Society of Clinical Ophthalmology (SCO). The manuscript management system is completely online and includes a very quick and fair peer-review system, which is all easy to use</title>
+		<ptr target="https://www.dovepress.com/clinical-ophthalmology-journalDovePressClinicalOphthalmology" />
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="page">15</biblScope>
+		</imprint>
+	</monogr>
+	<note>Key topics include: Optometry; Visual science; Pharmacology and drug therapy in eye diseases; Basic Sciences; Primary and Secondary eye care; Patient Safety and Quality of Care Improvements. Submit your manuscript here</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

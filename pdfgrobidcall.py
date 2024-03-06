@@ -1,33 +1,14 @@
 #This script needs 2 arguments, the "input" folder in which you would need to have the pdfs you wish to have them converted to TEI XML
 #And the second argument is the "output" folder in which you would wish to have those TEI XML dumped in
-import subprocess
-import os
 import sys
-
-def find_config_file():
-    # Get the directory of the current script file
-    script_directory = os.path.dirname(os.path.realpath(__file__))
-    
-    # Specify the relative path to the folder containing config.json
-    config_folder = os.path.join(script_directory, ".\grobid_client_python")
-    
-    # Check if config.json exists in the specified folder
-    config_path = os.path.join(config_folder, 'config.json')
-    if os.path.exists(config_path):
-        return config_path
-    else:
-        print("Error: config.json file not found.")
-        return None
+from grobid_client.grobid_client import GrobidClient
 
 def run_grobid_client(input_folder, output_folder):
-    # Find the path to config.json file
-    config_path = find_config_file()
+    # Initialize Grobid client
+    client = GrobidClient(config_path="./config.json")
 
-    if config_path is None:
-        return
-
-    # Run grobid_client script with input, output, and config file arguments
-    subprocess.run(["grobid_client", "--input", input_folder, "--output", output_folder, "--config", config_path, "processFulltextDocument"])
+    # Process full-text documents
+    client.process("processFulltextDocument", input_folder, n=20, output=output_folder)
 
 if __name__ == "__main__":
     # Check if both input and output folder paths are provided as command-line arguments
@@ -38,5 +19,5 @@ if __name__ == "__main__":
     input_folder = sys.argv[1]
     output_folder = sys.argv[2]
 
-    # Run the grobid_client script
+    # Run the Grobid client
     run_grobid_client(input_folder, output_folder)

@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">‘Isn’t Everyone a Little OCD?’</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University Library System, University of Pittsburgh</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-04-19">2021-04-19</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Lucienne</forename><surname>Spencer</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Havi</forename><surname>Carel</surname></persName>
+							<email>havi.carel@bristol.ac.uk</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Philosophy</orgName>
+								<orgName type="institution" key="instit1">University Library System</orgName>
+								<orgName type="institution" key="instit2">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">University of Bristol</orgName>
+								<address>
+									<settlement>Bristol</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Philosophy</orgName>
+								<orgName type="institution">University of Bristol</orgName>
+								<address>
+									<settlement>Bristol</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">The Epistemic Harms of Wrongful Depathologization</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">‘Isn’t Everyone a Little OCD?’</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Philosophy of Medicine</title>
+						<title level="j" type="abbrev">philmed</title>
+						<idno type="ISSN">2692-3963</idno>
+						<imprint>
+							<publisher>University Library System, University of Pittsburgh</publisher>
+							<biblScope unit="volume">2</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2021-04-19" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">ACF0B2855270E4EC2BC54E2D93679D2E</idno>
+					<idno type="DOI">10.5195/pom.2021.19</idno>
+					<note type="submission">Received 11-09-2020 | Date Accepted 10-03-2021 | Date First Published 19-04-2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1-SNAPSHOT" ident="GROBID" when="2024-03-06T21:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This article develops the concept of wrongful depathologization, in which a psychiatric disorder is simultaneously stigmatized (because of sanist attitudes towards mental illness) and trivialized (as it is not considered a "proper" illness). We use OCD as a case study to argue that cumulatively these two effects generate a profound epistemic injustice to OCD sufferers, and possibly to those with other mental disorders. We show that even seemingly positive stereotypes attached to mental disorders give rise to both testimonial injustice and wilful hermeneutical ignorance. We thus expose an insidious form of epistemic harm that has been overlooked in the literature.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>In the philosophy of psychiatry, there is a wealth of research on the systematic mistreatment of people with mental health problems <ref type="bibr" target="#b30">(Perlin 1992;</ref><ref type="bibr" target="#b40">Thornicroft 2006;</ref><ref type="bibr" target="#b22">Kidd 2019)</ref>. Recent literature has brought to light a particularly insidious form of mistreatment that has been previously overlooked. This is epistemic injustice: the wrongful treatment of marginalized individuals qua epistemic agents. In the context of mental disorder, epistemic injustice occurs when ill persons are belittled, silenced, or have their testimonies ignored because of prejudices that depict them as irrational, unreliable, or epistemically defective. The stigma surrounding a psychiatric diagnosis is so detrimental to a person's epistemic standing that "many Mad persons opt to conceal their psychiatric histories" altogether <ref type="bibr">(LeBlanc and Kinsella 2016, 66)</ref>.</p><p>Here, we identify a new and distinct form of epistemic harm. Whereas sanist attitudes depict people with mental illness as "dangerous and frightening," "incompetent to participate in 'normal' activities," "morally repugnant," and "other" <ref type="bibr">(Perlin 1992, 389-396)</ref>, what we term wrongful depathologization devalues the epistemic status of such people by reducing their symptoms to mere personality traits, thus denying them a fully recognized psychiatric identity. One manifestation of wrongful depathologization is the de-prioritization of psychiatric patients by health professionals in favour of "patients who are really ill" <ref type="bibr">(Thornicroft 2006, 96)</ref>. Another manifestation is the characterization of persons with mental illness as "just like everyone else," yet labelled as "difficult," "manipulative," or "attention-seeking" <ref type="bibr">(Thornicroft 2006, 94)</ref>.</p><p>We argue that wrongful depathologization involves simultaneously stigmatizing and trivializing a mental disorder and that therein lies its harmfulness. This creates a twilight zone of mental disorder, where the ill person is deemed to both exaggerate their difficulties (trivialization) and to be epistemically suspect because of their psychiatric diagnosis (stigmatization). Thus, people with certain types of mental illness are judged to be too ill to be free of stigma but not ill enough to be taken seriously. In other words, while the individual is stigmatized for belonging to the marginalized community of "the mentally disordered," their disorder itself is subject to trivialization. One form this trivialization may take is positive stereotyping, through which a mental disorder is reduced to a merely eccentric personality trait. We provide a detailed study of this process in the case of Obsessive-Compulsive Disorder (hereafter OCD).</p><p>The article proceeds as follows: Section 2 defines the terms and explains the difference between "pathologization" and "medicalization." Section 3 expands Miranda Fricker's understanding of epistemic injustice to include cases of credibility deficit motivated by positive stereotypes. Section 4 demonstrates how the trivialization caused by positive stereotypes, combined with pathophobic stigmatization, can lead to the wrongful depathologization of OCD. Section 5 considers the testimonial injustice that can arise from this wrongful depathologization. Section 6 explores a unique form of Gaile Pohlhaus Jr's "wilful hermeneutical ignorance" (2012), through which hermeneutical resources used to capture the pathological experience of OCD are misappropriated to describe the experiences of dominantly situated people who do not have a mental disorder. We conclude that the depathologization of psychiatric illnesses has epistemic and social ramifications that have gone unrecognized and that require careful articulation, that we begin to provide here.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pathologization versus Medicalization</head><p>To understand depathologization, we need to first ask: what is it to pathologize behaviour? As we understand the concept, to pathologize is to view a behaviour as abnormal, unhealthy, and requiring special treatment. In contrast, to depathologize is to stop seeing a certain behaviour as abnormal. Depathologization is often seen as righting a social injustice and combating the stigmatization of a marginalized group, whose members have been viewed as behaving in ways that are "deviant," "unnatural," or "sick."</p><p>A pathologized behaviour can later also be medicalized, that is, classified as a medical disorder. We define medicalization here narrowly (in order to distinguish it clearly from pathologization, which is a broader societal process) as the recognition of particular behaviours or symptoms as constituting a medically recognized disorder. Thus, to demedicalize a condition is to rescind it from medical classification, thereby no longer seeing it as falling within the realm of medicine.<ref type="foot" target="#foot_0">1</ref> </p><p>The terms "medicalization" and "pathologization" are sometimes used interchangeably, yet there are significant differences between the two. We suggest that pathologization happens first, when a society begins to see certain behaviours as abnormal and requiring attention and regulation.<ref type="foot" target="#foot_1">2</ref> Although pathologization is independent of nosology, it can influence the medicalization of a condition. Medicalization can-but doesn't always-follow pathologization.</p><p>This is how we will be using these terms in this article, and we limit ourselves to a discussion of how they operate in mental disorder. Other authors have discussed medicalization more broadly, most recently Jonathan <ref type="bibr" target="#b39">Sholl (2017)</ref>. For Sholl, medicalization is far broader than pathologization and includes social phenomena such as diet and exercise that lie outside the notion of medicalization as we understand it. A narrower conception of medicalization will better serve our purposes here, given that we wish to identify the interplay between medical and non-medical social-epistemic processes.</p><p>To demonstrate the relationship between pathologization and medicalization, let us consider the frequently cited example of homosexuality. Homosexuality can be found in psychiatric classification systems dating at least as far back as 1886. <ref type="foot" target="#foot_2">3</ref> This medicalization was the result of a long history of pathologizing homosexuality as a "disease" within society. In turn, classifying homosexuality as a diagnostic category was a major catalyst for stigmatization, as its presence in diagnostic manuals grounded homophobic prejudice in the seemingly scientific domain of psychiatry. Thus, medicalization sealed homosexuality's pathological status. Eventually, activists lobbied the American Psychiatric Association for the demedicalization of homosexuality until it was removed from diagnostic manuals such as the DSM in 1973 <ref type="bibr">(Drescher 2015, 570)</ref> and more recently from the ICD-10 in 1992 <ref type="bibr" target="#b7">(Cochran et al. 2014)</ref>. Although the pathologizing view of homosexuality persists in some cultures, it has largely faded into obscurity in many contemporary societies. In the latter cases, the demedicalization of homosexuality was part of a more general process of depathologization, whereby natural human behaviour (such as homosexuality) is no longer considered pathological.</p><p>With the example of homosexuality at the forefront of the literature, one might assume that pathologization of human behaviour is always grounded in the undue stigmatization of a marginalized group as abnormal or "sick." Accordingly, it may seem that depathologization constitutes a righting of social injustice. This is indeed the position of neurodiversity proponents, who advocate depathologization as a means of combating the stigmatization of the neurodiverse. <ref type="foot" target="#foot_3">4</ref> Broadly, the neurodiversity movement asserts that it is the lack of accommodation for neurocognitive differences within society that is debilitating, as opposed to the condition itself. From this perspective, we can only remove the prejudicial lens through which we view minority neuro-types by propagating a shift away from pathologizing attitudes towards neurodiversity. <ref type="foot" target="#foot_4">5</ref>Although depathologization has heretofore been considered a largely positive process, in this article we articulate its negative impact in psychiatry. We examine how a mental disorder might lose its pathological status in public discourse whilst retaining its medical status, resulting in a diffusion of the clinical definition and a masking of its serious and debilitating nature. We argue that depathologization can therefore be harmful. Our aim is to articulate a new harm, driven not by pathophobic attitudes but rather by what we term wrongful depathologization, which deflates the status of mental illness as legitimate or "real." We further claim that wrongful depathologization is a unique form of epistemic injustice.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Epistemic Injustice and Positive Identity Prejudice</head><p>In Epistemic Injustice: Power and the Ethics of Knowing, Fricker sought to conceptualize a neglected area of social injustice, in which a marginalized speaker suffers an injustice by virtue of being afforded an unduly low epistemic status <ref type="bibr" target="#b15">(Fricker 2007</ref>). The epistemic nature of the injustice derives from a person being wronged in their capacity as a knower, someone who can convey knowledge or information, participate in the creation and sharing of knowledge, and who can offer interpretations of their social experiences that are accepted as valid. Fricker identifies two forms of epistemic injustice: testimonial injustice and hermeneutical injustice. Testimonial injustice occurs where identity prejudice causes a hearer to unjustly afford diminished credibility to a speaker's testimony. Hermeneutical injustice occurs when identity prejudice causes gaps in interpretive frameworks, so experiences of marginalized groups are either lacking in hermeneutical currency altogether or are dismissed in favour of socially dominant interpretations.</p><p>Epistemic injustice is not present in all cases in which a person's epistemic credibility is diminished. One can only be said to have suffered an epistemic injustice if the credibility deficit is rooted in prejudice <ref type="bibr">(Fricker 2007, 30)</ref>. For instance, I may doubt the reliability of a person's testimony if they are a notorious liar. This would be a rational and just reason to assign them low credibility. What makes epistemic injustice distinct is that it is motivated by identity prejudice. Fricker uses this term to refer to prejudice driven by socially instituted stereotypes: "a distorted image of the social type in question" <ref type="bibr">(Fricker 2007, 4)</ref>. This understanding of identity prejudice grounds the developing literature on epistemic injustice in psychiatric illness. For example, take the identity prejudice that people with mental health problems are "cognitively impaired or emotionally compromised": this motivates a deflated level of credibility ascribed to people with psychiatric illness, so that their testimonies are dismissed as unreliable <ref type="bibr" target="#b8">(Crichton, Carel and Kidd 2017)</ref>.</p><p>Fricker acknowledges that prejudice may not necessarily take an overtly pejorative form and offers the following definition: "judgements, which may have a positive or a negative valence, and which display some (typically, epistemically culpable) resistance to counterevidence owing to some affective investment on the part of the subject" <ref type="bibr">(Fricker 2007, 35)</ref>. However, she concludes that it is negative identity prejudice that drives epistemic injustice: "This affective investment may or may not be ethically bad, but given our central concern with systematic testimonial injustice, we have a special interest in negative identity prejudices, and these are, I take it, always generated by some ethically bad affective investment."</p><p>Fricker understands negative identity prejudice to be "prejudices with a negative valence held against people qua social type," and adds that it is "certainly the most morally problematic kind of prejudice, and it is the kind we are most interested in" <ref type="bibr">(Fricker 2007, 34-35)</ref>. According to Fricker, negative identity prejudice is motivated by morally bad assumptions about the marginalized subject. She discusses Nomy Arpaly's example of Solomon, 'a boy who lives in a small isolated farming community in a poor country,' who holds the belief that women are irrational (a belief grounded in contempt for women), perhaps even when exposed to evidence to the contrary <ref type="bibr">(Fricker 2007, 34)</ref>. For Fricker, it is this morally bad assumption that is central to the injustice in epistemic injustice. By establishing negative identity prejudice as central to epistemic injustice, the literature has generally followed Fricker in assuming negative identity prejudice as the sole driver of credibility deficit (with the exception of Emmalon Davis, whom we discuss below).</p><p>And yet, we have long known that prejudices with a seemingly positive valence are equally divisive. On the surface, positive stereotypes may appear to right the wrongs of negative stereotypes: "Women aren't less capable than men; they are more empathetic and nurturing," or "Black people aren't less accomplished than white people; all the best athletes are Black" are some examples of this. We suggest that in some cases, positive stereotypes may be more insidious than their negative counterparts because their putatively complimentary appearance makes them harder to detect: "In contemporary contexts the relative ease with which positive stereotypes can 'fly under the radar' and evade red flags may, ironically, make them more damaging to general egalitarian social beliefs than not only the absence of any stereotypic information but negative stereotypes, too" <ref type="bibr">(Kay et al. 2013, 287)</ref>.To test this assumption, Aaron C. Kay et al. conducted a study revealing the impact of the racial stereotype 'Black people are superior athletes' upon non-marginalized hearers. They found that positive stereotypes "are less likely to produce skepticism about their veracity" than their negative counterparts <ref type="bibr">(Kay et al. 2013, 291)</ref>.</p><p>Drawing from this literature, we suggest that despite their positive valence, these stereotypes are harmful in at least four ways:</p><p>1. Positive stereotypes can compromise the well-being of members of their associated group as a result of an increased expectation to live up to the stereotype. For instance, "if Black women overly identify with the [strong black woman] image, they may feel as if they have to live up to societal expectations of invincibility and indestructibility, even in the face of significant stress" <ref type="bibr">(West, Donovan and Daniel 2016, 394)</ref>. This study found that Black women who identified with this stereotype often avoided therapy and struggled with their mental health. 2. When a positively stereotyped individual fails to live up to these positive attributes, they may experience persecution. For instance, Yanshu <ref type="bibr" target="#b20">Huang et al. (2016)</ref> found that the positive stereotype of maternality attached to women intensifies the stigmatization they experience if they terminate a pregnancy. In addition, because of their marginalized status, the individual does not possess the epistemic authority to challenge such persecution. 3. Positive stereotypes emphasize group differences between marginalized and nonmarginalized people. Examining the so-called positive stereotype 'Black people are superior athletes, <ref type="bibr" target="#b21">' Kay et al. (2013)</ref> argue that such stereotypes indicate a performance difference between Black and non-Black people. The hearer is then left to explain where the disparity lies, possibly by appealing to some presumed biological difference. 4. Positive stereotypes draw attention to juxtaposing negative stereotypes attached to the marginalized group in question. In this instance, the positive stereotype 'Black people are superior athletes' conjured in the participant's mind the negative stereotype 'Black people are inferior intellectually' <ref type="bibr" target="#b21">(Kay et al. 2013)</ref>. This is not an exhaustive account of the harmful impact positive stereotypes can produce; there are doubtless other examples. Rather, we offer these as a platform from which we can argue in the following section that what may seem like a positive construal of OCD does not reduce epistemic injustice but, in fact, exacerbates it. To launch our own account of the negative epistemic impact of positive stereotypes, we first discuss the work of Davis, who identifies how credibility excess, based on positive identity prejudice, can be detrimental. <ref type="bibr" target="#b9">Davis (2016)</ref> begins by broadening Fricker's scope of testimonial injustice to include José Medina's characterization of credibility excess, through which "those who have an undeserved (or arbitrarily given) credibility excess are judged comparatively more worthy of epistemic trust than other subjects, all things being equal" <ref type="bibr">(Medina 2011, 20)</ref>. Drawing on Medina, Davis proposes that testimonial injustice can arise when a marginalized group is afforded epistemic privilege in a particular domain. For instance, a gay man may be wrongly attributed with credibility excess in the realm of fashion, or an Asian student may be wrongly attributed with a credibility excess in the domain of mathematics. According to Davis, credibility excess can constitute testimonial injustice if an identity prejudice (positive or negative) leads to an unmerited credibility assessment. Davis provides the following example: "A male shopper walks up to another shopper in a discount retailer and asks where he can find dryer sheets. 'I don't know … I don't work here,' the shopper responds. Somewhat baffled, the man replies, 'I know you don't work here, but you're a woman!'" <ref type="bibr">(Davis 2016, 487)</ref>.</p><p>The positive stereotype of "women are shopping experts" has led the male shopper to identify this woman as a "knower" in this specific domain. In Davis's account, the testimonial injustice lies in (i) the reduction of an individual's epistemic agency to that of a marginalized group, and (ii) presuming to know which epistemic exchanges a marginalized group is best suited to <ref type="bibr">(Davis 2016, 495)</ref>. As these cases clearly depict how prejudice influences the credibility afforded to a marginalized subject's testimony, Davis claims that credibility excess ought to be included within Fricker's conception of testimonial injustice, as "credibility excess often operates alongside credibility deficit to define the social, epistemic, and professional realities of marginalized individuals" <ref type="bibr">(Davis 2016, 493)</ref>.</p><p>Davis concludes with the hope that her paper "articulates a way in which the conceptual framework of epistemic injustice might be further opened" <ref type="bibr">(Davis 2016, 495)</ref>. We take Davis up on her invitation to furnish this conceptual framework by uncovering a further way in which positive identity prejudice can lead to epistemic harm. While Davis argues that positive identity prejudice can lead to a detrimental form of credibility excess, we suggest that positive identity prejudice can lead to credibility deficit through trivialization.</p><p>We argue that positive stereotypes can dilute a psychiatric diagnosis such as OCD by emphasizing the usefulness of traits such as being tidy, making lists, and being organized. Such emphasis on the putatively positive aspects of OCD has several damaging effects. First, it can obscure OCD's debilitating symptoms by making it appear to be a useful and positive set of traits. Because OCD is trivialized by people without OCD, testimony about the condition's negative effects may be dismissed as exaggerated. Second, the positive stereotype can create an unrealistic ideal that people with OCD cannot live up to. This may put additional pressure on them. And third, positive stereotypes reduce the hermeneutical force of the term 'OCD' itself, so that the key hermeneutical resource used to articulate the negative aspects of their experience has been obscured. This is a case of appropriation, in which people without the condition misuse the term, robbing people with OCD of an important hermeneutical resource.</p><p>In the following sections, we show that, although no negative stereotype has been activated, the seemingly positive stereotype gives rise to a dual type of epistemic injustice, where the condition is simultaneously stigmatized and trivialized, that is, what we term "wrongful depathologization." This will support our argument that positive identity prejudice can lead to credibility deficit, with harmful results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Obsessive-Compulsive Disorder: Stigmatization and Trivialization</head><p>The Mental Health Foundation (2015) states that "people with mental health problems are amongst the least likely of any group with a long-term health condition or disability to find work, be in a steady, long-term relationship, live in decent housing [or] be socially included in mainstream society." To uncover the social structures that sustain such marginalization, we turn to the fast-growing interdisciplinary literature on the stigmatization of psychiatric illness. This work exposes prejudicial attitudes towards psychiatric illness, according to which people with bipolar disorder are "unbalanced, not in control, <ref type="bibr">[and]</ref> aggressive" <ref type="bibr">(Bonnington and Rose 2014, 12)</ref>; those with schizophrenia are "bizarre, incomprehensible and irrational" <ref type="bibr">(Sanati and Kyratsous 2015, 484)</ref>; and people with depression are "unpredictable" and "weak" <ref type="bibr">(Li, Jiao, and Zhu 2018, 361)</ref>.</p><p>Such stigma and prejudice directed at ill people have been dubbed "pathophobia" by Ian James Kidd, who coined the term to capture the variety of morally objectionable attitudes and behaviours, through which ill people are treated as "abnormal" relative to their "normal" counterparts <ref type="bibr" target="#b22">(Kidd 2019)</ref>. When considering mental disorder, such stigma can be attributed to the powerful "sanism" embedded within our social norms, through which people with mental illness are discriminated against and oppressed. Following terms such as "racism," "sexism," or "homophobia," Michael L. Perlin popularized the term "sanism" to draw attention to the discriminatory distinction between the "mad" and the "sane."<ref type="foot" target="#foot_5">6</ref> </p><p>In the philosophy of psychiatry, scholars share the assumption that such pathophobic attitudes are the sole cause of epistemic injustice for those with psychiatric illness <ref type="bibr" target="#b5">(Bueter 2019;</ref><ref type="bibr" target="#b24">Kurs and Grinshpoon 2018;</ref><ref type="bibr" target="#b34">Sanati and Kyratsous 2015;</ref><ref type="bibr" target="#b25">LeBlanc and Kinsella 2016;</ref><ref type="bibr" target="#b35">Scrutton 2017</ref>). Yet, the credibility deficit imposed upon sufferers of epistemic injustice cannot be sufficiently understood through negative identity prejudice. Positive identity prejudice, as shown in the previous section, can operate in this way too. In this section, we show how the positive stereotypes attached to OCD can trivialize the condition for the wider public.</p><p>The DSM-5 defines obsessions as "recurrent and persistent thoughts, urges or images that are experienced as intrusive and unwanted" (American Psychiatric Association 2013, 235). These obsessions commonly concern contamination, symmetry, or incompleteness, responsibility for harm, or intrusive taboo thoughts <ref type="bibr">(McCarty et al. 2017, 64)</ref>. Compulsions are then defined as "repetitive behaviours or mental acts that an individual feels driven to perform in response to an obsession or according to rules that must be applied rigidly." The DSM-5 describes the functional impact of OCD as a "reduced quality of life as well as high levels of social and occupational impairment" (American Psychiatric Association 2013, 240).</p><p>OCD is time-consuming because of both obsessing and carrying out compulsions. It limits activities in order to prevent the symptoms from being triggered; it obstructs the completion of tasks. For instance, "obsessions about symmetry can derail the timely completion of school or work projects because the project never feels 'just right'" (American Psychiatric Association 2013, 240). If the disorder concerns contamination, it may lead the person with OCD to avoid hospitals and doctors for fear of uncleanliness, introducing a further health risk. The functional impairment experienced by a person with OCD is visible in the following example: Amy is a 25-year-old woman who fears that she might cause a catastrophic fire if she does not ensure she has turned off all electrical appliances and the gas cooker. After using appliances, she repeatedly checks that they are switched off, returning up to 50 times. In the past two years, she has tried to avoid using all electrical or gas appliances and asks her mother, with whom she lives, to use these for her. If she does have to use an appliance, she will repeatedly ask her mother for reassurance that she has not caused a fire <ref type="bibr">(Drummond 2018, 3)</ref>.</p><p>Despite the severity of these symptoms, many diagnosed with OCD claim that their illness is not perceived as having the same legitimacy as other mental disorders, even by healthcare professionals: 'OCD is a nightmare that cannot be imagined by those who do not have it. It's usually made light of in the media and frequently misunderstood by clinicians and misdiagnosed and undertreated or mistreated by physicians … I hear professionals joke about OCD all the time' <ref type="bibr">(Fennell and Boyd 2014, 681)</ref>.</p><p>We suggest that persons with OCD suffer wrongful depathologization when they are simultaneously stigmatized and trivialized. On the one hand, they may be seen as less reliable epistemic agents because they have a mental disorder, and hence are more vulnerable to epistemic injustice, as has been argued previously <ref type="bibr" target="#b5">(Bueter 2019;</ref><ref type="bibr" target="#b24">Kurs and Grinshpoon 2018;</ref><ref type="bibr" target="#b34">Sanati and Kyratsous 2015;</ref><ref type="bibr" target="#b25">LeBlanc and Kinsella 2016;</ref><ref type="bibr" target="#b35">Scrutton 2017</ref>). On the other hand, the positive stereotypes associated with OCD trivialize the disorder. As such, persons with OCD may not be considered ill enough to receive support and recognition, and their treatment may thus be compromised.</p><p>Rachelle L. Pavelko and Jessica Gall Myrick argue that the trivialization of OCD in the media may alter people's perception of the mental disorder in a different but potentially as harmful way as stigmatization: "Biased portrayals of mental illnesses are not all purely negative. Instead, they may also make light of and even define the condition as beneficial" <ref type="bibr">(Pavelko and Myrick 2019, 8)</ref>. One way in which those with OCD are subject to trivialization is by being ascribed "super-human" properties. Pavelko and Myrick offer the example of a detective in the television series Monk; the "sharp memory, specific mindset, and attention to detail" attached to the detective's OCD aid him in solving complex cases (Wikipedia 2021). The media often depicts people with OCD as "highly functional and intelligentcontributing to society in sometimes extraordinary ways" <ref type="bibr">(Pavelko and Myrick 2019, 1)</ref>. Oversimplification of a mental disorder often suggests that the diagnosed person will "somehow benefit or experience an improved quality of life due to their diagnosis because of the super-human traits it affords" <ref type="bibr">(Pavelko and Myrick 2019, 4)</ref>.</p><p>A further example of the trivialization of OCD in the media can be found in an interview with television personality Michelle Mone, who has self-diagnosed as having OCD. On Good Morning Britain, she claimed, "I love having OCD. It makes me really organized. And I've always believed that if your drawers are really organized and tidy, then your life will be organized" <ref type="bibr">(Good Morning Britain 2015)</ref>. Here, we have a portrayal of OCD as a set of positive personality traits. When asked if she experiences any negative impact from the disorder, she briefly mentions having to resist organizing other people's homes, before reaffirming the positive aspects of the disorder. Although prompted by the interviewers, Mone fails to highlight thought insertion, an essential feature of OCD that forces those with the condition to pray, count, repeat words silently, wash their hands, and so on, in ways that intrude upon their daily life. By reinforcing this false positive stereotype, the debilitating nature of OCD becomes invisible.</p><p>The source of the trivialization, in this case, is that the term "OCD" has been appropriated by someone who has not been diagnosed with the condition and does not experience the full set of symptoms and problems it causes. Thus, a psychiatric term used to describe a certain kind of mental disorder is appropriated by those who do not experience the condition in question and thus trivialize it.</p><p>Appropriation is an important process in its own right, as discussed by <ref type="bibr">Davis (2018)</ref>. Davis understands epistemic appropriation as the dissemination of epistemic resources by a dominant group that were initially cultivated for and by a marginalized group. Her example is the misattribution of Harriet Taylor Mill's The Enfranchisement of Women to John Stuart Mill. Davis dissociates epistemic appropriation from Fricker's conception of hermeneutical injustice "because epistemic appropriation primarily concerns our practices of disseminating existing epistemic resources, it involves no conceptual deficit. Rather, epistemic appropriation involves a sort of conceptual theft" <ref type="bibr">(Davis 2018, 719)</ref>. The groundbreaking ideas presented in The Enfranchisement of Women suffer no conceptual deficit; the harm for Davis lies in the fact that Taylor Mills's status as an epistemic contributor went unrecognized.</p><p>In contrast, we identify a conceptual deficit caused by the trivialization of OCD. Note that in some cases, such as the ones we describe above, trivialization happens through appropriation. But trivialization can also take place in other ways. For example, if a person with OCD tells someone about their diagnosis and the hearer replies: "It doesn't sound too serious." They have not appropriated the term or the OCD narrative but nonetheless have trivialized the condition.</p><p>We argue that the positive identity prejudice expressed by Mone, for example, trivializes OCD. As a result, OCD's disease status is denigrated and occluded from societal understanding. Combined with the stigmatization attached to mental illness, those with OCD can be both stigmatized and trivialized, giving rise to wrongful depathologization. This causes people with OCD to suffer a deflated epistemic status because, through trivialization, they no longer have clear membership in the patient community. Two kinds of epistemic injustice emerge from such wrongful depathologization: testimonial injustice and a unique form of wilful hermeneutical ignorance, to which we now turn.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wrongful Depathologization and Testimonial Injustice</head><p>Consider the following account of OCD, in which the person's obsession concerns a fear of harm, triggered by the prospect of everyday activities such as crossing a busy road or using a big knife (Time to Change 2012). The obsessive fear of harm prevents this person with OCD from driving since, as she explains, "nothing could be more calculated to bring [the obsessions] on than the thought of being at the wheel of something that could run someone over". She recounts her previous experiences of driving:</p><p>While I was driving, I would be hypervigilant, hesitant and dangerously slow, someone who drives with her foot on the brake and uses it far too often. Even when I wasn't driving, I would be spending precious time and energy ruminating about all the moments during the drive when it might have been possible for me to have killed someone. (Time to Change 2012)</p><p>As a result of trivialization, such testimonies are often regarded as exaggerated, an excuse for laziness, or simply untrue, because they do not fit the positive stereotype of OCD. The narrator describes her frustration at being questioned so frequently on her refusal to drive and the disbelief she is met with because of her "suspiciously calm and reasonable" demeanour (Time to Change 2012). In this instance, the positive stereotypes attached to OCD can distort a hearer's credibility judgement to the extent that the descriptions of her symptoms and her requests for support are dismissed as illegitimate. This is therefore clearly a case of testimonial injustice.</p><p>Testimonial injustice has been shown to penetrate the psychiatric healthcare system itself. Many OCD patients report their testimonies not being taken seriously by healthcare practitioners, as the mental disorder is often perceived to be less debilitating than the patient claims. One OCD patient recalls their experience: I remember halfway through the assessment she said, "So what help do you need exactly? People with mental health issues can barely get themselves out of the house, they have no motivation to do anything. Are you sure you're not just having a bad few weeks?" I understand she's the professional, but unfortunately, she completely invalidated my mental wellbeing. I panicked and immediately started backtracking. I felt like I had to lie about my symptoms because they didn't seem "good" or "correct" enough to actually get any help, and that I was stupid for finally taking steps to get help. (Time to Change 2019)</p><p>In this instance, the healthcare professional seems to have mischaracterized OCD symptoms as those characteristic of depression. An inability to leave the house or get out of bed is not caused by a lack of motivation (as suggested by the healthcare professional) but arises from intrusive thoughts that correlate leaving the house with harm.</p><p>Many people with OCD do not fit the picture of psychiatric illness described by the healthcare professional above. They may be fully capable of getting out of bed, going to work and socializing, yet they remain plagued by intrusive thoughts, urges, or compulsions to perform rituals. Nevertheless, many individuals with OCD face testimonial injustice in psychiatric healthcare because their illness is considered less severe compared to other mental disorders. This can be attributed to positive identity prejudices that depict people with OCD as high-functioning, whilst trivializing the debilitating aspects of the condition.</p><p>The next section will complete our formulation of wrongful depathologization by establishing a unique form of wilful hermeneutical ignorance that arises from the trivialization of OCD described above. This will lead us to conclude that cumulatively the two effects (testimonial injustice and wilful hermeneutical ignorance) generate a profound, if hidden, epistemic injustice to people with OCD, with important potential implications for other mental disorders.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wrongful Depathologization and Wilful Hermeneutical Ignorance</head><p>The notion of psychiatric illness has frequently been disputed and has often been subject to sceptical treatment. As a result, psychiatry has long strived for a scientific status to match that of somatic medicine. To compete with the prestige of somatic medical science, the DSM emerged in 1952-"a dictionary of disorder" that listed the symptoms for 21 pathologies <ref type="bibr">(Greenberg 2013, 41)</ref>. This included "compulsive personality" disorder, which soon evolved into "obsessive-compulsive" personality disorder by the second edition <ref type="bibr">(Pfohl and Blum 1991, 363)</ref>.</p><p>With the development of robust hermeneutical resources published in the DSM, one would think that the sceptical hermeneutical climate had been redressed. Yet psychiatric patients still fight for recognition of the legitimacy and reality of their disorders. Scepticism regarding the severity of psychiatric impairment persists, supporting entrenched prejudices that those with mental health problems are "hypochondriacs" <ref type="bibr">(Bonnington and Rose 2014, 13)</ref>, "in control of their conditions" <ref type="bibr">(Seah et al. 2017, 134)</ref>, or "not trying hard enough" <ref type="bibr">(Dawson 2018, 94)</ref>. In this section, we show that the development of hermeneutical resources is not sufficient to combat the hermeneutical marginalization of people with psychiatric illness. Rather, the uptake these resources receive is critical to their ability to overcome hermeneutical injustice.</p><p>According to Fricker's original account, hermeneutical injustice occurs when a lacuna in the collectively available interpretative resources denies proper intelligibility and salience to experiences of marginally situated groups <ref type="bibr">(Fricker 2007, 148)</ref>. To correct hermeneutical injustice, a marginalized group must either establish novel hermeneutical resources that convey their experiences successfully or encourage uptake of their own locally developed resources within their wider social community. An example of the former can be found in Fricker's discussion of sexual harassment as a developed hermeneutical resource used to articulate unwanted sexual behaviour <ref type="bibr">(Fricker 2007, 151)</ref>. The latter is proposed by Pohlhaus Jr (2012), who suggests that dominantly situated individuals need to take up currently localized hermeneutical resources to grant them widespread epistemic force. Without uptake of these hermeneutical resources, marginalized individuals cannot successfully communicate their experience, whether within or beyond their own communities: "When a group with material power is vested in ignoring certain parts of the world, they can maintain their ignorance by refusing to recognize and by actively undermining any newly generated epistemic resource that attends to those parts of the world that they are vested in ignoring" <ref type="bibr">(Pohlhaus Jr 2012, 729)</ref>.</p><p>As the experiences of marginally situated knowers extend beyond the scope of those more dominantly situated, the latter are never required to understand these experiences. Turning away from experiences of marginalized groups in this way, Pohlhaus Jr argues, is an act of wilful hermeneutical ignorance. She revisits Fricker's discussion of Harper Lee's novel To Kill A Mockingbird and reframes the epistemic harm experienced by Lee's character Tom Robinson as wilful hermeneutical ignorance: "It is not simply that the true meaning of Robinson's words is unintelligible to the jury, but also that those words are received by the jury in a way that means something entirely different from Robinson's actual accurate account" <ref type="bibr">(Pohlhaus Jr 2012, 726)</ref>. In cases of wilful hermeneutical ignorance, hermeneutical resources developed by marginally situated knowers are wilfully misunderstood by the dominantly situated knowers (in Lee's novel, the jury).</p><p>We suggest that a similar process happens in some mental disorders. In OCD, or other mental disorders, hermeneutical resources can be developed by marginally situated knowers (even if a psychiatric diagnostic term is initially developed by scientists or psychiatrists, rather than a person with OCD). Once the term exists-say, as a DSM diagnostic category-it can provide those with OCD with an identity and an understanding of their condition that can be further developed by them as individual narratives or as a group identity. However, these resources can then be appropriated by other, dominantly situated speakers, so that terms such as OCD become watered down and trivialized.</p><p>In recent years we have seen diagnostic terms such as "OCD," "Bipolar," "Clinical Depression," and "Autism" saturate public discourse. Once incorporated into everyday language, these terms are immediately vulnerable to misappropriation and easily subsumed by this broader parlance, using such terms in a loose sense. Gary Greenberg captures the casual way in which we wield these terms:</p><p>The other day you were talking with a friend and explaining to her that you had to wash your dishes before you could leave the house, and you found yourself saying "I'm just so OCD, you know?" Or you've heard your friends do the same thing with their own or others' quirks. "He's pretty ADHD", they might say. Or, "She's clinically depressed." <ref type="bibr">(Greenberg 2013, 6-7)</ref> Through Pohlhaus Jr's concept of wilful hermeneutical ignorance, we can come to understand how linguistic resources that belong to psychiatric patients can be robbed of their hermeneutic power through their misappropriation by dominantly situated knowers. <ref type="foot" target="#foot_6">7</ref>We see such seemingly trivial utterances as instances of wilful hermeneutical ignorance because the wrongful depathologization of diagnostic terms can suppress the existing hermeneutical resources of the marginalized knower. Misuse of diagnostic terminology dilutes its hermeneutical force and may even subsume the clinical meaning of the term within a colloquial one.</p><p>The term "OCD" in public discourse rarely refers to the mental disorder but, rather, has become a shorthand description of someone who dislikes mess. A multifaceted mental disorder has been reduced to a personality trait. This now-dominant understanding of OCD is reflected in a recent advert for Virgin Voyages, which made light of the disorder. The advert states: "You can live like a rockstar or indulge your inner OCD, we don't judge-we're just giving you a luxurious place to do it" <ref type="bibr" target="#b38">(Sheldrick 2019)</ref>. The advert appeals to an understanding of OCD as a "guilty pleasure" derived from tidiness, not a mental disorder. A similar idea is captured in a recent advert by the hotel Fairy Hill, which depicts a fork out of place on an otherwise flawlessly arranged dinner table. The advert proclaims: "Slightly OCD? Then we'd love to hear from you", assuming that the "slightly" OCD person would notice that the cutlery is misaligned (BBC News 2018). The advert conveys an understanding of OCD as simply liking order, excluding the intrusive and unwanted urge for symmetry or other obsessive thought insertions characteristic of OCD.</p><p>The qualifier "slightly" can be deeply harmful. A search for "slightly OCD" on Twitter produces countless results, used in statements such as "Toilets bleached regularly and sinks thoroughly cleaned. I've become slightly OCD."<ref type="foot" target="#foot_7">8</ref> Or: "So, what does a *slightly* OCD person do while on a 14 day self-quarantine??? Yep, clean out EVERYTHING! Today was the Tupperware drawer …".<ref type="foot" target="#foot_8">9</ref> To suggest that someone can be "slightly" OCD is to undermine the term by qualifying its severity, or implying that it comes in degrees, shading through into normal behaviour.</p><p>As Greenberg observes, "The power to give names to our pain is a mighty thing and easy to abuse" <ref type="bibr">(Greenberg 2013, 7)</ref>. By misrepresenting the meaning of the term "OCD," the dominantly positioned (in this case, people without psychiatric illness) rob people with OCD of an essential hermeneutical tool to convey the nature of their condition. Consider the account below from one person with OCD, who describes the reaction of a financial agency he approached for support:</p><p>You are a healthy big white person, who seems intelligent … [has] no obvious disabilities … what possible excuse could you have? Well, I am Obsessive-Compulsive.</p><p>Oh just that? … My roommate … likes to have our apartment tidy and everything placed just right, now there's OCD! … [That's] not anything serious like bipolar or schizophrenia; I think the problem is just that you are lazy!</p><p>Oh how I hate that word "lazy." It does no good trying to explain that the colloquial use of the word "OCD" is, at best, only superficially related to the medical [DSM-5] use of the term. <ref type="bibr">(Fennell and Boyd 2014, 682</ref>; ellipses in the original). Unlike Fricker's examples of hermeneutical lacunae, the person above is in possession of a hermeneutical resource that ought to successfully convey his experience to the financial agency. But because of the wrongful depathologization of OCD, this term has been appropriated to communicate not his illness but personality traits recognizable to the more dominantly situated.</p><p>Although the hermeneutical resource "OCD" has been developed to serve those with the condition, the clinical meaning of the term has not received uptake by the general public. This is because the experience of thought insertions and uncontrollable compulsive behaviour is largely alien to the world of dominantly situated knowers. More familiar to this dominant group are tendencies toward cleanliness and order; thus, the hermeneutical resource "OCD" has been appropriated to better suit such communicative needs. This more dominant view of OCD trivializes the condition and makes it appear benign or even positive. Consequently, knowledge concerning the nature of OCD has been blocked, as "dominantly situated knowers … continue to misunderstand and misinterpret the world" <ref type="bibr">(Pohlhaus Jr 2012, 716)</ref>. This misrepresentation is not employed to undermine the clinical understanding of OCD intentionally. Rather, it occurs through a lack of engagement with the interpretive framework of people with OCD. This behaviour goes uncorrected because the clinical use of the term is perceived to be only salient to the marginalized subject, if the clinical meaning is known at all.</p><p>We propose that the misuse of the term "OCD" is a unique case of wilful hermeneutical ignorance that can be added to Pohlhaus Jr's account: the dominantly situated not only refuse to learn to use this hermeneutical resource but also appropriate the term, so that it reflects their own experience of the world. The term "OCD" has not been discarded but repurposed to suit the needs of the dominantly situated, thus silencing persons with mental disorders. The term "OCD" has not been ignored or ridiculed; on the contrary, it has been enthusiastically adopted in common use. But it is this seemingly benign common use that effectively occludes the full meaning of the term, leaving visible only its palatable aspects. OCD provides a paradigmatic example of wilful hermeneutical ignorance in psychiatric illness. However, another search on Twitter shows that such misappropriation is not limited to OCD. The search exposed the common trivialization of Autism ("We're all on the spectrum that's why it's a SPECTRUM duh…"), 10 Post-Traumatic Stress Disorder ("… got so much ptsd from expressing my feelings to people who just dismiss them…"), 11 and Bipolar Disorder ("Watching 'married at first sight' and it's confirming that most [people] are bipolar…"). 12 These discursive practices alter not only how we speak about mental disorders but also how we think about and understand them. By reducing mental disorders to nondisruptive, non-threatening personality traits, certain mental disorders may be perceived as less serious and damaging than they actually are. Consequently, through wrongful depathologization, significant parts of the social experience of the marginalized subject are "obscured from collective understanding" <ref type="bibr">(Fricker 2007, 155)</ref>, as they have been robbed of hermeneutical tools to talk about their illness.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>By exposing the epistemic harm that arises from pathophobic stigmatization, the literature on epistemic injustice in psychiatry has already done much to amplify the voices of those with a mental disorder. This has cleared a path for greater epistemic sensitivity towards psychiatric patients' testimonial credibility and collaboration on interpretive frameworks <ref type="bibr" target="#b5">(Bueter 2019;</ref><ref type="bibr" target="#b24">Kurs and Grinshpoon 2018;</ref><ref type="bibr" target="#b34">Sanati and Kyratsous 2015;</ref><ref type="bibr" target="#b25">LeBlanc and Kinsella 2016;</ref><ref type="bibr" target="#b35">Scrutton 2017)</ref>.</p><p>In this article, we focused on a new issue: we identified a unique process whereby psychiatric illness is depathologized in a way that trivializes the severity of the condition but maintains the stigma attached to mental disorder, resulting in what we term "wrongful depathologization." Using OCD as a case study, we showed that wrongful depathologization may paint a partial and misleading picture of the disorder as a mere personality trait, rather than a legitimate illness. As the debilitating symptoms of psychiatric illness are absent from this picture, testimony regarding the severity of the illness may be discredited, and hermeneutical resources that capture the clinical aspects of the illness repurposed. Therefore, while the individual continues to be stigmatized by virtue of their status as "mentally ill," their disorder is depathologized, as OCD is reduced to a mere personality trait.</p><p>We made a case for this claim, arguing that pathophobic stigmatization and trivialization can operate simultaneously in wrongful depathologization, giving rise to both testimonial and hermeneutical injustice towards people with psychiatric illness. Wrongful depathologization can lower the credibility awarded to accounts of suffering (testimonial injustice) and obscure the more disabling aspects of OCD (wilful hermeneutical ignorance). Despite the positive connotations attached to the concept of depathologization, it can lead to increased stigmatization of patients because they now also come under suspicion of exaggerating their symptoms or malingering. Such claims exacerbate the risk of lowered credibility attributed to patients' articulation of their experience, a risk they are already vulnerable to as psychiatric patients.</p><p>We scrutinized another claim about prejudice, which is that only, or mainly, negative prejudices are harmful. We suggested that it is not only negative identity prejudice that can lead to epistemic harm; positive stereotypes can also cause credibility deficit. By celebrating seemingly positive aspects of the condition, the debilitating symptoms of OCD become trivialized and obscured. We thus showed that the elimination of negative identity prejudice is not sufficient to guarantee epistemic justice.</p><p>We are not, of course, suggesting that all attempts at depathologization are wrongful. Indeed, powerful voices within the neurodiversity movement and Mad Pride advocate depathologization as a social justice goal <ref type="bibr" target="#b6">(Chapman 2019;</ref><ref type="bibr" target="#b17">Graby 2015;</ref><ref type="bibr" target="#b33">Rashed 2019;</ref><ref type="bibr" target="#b43">Walker 2013)</ref>. The decisive factors are the presence or absence of trivializing and the identity of the one doing the depathologizing. If the depathologization happens through appropriation by people without psychiatric illness, then it is wrongful. But if the depathologization is the result of a considered, in-group, consciousness-raising effort, and does not lead to trivialization, then this depathologization is not wrongful. We thus leave open the possibility that people with OCD could, potentially, one day decide to depathologize OCD from the inside, on their own terms, whilst retaining treatment for the negative effects of their neurodiversity.</p><p>A final question is whether other mental disorders are also vulnerable to wrongful depathologization. It is not possible to answer this question without further research, but it seems plausible that other mental disorders perceived as relatively mild may share this risk of wrongful depathologization. Attention Deficit Hyperactivity Disorder (ADHD), minor depression and perhaps some personality disorders seem, prima facie, to be susceptible to the same risks described here. We therefore suggest that further work is required to reveal the true pervasiveness of wrongful depathologization in mental disorder.</p><p>We hope that the articulation of wrongful depathologization may open a space for new ways of understanding other marginalized experiences that are simultaneously stigmatized and trivialized. For example, cases of rape, sexual assault and domestic abuse, where the individual is vulnerable to stigmatization and victim-blaming, yet their experiences may be trivialized as a result of cultural attitudes that normalize sexual and domestic violence. As a new contribution to the literature, we hope that the concept of wrongful depathologization may bring to light further cases of epistemic injustice that are driven by the paradoxical twining of stigmatization and trivialization, the combined operations of which have heretofore gone undetected.</p></div>			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>Other scholars have defined medicalization differently-see<ref type="bibr" target="#b39">Sholl (2017)</ref> and<ref type="bibr" target="#b19">Halfmann (2012)</ref>.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1"><p>This is not to say that all atypical behaviours become pathologized. For instance, walking barefoot outside is an atypical, but non-pathological, behaviour. Only a subset of atypical behaviours is subject to pathologization. We thank an anonymous reviewer and Dan Degerman for raising this point.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_2"><p>Homosexuality was listed as a sexual pathology in the original German edition of Richard von Krafft-Ebing's Psychopathia Sexualis (London: Hogarth Press, 1899), which was published in 1886.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_3"><p>Proponents of the neurodiversity movement champion terms such as "those with neurocognitive differences" and "neurominorities," as opposed to "those with mental disorders"' or "mental illness," as they consider the latter to reinforce pathologizing models. In addition, the term "neuro-typical" is opted for in place of "normal" or "sane"<ref type="bibr" target="#b6">(Chapman 2019</ref>).</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5" xml:id="foot_4"><p>Similar arguments have been made in the philosophy of disability and in disability studies. A prominent proponent is Elizabeth Barnes, who claims that "the disabled body is a pathologized body. It's a body that departs from 'normal' in ways we assume are bad or suboptimal. Disability pride rejects this pathologization"(Barnes  2016, 186). See also T. Shakespeare, Disability: The Basics (Abingdon: Routledge, 2018).</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6" xml:id="foot_5"><p>While Perlin popularized the term "sanism," it is worth noting that it was the lawyer and mental health advocate Morton Birnbaum who first coined the term during a trial in 1960. A further important contribution to the literature was the term "mentalism," which captures the exact same injustice, introduced by Judith Chamberlain in 1975 (however, the latter term did not receive the same level of uptake).</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7" xml:id="foot_6"><p>It is interesting to note that in this instance of wilful hermeneutical ignorance the resource that has been suppressed has not stemmed from the marginalized group in question. Rather, diagnostic terminology such as "OCD" has been formed by medical experts. As the terminology serves the meaning-making capacities of the marginalized group, however, we posit that this case still ought to be identified as wilful hermeneutical ignorance.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8" xml:id="foot_7"><p>Lainey Robinson (@herladysihp15), "I have cleaned our kitchen from top to bottom at office. Fridge completely cleaned out. All door handles cleaned 3 times a day. Toilets bleached regularly," Twitter, 5 April 2020, 4:41 p.m., https://twitter.com/herladyship15/status/1246825193059880967.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9" xml:id="foot_8"><p>Sondra Radvanovsky (@SondraRadvan), "So, what does a *slightly* OCD person do while on a 14 day selfquarantine??? Yep, clean out EVERYTHING! Today was the Tupperware drawer," Twitter, 17 March 2020,</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_9"><p>10:11 p.m., https://twitter.com/SondraRadvan/status/1240038115323990016.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="person">Robert Chapman</rs>, <rs type="person">Dan Degerman</rs>, <rs type="person">Samir Okasha</rs>, <rs type="person">Shaun Stanley</rs>, and attendees of the draft-in-progress session in which we discussed this paper (<rs type="person">Anthony Everett</rs>, <rs type="person">Max Jones</rs>, <rs type="person">Martin Sticker</rs>, <rs type="person">Alan Wilson</rs>, and <rs type="person">Lena Zuchowski</rs>), at the <rs type="affiliation">Department of Philosophy, University of Bristol</rs>, who read a draft version and provided many useful comments.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Two men I met off of tinder have told me I&apos;m probably on the spectrum</title>
+		<author>
+			<persName><forename type="first">'</forename><surname>Fergie</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ghostwriter</surname></persName>
+		</author>
+		<ptr target="https://twitter.com/sydneysidewalks/status/1254871598974341121" />
+	</analytic>
+	<monogr>
+		<title level="m">Twitter</title>
+		<imprint>
+			<date type="published" when="2020-04-28">28 April 2020</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">57</biblScope>
+		</imprint>
+	</monogr>
+	<note>@sydneysidewalks</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Bruh I got so much ptsd from expressing my feelings to people who just dismiss them, idk what to do</title>
+		<author>
+			<persName><forename type="first">(@</forename><surname>Moriah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">)</forename><surname>___Moriah</surname></persName>
+		</author>
+		<ptr target="https://twitter.com/___Moriah/status/1254256272364494850" />
+	</analytic>
+	<monogr>
+		<title level="m">Twitter</title>
+		<imprint>
+			<date type="published" when="2020-04-26">26 April 2020</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">49</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Watching &apos;married at first sight&apos; and it&apos;s confirming that most ppl are bipolar lol</title>
+		<author>
+			<persName><forename type="first">(@</forename><surname>Nautii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">)</forename><surname>Rebelnyd</surname></persName>
+		</author>
+		<ptr target="https://twitter.com/rebelnyd/status/1253679956195975168" />
+	</analytic>
+	<monogr>
+		<title level="m">Twitter</title>
+		<meeting><address><addrLine>Arlington, VA</addrLine></address></meeting>
+		<imprint>
+			<publisher>American Psychiatric Association</publisher>
+			<date type="published" when="2013">24 April 2020. 2013</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">39</biblScope>
+		</imprint>
+	</monogr>
+	<note>References American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders: DSM-5. 5th ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Gower Wedding Venue Sorry for &apos;Slightly OCD&apos; Wanted Tweet</title>
+		<author>
+			<persName><forename type="first">Elizabeth</forename><surname>Barnes</surname></persName>
+		</author>
+		<ptr target="https://www.bbc.com/news/uk-wales-south-west-wales-43463065" />
+	</analytic>
+	<monogr>
+		<title level="m">The Minority Body: A Theory of Disability</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2016">2016. 2018. 19 March</date>
+		</imprint>
+	</monogr>
+	<note>BBC News</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Exploring Stigmatisation among People Diagnosed with Either Bipolar Disorder or Borderline Personality Disorder: A Critical Realist Analysis</title>
+		<author>
+			<persName><forename type="first">Oliver</forename><surname>Bonnington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Diana</forename><surname>Rose</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.socscimed.2014.10.048</idno>
+		<ptr target="https://doi.org/10.1016/j.socscimed.2014.10.048" />
+	</analytic>
+	<monogr>
+		<title level="j">Social Science &amp; Medicine</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="7" to="17" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Epistemic Injustice and Psychiatric Classification</title>
+		<author>
+			<persName><forename type="first">Anke</forename><surname>Bueter</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/705443</idno>
+		<ptr target="https://doi.org/10.1086/705443" />
+	</analytic>
+	<monogr>
+		<title level="j">Philosophy of Science</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1064" to="1074" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Chapman</surname></persName>
+		</author>
+		<idno type="DOI">10.5040/9781350024090.ch-018</idno>
+		<ptr target="http://dx.doi.org/10.5040/9781350024090.ch-018" />
+		<title level="m">Neurodiversity Theory and Its Discontents: Autism, Schizophrenia, and the Social Model of Disability</title>
+		<editor>
+			<persName><forename type="first">Şerife</forename><surname>Tekin</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Robyn</forename><surname>Bluhm</surname></persName>
+		</editor>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Bloomsbury Academic</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="371" to="390" />
+		</imprint>
+	</monogr>
+	<note>The Bloomsbury Companion to Philosophy of Psychiatry</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Proposed Declassification of Disease Categories Related to Sexual Orientation in the International Statistical Classification of Diseases and Related Health Problems (ICD-11)</title>
+		<author>
+			<persName><forename type="first">Susan</forename><forename type="middle">D</forename><surname>Cochran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jack</forename><surname>Drescher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eszter</forename><surname>Kismödi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alain</forename><surname>Giami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claudia</forename><surname>García-Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elham</forename><surname>Atalla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adele</forename><surname>Marais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elisabeth</forename><forename type="middle">Meloni</forename><surname>Vieira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geoffrey</forename><forename type="middle">M</forename><surname>Reed</surname></persName>
+		</author>
+		<idno type="DOI">10.2471/blt.14.135541</idno>
+		<ptr target="https://doi.org/10.2471/blt.14.135541" />
+	</analytic>
+	<monogr>
+		<title level="j">Bulletin of the World Health Organization</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="672" to="679" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Epistemic Injustice in Psychiatry</title>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Crichton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Havi</forename><surname>Carel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ian</forename><forename type="middle">James</forename><surname>Kidd</surname></persName>
+		</author>
+		<idno type="DOI">10.1192/pb.bp.115.050682</idno>
+		<ptr target="https://doi.org/10.1192/pb.bp.115.050682" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Psychiatry Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="65" to="70" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Typecasts, Tokens, and Spokespersons: A Case for Credibility Excess as Testimonial Injustice</title>
+		<author>
+			<persName><forename type="first">Emmalon</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/hypa.12251</idno>
+		<ptr target="https://doi.org/10.1111/hypa.12251" />
+	</analytic>
+	<monogr>
+		<title level="j">Hypatia</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="485" to="501" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">On Epistemic Appropriation</title>
+		<idno type="DOI">10.1086/697490</idno>
+		<ptr target="https://doi.org/10.1086/697490" />
+	</analytic>
+	<monogr>
+		<title level="j">Ethics</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="702" to="727" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A Psychiatrist Looks at Recovery and Finds It Wanting</title>
+		<author>
+			<persName><forename type="first">David</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Laing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mind You: The Realities of Mental Illness; A Compilation of Articles from the Blog Mind You</title>
+		<editor>
+			<persName><forename type="first">David</forename><surname>Laing</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Dawson</forename></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Marvin</forename><surname>Ross</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Dundas, ON</addrLine></address></meeting>
+		<imprint>
+			<publisher>Bridgeross Communications</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="92" to="95" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Out of DSM: Depathologizing Homosexuality</title>
+		<author>
+			<persName><forename type="first">Jack</forename><surname>Drescher</surname></persName>
+		</author>
+		<ptr target="https://dx.doi.org/10.3390%2Fbs5040565" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Sciences</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="565" to="575" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Obsessive Compulsive Disorder: All You Want to Know about OCD For People Living with OCD, Carers, and Clinicians</title>
+		<author>
+			<persName><forename type="first">Lynne</forename><forename type="middle">M</forename><surname>Drummond</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Obsessive-Compulsive Disorder in the Media</title>
+		<author>
+			<persName><forename type="first">Dana</forename><surname>Fennell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Boyd</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01639625.2013.872526</idno>
+		<ptr target="https://psycnet.apa.org/doi/10.1080/01639625.2013.872526" />
+	</analytic>
+	<monogr>
+		<title level="j">Deviant Behavior</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="669" to="686" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<author>
+			<persName><forename type="first">Miranda</forename><surname>Fricker</surname></persName>
+		</author>
+		<title level="m">Epistemic Injustice: Power and the Ethics of Knowing</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Michelle Mone on Her OCD and New Title</title>
+		<ptr target="https://www.youtube.com/watch?v=RGwKmt5Gdwc" />
+	</analytic>
+	<monogr>
+		<title level="m">Good Morning Britain, 13 October</title>
+		<imprint>
+			<publisher>Good Morning Britain</publisher>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Neurodiversity: Bridging the Gap between the Disabled People&apos;s Movement and the Mental Health System Survivors&apos; Movement</title>
+		<author>
+			<persName><forename type="first">Steve</forename><surname>Graby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Madness, Distress and the Politics of Disablement</title>
+		<editor>
+			<persName><forename type="first">Helen</forename><surname>Spandler</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Jill</forename><surname>Anderson</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Bob</forename><surname>Sapey</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Bristol</addrLine></address></meeting>
+		<imprint>
+			<publisher>Policy Press</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="231" to="244" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<author>
+			<persName><forename type="first">Gary</forename><surname>Greenberg</surname></persName>
+		</author>
+		<title level="m">The Book of Woe: The DSM and the Unmaking of Psychiatry</title>
+		<meeting><address><addrLine>Victoria</addrLine></address></meeting>
+		<imprint>
+			<publisher>Scribe</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Recognizing Medicalization and Demedicalization: Discourses, Practices, and Identities</title>
+		<author>
+			<persName><forename type="first">Drew</forename><surname>Halfmann</surname></persName>
+		</author>
+		<ptr target="https://doi.org/10.1177%2F1363459311403947" />
+	</analytic>
+	<monogr>
+		<title level="j">Health</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="186" to="207" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Benevolent Sexism, Attitudes toward Motherhood, and Reproductive Rights: A Multi-Study Longitudinal Examination of Abortion Attitudes</title>
+		<author>
+			<persName><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">G</forename><surname>Yanshu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chris</forename><forename type="middle">G</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Danny</forename><surname>Sibley</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Osborne</surname></persName>
+		</author>
+		<ptr target="https://doi.org/10.1177%2F0146167216649607" />
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Social Psychology Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="970" to="984" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The Insidious (and Ironic) Effects of Positive Stereotypes</title>
+		<author>
+			<persName><forename type="first">Aaron</forename><forename type="middle">C</forename><surname>Kay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">P</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">David</forename><surname>Zanna</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Nussbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jesp.2012.11.003</idno>
+		<ptr target="https://doi.org/10.1016/j.jesp.2012.11.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="287" to="291" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Pathophobia, Illness, and Vices</title>
+		<author>
+			<persName><forename type="first">Ian</forename><surname>Kidd</surname></persName>
+		</author>
+		<author>
+			<persName><surname>James</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/09672559.2019.1612625</idno>
+		<ptr target="https://doi.org/10.1080/09672559.2019.1612625" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Philosophical Studies</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="286" to="306" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Krafft-Ebing</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Von</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychopathia Sexualis</title>
+		<imprint>
+			<date type="published" when="1899">1899</date>
+			<publisher>Hogarth Press</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Vulnerability of Individuals with Mental Disorders to Epistemic Injustice in Both Clinical and Social Domains</title>
+		<author>
+			<persName><forename type="first">Rena</forename><surname>Kurs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Grinshpoon</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10508422.2017.1365302</idno>
+		<ptr target="https://doi.org/10.1080/10508422.2017.1365302" />
+	</analytic>
+	<monogr>
+		<title level="j">Ethics &amp; Behaviour</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="336" to="346" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Toward Epistemic Justice: A Critically Reflexive Examination of &apos;Sanism&apos; and Implications for Knowledge Generation</title>
+		<author>
+			<persName><forename type="first">Stephanie</forename><surname>Leblanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elizabeth</forename><forename type="middle">Anne</forename><surname>Kinsella</surname></persName>
+		</author>
+		<idno type="DOI">10.26522/ssj.v10i1.1324</idno>
+		<ptr target="https://doi.org/10.26522/ssj.v10i1.1324" />
+	</analytic>
+	<monogr>
+		<title level="j">Studies in Social Justice</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="59" to="78" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Detecting Depression Stigma on Social Media: A Linguistic Analysis</title>
+		<author>
+			<persName><forename type="first">Ang</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dongdong</forename><surname>Jiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tingshao</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jad.2018.02.087</idno>
+		<ptr target="https://doi.org/10.1016/j.jad.2018.02.087" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Affective Disorders</title>
+		<imprint>
+			<biblScope unit="volume">232</biblScope>
+			<biblScope unit="page" from="358" to="362" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Stigma and Recognition of Different Types of Symptoms in OCD</title>
+		<author>
+			<persName><forename type="first">Ryan</forename><forename type="middle">J</forename><surname>Mccarty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Andrew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lawton</forename><forename type="middle">K</forename><surname>Guzick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joseph</forename><forename type="middle">P H</forename><surname>Swan</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mcnamara</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jocrd.2016.12.006</idno>
+		<ptr target="https://doi.org/10.1016/j.jocrd.2016.12.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Obsessive-Compulsive and Related Disorders</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="64" to="70" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The Relevance of Credibility Excess in a Proportional View of Epistemic Injustice: Differential Epistemic Authority and the Social Imaginary</title>
+		<author>
+			<persName><forename type="first">José</forename><surname>Medina</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02691728.2010.534568</idno>
+		<ptr target="https://www.mentalhealth.org.uk/a-to-z/s/stigma-and-discrimination" />
+	</analytic>
+	<monogr>
+		<title level="m">Stigma and Discrimination</title>
+		<imprint>
+			<date type="published" when="2011">2011. 2015. 2015</date>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="15" to="35" />
+		</imprint>
+	</monogr>
+	<note>Last modified</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Measuring Trivialization of Mental Illness: Developing a Scale of Perceptions That Mental Illness Symptoms Are Beneficial</title>
+		<author>
+			<persName><forename type="first">Rachelle</forename><forename type="middle">L</forename><surname>Pavelko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jessica</forename><surname>Gall Myrick</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10410236.2019.1573296</idno>
+		<ptr target="https://doi.org/10.1080/10410236.2019.1573296" />
+	</analytic>
+	<monogr>
+		<title level="j">Health Communication</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">On Sanism</title>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">L</forename><surname>Perlin</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/10379-002</idno>
+		<ptr target="https://doi.org/10.1037/10379-002" />
+	</analytic>
+	<monogr>
+		<title level="j">SMU Law Review</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="373" to="408" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Obsessive-Compulsive Personality Disorder: A Review of Available Data and Recommendations for DSM-IV</title>
+		<author>
+			<persName><forename type="first">Bruce</forename><surname>Pfohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nancee</forename><forename type="middle">S</forename><surname>Blum</surname></persName>
+		</author>
+		<idno type="DOI">10.1521/pedi.1991.5.4.363</idno>
+		<ptr target="https://psycnet.apa.org/doi/10.1521/pedi.1991.5.4.363" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality Disorders</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="363" to="375" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Relational Knowing and Epistemic Injustice: Toward a Theory of Wilful Hermeneutical Ignorance</title>
+		<author>
+			<persName><surname>Pohlhaus</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><surname>Gaile</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1527-2001.2011.01222.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1527-2001.2011.01222.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Hypatia</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="715" to="735" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">In Defense of Madness: The Problem of Disability</title>
+		<author>
+			<persName><forename type="first">Mohammed</forename><surname>Rashed</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Abouelleil</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jmp/jhy016</idno>
+		<ptr target="https://doi.org/10.1093/jmp/jhy016" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Philosophy</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="150" to="174" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Epistemic Injustice in Assessment of Delusions</title>
+		<author>
+			<persName><forename type="first">Abdi</forename><surname>Sanati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michalis</forename><surname>Kyratsous</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jep.12347</idno>
+		<ptr target="https://doi.org/10.1111/jep.12347" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Evaluation in Clinical Practice</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="479" to="485" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Epistemic Injustice and Mental Illness</title>
+		<author>
+			<persName><forename type="first">Anastasia</forename><surname>Scrutton</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Philippa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Routledge Handbook of Epistemic Injustice</title>
+		<editor>
+			<persName><forename type="first">Ian</forename><forename type="middle">James</forename><surname>Kidd</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">José</forename><surname>Medina</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Gaile</forename><surname>Pohlhaus</surname><genName>Jr</genName></persName>
+		</editor>
+		<editor>
+			<persName><surname>Abingdon</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Knowledge, Attitudes and Challenges of Healthcare Professionals Managing People with Eating Disorders: A Literature Review</title>
+		<author>
+			<persName><forename type="first">Xin</forename><surname>Seah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiang</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cong</forename><surname>Tham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Netty</forename><surname>Ryanie Kamaruzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Piyanee</forename><surname>Klainin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yobas</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apnu.2016.09.002</idno>
+		<ptr target="https://doi.org/10.1016/j.apnu.2016.09.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Archives of Psychiatric Nursing</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="125" to="136" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Disability: The Basics</title>
+		<author>
+			<persName><forename type="first">Tom</forename><surname>Shakespeare</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>Routledge</publisher>
+			<pubPlace>Abingdon</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Richard Branson Cruise Line Says Sorry for Mocking OCD</title>
+		<author>
+			<persName><forename type="first">Giles</forename><surname>Sheldrick</surname></persName>
+		</author>
+		<ptr target="https://www.express.co.uk/news/uk/1159506/Richard-Branson-cruise-line-mocking-OCD" />
+	</analytic>
+	<monogr>
+		<title level="m">Express, 30 July</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The Muddle of Medicalization: Pathologizing or Medicalizing?</title>
+		<author>
+			<persName><forename type="first">Jonathan</forename><surname>Sholl</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11017-017-9414-z</idno>
+		<ptr target="https://doi.org/10.1007/s11017-017-9414-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Theoretical Medicine and Bioethics</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="265" to="278" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Shunned: Discrimination against People with Mental Illness</title>
+		<author>
+			<persName><forename type="first">Graham</forename><surname>Thornicroft</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">So, Why Don&apos;t You Drive Then?</title>
+		<ptr target="https://www.time-to-change.org.uk/blog/so-why-dont-you-drive-then" />
+	</analytic>
+	<monogr>
+		<title level="m">Time to Change, 9 February</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Some People Are High-Functioning, but That Doesn&apos;t Invalidate Their Mental Health</title>
+		<ptr target="https://www.time-to-change.org.uk/blog/some-people-are-high-functioning-doesnt-invalidate-their-mental-health" />
+	</analytic>
+	<monogr>
+		<title level="m">Time to Change, 16 March</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<author>
+			<persName><forename type="first">Nick</forename><surname>Walker</surname></persName>
+		</author>
+		<ptr target="https://neurocosmopolitanism.com/throw-away-the-masters-tools-liberating-ourselves-from-the-pathology-paradigm/" />
+		<title level="m">Throw Away the Master&apos;s Tools: Liberating Ourselves from the Pathology Paradigm</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>Neurocosmopolitanism, 16 August</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The Price of Strength: Black College Women&apos;s Perspectives on the Strong Black Woman Stereotype</title>
+		<author>
+			<persName><forename type="first">Lindsey</forename><forename type="middle">M</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roxanne</forename><forename type="middle">A</forename><surname>Donovan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amanda</forename><forename type="middle">R</forename><surname>Daniel</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02703149.2016.1116871</idno>
+		<ptr target="https://en.wikipedia.org/wiki/Monk_(TV_series)" />
+	</analytic>
+	<monogr>
+		<title level="m">Monk (TV Series)</title>
+		<imprint>
+			<date type="published" when="2016-03-19">2016. 19 March 2021</date>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="390" to="412" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

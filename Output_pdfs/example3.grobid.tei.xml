@@ -7,12 +7,12 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		<fileDesc>
 			<titleStmt>
 				<title level="a" type="main">The principle of the 3Rs between aspiration and reality</title>
-				<funder ref="#_hhG7PbD">
+				<funder ref="#_NxNP3sj">
 					<orgName type="full">ISS</orgName>
 				</funder>
 			</titleStmt>
 			<publicationStmt>
-				<publisher/>
+				<publisher>Frontiers Media SA</publisher>
 				<availability  status="unknown">
 					<licence/>
 				</availability>
@@ -27,15 +27,6 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 						</author>
 						<author>
 							<persName><forename type="first">Laura</forename><surname>Ricceri</surname></persName>
-						</author>
-						<author>
-							<persName><forename type="first">Patricia</forename><forename type="middle">V</forename><surname>Turner</surname></persName>
-						</author>
-						<author>
-							<persName><forename type="first">Nelly</forename><surname>Tremblay</surname></persName>
-						</author>
-						<author>
-							<persName><forename type="first">Maurice</forename><forename type="middle">Lamontagne</forename><surname>Institute</surname></persName>
 						</author>
 						<author>
 							<affiliation key="aff0">
@@ -57,7 +48,12 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 						<title level="a" type="main">The principle of the 3Rs between aspiration and reality</title>
 					</analytic>
 					<monogr>
+						<title level="j" type="main">Frontiers in Physiology</title>
+						<title level="j" type="abbrev">Front. Physiol.</title>
+						<idno type="eISSN">1664-042X</idno>
 						<imprint>
+							<publisher>Frontiers Media SA</publisher>
+							<biblScope unit="volume">13</biblScope>
 							<date type="published" when="2022-08-12">12 August 2022</date>
 						</imprint>
 					</monogr>
@@ -69,7 +65,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.1-SNAPSHOT" ident="GROBID" when="2024-03-06T18:35+0000">
+				<application version="0.8.1-SNAPSHOT" ident="GROBID" when="2024-03-06T21:28+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>
@@ -108,7 +104,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 <div><head>Funding</head><p>Supported by <rs type="funder">ISS</rs> intramural fundings Ricerca Corrente 2020-2022 Integrated in vitro/in vivo studies and applicability of the 3R principle (<rs type="projectName">Studio degli approcci integrati in vitro-in vivo e studi di applicabilità del principio delle 3R</rs>).</p></div>
 			</div>
 			<listOrg type="funding">
-				<org type="funded-project" xml:id="_hhG7PbD">
+				<org type="funded-project" xml:id="_NxNP3sj">
 					<orgName type="project" subtype="full">Studio degli approcci integrati in vitro-in vivo e studi di applicabilità del principio delle 3R</orgName>
 				</org>
 			</listOrg>

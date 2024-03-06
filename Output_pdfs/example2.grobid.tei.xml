@@ -9,7 +9,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 				<title level="a" type="main">Self-regulation, stress appraisal, and esport action performance</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher/>
+				<publisher>Frontiers Media SA</publisher>
 				<availability  status="unknown">
 					<licence/>
 				</availability>
@@ -18,12 +18,6 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 			<sourceDesc>
 				<biblStruct>
 					<analytic>
-						<author>
-							<persName><forename type="first">Ale</forename><surname>Quartiroli</surname></persName>
-						</author>
-						<author>
-							<persName><forename type="first">Laura</forename><surname>Swettenham</surname></persName>
-						</author>
 						<author role="corresp">
 							<persName><forename type="first">Michael</forename><forename type="middle">G</forename><surname>Trotter</surname></persName>
 							<email>michael.trotter@umu.se</email>
@@ -80,7 +74,12 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 						<title level="a" type="main">Self-regulation, stress appraisal, and esport action performance</title>
 					</analytic>
 					<monogr>
+						<title level="j" type="main">Frontiers in Psychology</title>
+						<title level="j" type="abbrev">Front. Psychol.</title>
+						<idno type="eISSN">1664-1078</idno>
 						<imprint>
+							<publisher>Frontiers Media SA</publisher>
+							<biblScope unit="volume">14</biblScope>
 							<date type="published" when="2023-10-10">10 October 2023</date>
 						</imprint>
 					</monogr>
@@ -92,7 +91,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.1-SNAPSHOT" ident="GROBID" when="2024-03-06T18:35+0000">
+				<application version="0.8.1-SNAPSHOT" ident="GROBID" when="2024-03-06T21:28+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>

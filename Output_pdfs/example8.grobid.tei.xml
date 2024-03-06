@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Machine learning-based prediction of sertraline concentration in patients with depression through therapeutic drug monitoring</title>
+				<funder>
+					<orgName type="full">Technology Innovation Center for Artificial Intelligence in Clinical Pharmacy of Hebei Province</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-03-06">06 March 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ran</forename><surname>Fu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Clinical Pharmacy</orgName>
+								<orgName type="institution">The First Hospital of Hebei Medical University</orgName>
+								<address>
+									<settlement>Shijiazhuang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The Technology Innovation Center for Artificial Intelligence in Clinical Pharmacy of Hebei Province</orgName>
+								<orgName type="institution">The First Hospital of Hebei Medical University</orgName>
+								<address>
+									<settlement>Shijiazhuang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xin</forename><surname>Hao</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Dalian Medicinovo Technology Co., Ltd, Dalian</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jing</forename><surname>Yu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Clinical Pharmacy</orgName>
+								<orgName type="institution">The First Hospital of Hebei Medical University</orgName>
+								<address>
+									<settlement>Shijiazhuang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The Technology Innovation Center for Artificial Intelligence in Clinical Pharmacy of Hebei Province</orgName>
+								<orgName type="institution">The First Hospital of Hebei Medical University</orgName>
+								<address>
+									<settlement>Shijiazhuang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Donghan</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Clinical Pharmacy</orgName>
+								<orgName type="institution">The First Hospital of Hebei Medical University</orgName>
+								<address>
+									<settlement>Shijiazhuang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The Technology Innovation Center for Artificial Intelligence in Clinical Pharmacy of Hebei Province</orgName>
+								<orgName type="institution">The First Hospital of Hebei Medical University</orgName>
+								<address>
+									<settlement>Shijiazhuang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jinyuan</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Beijing Medicinovo Technology Co</orgName>
+								<address>
+									<settlement>Ltd Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ze</forename><surname>Yu</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fei</forename><surname>Gao</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Beijing Medicinovo Technology Co</orgName>
+								<address>
+									<settlement>Ltd Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Chunhua</forename><surname>Zhou</surname></persName>
+							<email>zhouchunhua80@126.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Clinical Pharmacy</orgName>
+								<orgName type="institution">The First Hospital of Hebei Medical University</orgName>
+								<address>
+									<settlement>Shijiazhuang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The Technology Innovation Center for Artificial Intelligence in Clinical Pharmacy of Hebei Province</orgName>
+								<orgName type="institution">The First Hospital of Hebei Medical University</orgName>
+								<address>
+									<settlement>Shijiazhuang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tong</forename><surname>Rongsheng</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Christoph</forename><surname>Hiemke</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Wang</forename><forename type="middle">D</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">Sichuan Academy of Medical Sciences and Sichuan Provincial People&apos;s Hospital</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution">Johannes Gutenberg University</orgName>
+								<address>
+									<settlement>Mainz</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="institution" key="instit1">Nebojsa Bacanin</orgName>
+								<orgName type="institution" key="instit2">Singidunum University</orgName>
+								<address>
+									<country key="RS">Serbia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Machine learning-based prediction of sertraline concentration in patients with depression through therapeutic drug monitoring</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-03-06">06 March 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D0394BFDBE9A1CF8DB0305F8DDFC7403</idno>
+					<idno type="DOI">10.3389/fphar.2024.1289673</idno>
+					<note type="submission">RECEIVED 06 September 2023 ACCEPTED 21 February 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1-SNAPSHOT" ident="GROBID" when="2024-03-06T21:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>sertraline</term>
+					<term>concentrations</term>
+					<term>therapeutic drug monitoring</term>
+					<term>machine learning</term>
+					<term>XGBoost</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Sertraline is a commonly employed antidepressant in clinical practice. In order to control the plasma concentration of sertraline within the therapeutic window to achieve the best effect and avoid adverse reactions, a personalized model to predict sertraline concentration is necessary.</p><p>Aims: This study aimed to establish a personalized medication model for patients with depression receiving sertraline based on machine learning to provide a reference for clinicians to formulate drug regimens.</p><p>Methods: A total of 415 patients with 496 samples of sertraline concentration from December 2019 to July 2022 at the First Hospital of Hebei Medical University were collected as the dataset. Nine different algorithms, namely, XGBoost, LightGBM, CatBoost, random forest, GBDT, SVM, lasso regression, ANN, and TabNet, were used for modeling to compare the model abilities to predict sertraline concentration.</p><p>Results: XGBoost was chosen to establish the personalized medication model with the best performance (R 2 = 0.63). Five important variables, namely, sertraline dose, alanine transaminase, aspartate transaminase, uric acid, and sex, were shown to be correlated with sertraline concentration. The model prediction accuracy of sertraline concentration in the therapeutic window was 62.5%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>In conclusion, the personalized medication model of sertraline for patients with depression based on XGBoost had good predictive ability, which provides guidance for clinicians in proposing an optimal medication regimen.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Depression is a common illness that causes dysfunction in various spheres of individual and social life, severely limits psychosocial functioning, and diminishes quality of life <ref type="bibr" target="#b20">(Malhi and Mann, 2018)</ref>. Currently, depression is considered the fourth leading cause of global disease burden <ref type="bibr" target="#b5">(Farnam et al., 2017)</ref>. Depression rates in young people have risen sharply in the past decade, and females have a greater incidence of elevated depressive symptoms than males <ref type="bibr" target="#b24">(Shorey et al., 2022;</ref><ref type="bibr" target="#b25">Thapar et al., 2022)</ref>. Thus, reasonable treatment for depression is a priority.</p><p>Sertraline, a kind of selective serotonin reuptake inhibitor (SSRI) antidepressant, exerts antidepressant effects by inhibiting the reuptake of 5-hydroxytryptamine (5-HT) in central neurons and is often used as a first-line treatment for depression <ref type="bibr" target="#b24">(Shorey et al., 2022;</ref><ref type="bibr" target="#b25">Thapar et al., 2022)</ref>. It has good efficacy in treating various forms of depression, such as psychotic depression and major depressive disorder-related postnatal depression <ref type="bibr" target="#b22">(Milgrom et al., 2015;</ref><ref type="bibr" target="#b12">Kamijima et al., 2018;</ref><ref type="bibr" target="#b6">Flint et al., 2021)</ref>. Sertraline is metabolized mainly by CYP2B6 and CYP2C19 in the liver, where it generates the metabolite N-desmethylsertraline with lower activity. Sertraline and its metabolites are mainly excreted in feces and urine. During clinical usage, drug-related adverse reactions, such as corrected QT interval prolongation, bleeding, sexual dysfunctions, inflammation, or fracture risk <ref type="bibr" target="#b14">(Kubanek et al., 2021)</ref>, may occur, which may be related to the dosage and plasma concentration of sertraline. Due to the large individual differences in sertraline concentrations, therapeutic drug monitoring (TDM) is necessary to maintain the plasma concentration within the therapeutic window. Based on empirical evidence, the Arbeitsgemeinschaft für Neuropsychopharmakologie und Pharmakopsychiatrie (AGNP) consensus guidelines define the level of recommendation to use TDM of sertraline as level 2: recommended, with a therapeutic reference range of 10-150 ng/ mL <ref type="bibr">(Hiemke et al., 2018-01)</ref>.</p><p>Machine learning (ML), deep learning (DL), and swarm intelligence (SI) are emerging artificial intelligence (AI) techniques that have recently been applied in medical research. By processing high-volume data, they can evaluate data-driven estimations from multiple variables and capture non-linear variable relations to achieve high accuracy in predicting clinical outcomes <ref type="bibr" target="#b8">(Guo et al., 2021;</ref><ref type="bibr" target="#b18">Ma et al., 2022)</ref>. These techniques have emerged as promising approaches in different fields of medicine. Specifically, convolutional neural networks, which are DL models, are adept at visual recognition and natural language processing and can be used to construct automated image analysis models for recognizing X-ray or MRI data <ref type="bibr" target="#b1">(Bacanin et al., 2022;</ref><ref type="bibr" target="#b31">Zivkovic et al., 2022)</ref>. Several ML algorithms, including eXtreme Gradient Boosting (XGBoost), Adaptive Boosting (AdaBoost), and gradientboosted regression tree (GBRT), have been proven to be useful for predicting drug concentration <ref type="bibr" target="#b18">(Ma et al., 2022)</ref>. For instance, XGBoost was used to establish a model to predict the concentration of tacrolimus in patients with autoimmune diseases and a model to predict the active moiety concentration of risperidone based on initial TDM. CatBoost was used to develop a model to predict the concentration of quetiapine in patients with schizophrenia and depression, and an ensemble model using five algorithms (XGBoost, GBRT, Bagging, ExtraTree, and decision tree) was applied to predict the concentration of vancomycin in children <ref type="bibr" target="#b11">(Huang et al., 2021;</ref><ref type="bibr" target="#b29">Zheng et al., 2021;</ref><ref type="bibr" target="#b9">Hao et al., 2023)</ref>. Additionally, in response to theoretical and practical global optimization problems, SI techniques are very popular for the model optimization of ML and DL algorithms <ref type="bibr">(Bacanin et al., 2021;</ref><ref type="bibr" target="#b31">Zivkovic et al., 2022)</ref>. With the larger sample size of input data, these AI models can be continually optimized to achieve better performance and practicality.</p><p>In this study, we aimed to explore the factors influencing sertraline concentration and develop a prediction model for sertraline concentration through AI techniques. We pursued to facilitate the rational sertraline regimen at an individualized level and provide a reference for other antidepressant drug doses or for concentration prediction through the combination of medicine and AI techniques.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants and study design</head><p>This retrospective study was conducted from January 2020 to December 2021 at the First Hospital of Hebei Medical University, and data from inpatients with depression receiving routine clinical treatment with sertraline were analyzed. Patients enrolled in the study had two TDM values. One was the initial TDM value, which was measured for at least 5-7 days with a fixed sertraline dose to reach steady-state conditions. The other was the value measured closest to the initial TDM. The inclusion criteria were as follows: (1) patients diagnosed with depression from discharge records; (2) patients treated with sertraline; and (3) patients with at least one TDM value given at a fixed dosage to reach the steady-state conditions. The exclusion criteria were as follows: (1) patients with missing information (such as demographic characteristics and diagnosis records); (2) patients with sertraline concentrations less than the lower limit of quantitation or exceeding the upper limit of quantification; and (3) patients with organic mental disorder. The information assessed in the study included demographic information, the use of sertraline, combined medication, and biochemical indices. The workflow of sample selection is illustrated in Figure <ref type="figure" target="#fig_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sertraline assay</head><p>The plasma sertraline concentration was measured via UPLC-MS/MS (Waters ACQUITYI-X, Waters Corp., Milford, United States of America). The sample was separated on a Waters ACQUITY UPLC BEH C18 column (2.1 mm × 50 mm, i.d.; 1.7 μm, Waters, Milford, CT, United States of America) and eluted with a step gradient mobile phase consisting of 0.1% formic water (solvent A) and methanol (solvent B): 0-0.5 min, 20% B; 0.5-0.6 min, 20-45% B; 0.6-1.8 min, 45-80% B; 1.8-1.9 min, 80-95% B; 1.9-2.5 min, 95% B; 2.5-2.6 min, 95-20% B; and 2.6-3.2 min, 20% B. The flow rate was 0.4 mL/min, and the injection volume was 5 μL. Mass spectrometric detection was performed via electrospray ionization in the positive ion multiple reaction monitoring mode. The transitions of the precursor ion and the production of the analyte were m/z 305.97→158.97 for sertraline and m/z 309.00→158.86 for sertraline-d3. The linear range for sertraline was 2.5-320 ng/mL (correlation coefficient R 2 = 0.9999). Both the intra-and inter-day precision and accuracy were within 15%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Variable selection</head><p>Multiple variables may influence sertraline concentration, including demographic data (age, sex, weight, and height), sertraline information (dosage and concentration), drug combinations (CYP2B6/CYP2C19 inhibitors, CYP2B6/ CYP2C19 competitive inhibitor, and drugs with high plasma protein-binding rates), and data of assay indices (renal function, liver function, prolactin [PRL], and routine blood test results).</p><p>The workflow of the data analysis is illustrated in Figure <ref type="figure" target="#fig_1">2</ref>. First, univariate analysis was performed on all the data to screen for significant variables, and p &lt; 0.05 was considered to indicate statistical significance. After that, the sequential forward selection (SFS) algorithm was applied for feature engineering to select the minimum size and optimum performance of the feature subset. The algorithm starts the search from an empty set, and a feature is added to this feature subset at a time. Once the evaluation index R 2 reaches the optimal value, iteration is stopped. The feature subset of the previous round was considered the optimal feature selection result.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model establishment</head><p>According to the 8:2 proportional division, the total study population was divided into training and testing cohorts. As depicted in Figure <ref type="figure" target="#fig_0">1</ref>, nine different algorithms were used for modeling to compare the ability of various models to predict sertraline concentrations; these included XGBoost, LightGBM, CatBoost, random forest (RF), gradient-boosted decision tree (GBDT), support vector machine (SVM), lasso regression (LR), artificial neural network (ANN), and TabNet algorithms. To measure and compare model performance, R 2 , mean square error (MSE), root mean square error (RMSE), and mean absolute error (MAE) were used as metrics. The calculating formula is as follows:</p><formula xml:id="formula_0">MSE 1 n n i 1 yi-ŷi ( ) 2 , RMSE 1 n n i 1 yi-ŷi ( ) 2 , MAE 1 n n i 1 1 n yi-ŷi ( ) | | , R 2 1 - MSE y,y Var y ,</formula><p>where n is the number of samples; y i is the true value; and y ∧ is the predicted value. R 2 represents the goodness of fit of the model, and the value range is 0-1. The larger value indicates the better fit of the model. In terms of the MSE, RMSE, and MAE, when their Workflow of sample selection.</p><p>Frontiers in Pharmacology frontiersin.org values decrease, the model has better fitting goodness.</p><p>Additionally, the accuracy of the predicted concentration within ±30% of the actual concentration was used for evaluating predictive performance. The algorithm with the highest metric values was selected for the prediction model of sertraline concentration.</p><p>The importance scores of the variables were calculated and ranked using the algorithm with the best predictive performance. Variables with higher importance scores were more closely related to the accurate prediction of sertraline concentration. Then, SHapley Additive exPlanations (SHAP) were conducted to visually interpret the positive or negative impacts of important variables on the model output.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>Statistical analysis was performed using the Statistical Package for the Social Sciences software version 23.0 and Python 3.9.12. The continuous non-normally distributed variable was expressed as the median and interquartile range (IQR, 25th and 75th percentiles) and was compared by Spearman's correlation test, as appropriate. For binary variables, the Mann-Whitney U test was used for analysis. The categorical variable was presented as the number and percentage (%) and was analyzed by the chisquared test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Baseline information</head><p>From December 2019 to July 2022, at the First Hospital of Hebei Medical University, a total of 415 eligible patients were enrolled in this study, with 496 samples from whom the sertraline concentration was measured. The baseline information of the study population is shown in Table <ref type="table" target="#tab_0">1</ref>. It can be seen that the median (IQR) age of the patients was 16 (14.00-27.00) years, the median (IQR) weight of the patients was 56.67 (50.33-68.00) kg, the median (IQR) height was 163.00 (158.00-169.00) cm, and males were 27.42% of the total. The median (IQR) value of sertraline concentration was 59.00 (34.04-85.56) ng/mL, and the median (IQR) dose of sertraline was 100 (100-150) mg. The percentage of patients using combination therapies was 0.81% for the CYP2B6 inhibitor (clopidogrel and voriconazole), 0.81% for the CYP2B6 competitive inhibitor (methadone, fluoxetine, and disulfiram), 3.63% for the CYP2C19 inhibitor (esomeprazole, fluvoxamine, voriconazole, and omeprazole), and 9.27% for the CYP2C19 competitive inhibitor (citalopram, escitalopram, clomipramine, clozapine, venlafaxine, diazepam, doxepin, and fluoxetine). The median (IQR) α-hydroxybutyrate dehydrogenase level was 101.00 (90.30-117.00) U/L, the median (IQR) alanine aminotransferase (ALT) level was 15.60 (10.70-24.60) U/L, the median (IQR) aspartate transaminase (AST) level was 19.30 Workflow of data processing and modeling.</p><p>Frontiers in Pharmacology frontiersin.org </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Variable selection</head><p>In the univariate analysis, several variables were excluded because of an extremely uneven distribution or lots of missing values. The statistical results for the remaining 55 variables are shown in Table <ref type="table" target="#tab_0">1</ref>. Among them, 20 significant variables, including dose, sex, age, weight, AFU, HBDH, and ALT, had p &lt; 0.05.</p><p>CatBoost models were established using the selected 1 to 20 variables, and the R 2 of each model was obtained (Figure <ref type="figure" target="#fig_2">3</ref>). With an increasing number of included variables, the R 2 value continued to increase, reached its maximum value when five variables were selected (R 2 = 0.408), and then, decreased. As we pursued a concise and accurate model with minimal variables but the highest predictive performance, the first five important variables were selected to establish the personalized medication model: daily dose of sertraline, ALT, sex, AST and UA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model performance and interpretation</head><p>Based on the selected variables, nine algorithm models (XGBoost, LightGBM, CatBoost, RF, GBDT, SVM, LR, ANN, and TabNet) for predicting sertraline concentration were established. The final model performance in the testing cohort (N = 332) is illustrated in Table <ref type="table" target="#tab_2">2</ref>. In addition, a boxplot of all the models is shown in Figure <ref type="figure">4</ref>, which illustrates the absolute difference in R 2 between two models tested by the Wilcoxon signedrank test after the R 2 was ranked from the highest to lowest. The XGBoost model had the highest R 2 (0.63), which was significantly greater than that of the other models (p &lt; 0.05), demonstrating a moderate model fit. In addition to this, in the XGBoost model, the accuracy of the predicted concentration within ±30% of the actual concentration was 60.00%, the highest of the nine models. The MAE and RMSE of the XGBoost model were 15.35 and 20.06, respectively, and these low values represent a good model fit. Thus, XGBoost had the most prominent model performance and was chosen to be applied for the prediction model. On this basis, the importance scores of five selected variables were calculated and ranked by XGBoost (Table <ref type="table" target="#tab_3">3</ref>). Specifically, the importance score of the sertraline dose (importance score = 0.629) was markedly greater than that of the other four variables, followed by AST (importance score = 0.109), UA (importance score = 0.1), sex (importance score = 0.082), and ALT (importance score = 0.08). A higher importance score indicates a greater impact of this variable on the prediction of sertraline concentration.</p><p>For the visualization of the variable importance, we used SHAP to quantify the magnitude and direction (positive or negative) of the variable's influence on sertraline concentration (Figure <ref type="figure">5</ref>). The feature value (represented by the dot color) represents the contribution of each variable to the predictive power of the model and was ranked according to the importance. A larger width of the color area indicates a greater impact of the variable. Consistent with the results of XGBoost, the variables in the descending order of effect on sertraline concentration were  sertraline dose, AST, UA, sex, and ALT. In terms of the binary variable "sex," "0" corresponds to females and "1" corresponds to males. For the daily dose of sertraline and for ALT and AST, the dot color is redder (feature value is greater) when the SHAP value becomes larger, while it is bluer (feature value is lower) when the SHAP value becomes smaller, thus revealing the positive impacts of these variables on sertraline concentration. However, UA was negatively correlated with the model prediction outcome. In terms of sex, as a binary variable, male patients had a negative correlation with sertraline concentration, and female patients had a positive correlation with sertraline concentration.</p><note type="other">FIGURE 4</note><p>A boxplot of the absolute difference in R 2 of different models tested by the Wilcoxon signed-rank test. *: significant; ns: not significant. SHAP values of important variables. The dot color is redder when the feature value gets higher and bluer when the feature value gets lower. SHAP value means the impact of the variable on the model output.</p><p>The testing cohort consisted of 83 patients. The predicted value of sertraline concentration was compared with the true value in the testing cohort. Finally, the proportion of the predicted sertraline blood concentration within ±30% of the true value was calculated. The results are illustrated in Table <ref type="table" target="#tab_4">4</ref>. The prediction accuracy of the drug concentration in the therapeutic window (10-150 ng/ mL) was 62.5%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Our study focused on the establishment of a personalized medication model for the prediction of sertraline concentration in patients with depression. In our study, nine ML models were established. By comparison, for XGBoost, the model with the most accurate prediction performance was selected with an R 2 of 0.63. XGBoost is an ML algorithm that is a leading-edge method based on the decision tree principle and the effective upgrade of the GBDT algorithm <ref type="bibr" target="#b28">(Yan et al., 2022)</ref>. It integrates a series of decision trees to achieve the classification or regression goals <ref type="bibr" target="#b17">(Li et al., 2019)</ref>. ML methods are suitable for processing large volumes of real-world data, addressing missing values and high-dimensional data, and capturing complicated relationships between variables, especially for retrospective studies <ref type="bibr" target="#b15">(Lee et al., 2022;</ref><ref type="bibr" target="#b21">Matsuzaki et al., 2022)</ref>. Compared with those of other ML models, our study showed better performance (the accuracy of the predicted concentration within ±30% of the actual concentration was 62.5%) in the testing cohort and a larger sample size, which led to a more mature model for the application and reference <ref type="bibr" target="#b11">(Huang et al., 2021)</ref>. Sertraline is one of the most commonly prescribed antidepressants in China. There are large individual differences in sertraline plasma concentration. Therefore, it is meaningful to establish a model to predict the concentration of sertraline.</p><p>The results of our study revealed that dose is the most important variable affecting the plasma concentration of sertraline and that there is a positive relationship between the daily dose of sertraline and plasma concentration. This finding is consistent with the pharmacokinetics of sertraline and previously described associations <ref type="bibr" target="#b26">(Tini et al., 2022)</ref>. A study of the population pharmacokinetics of sertraline in healthy subjects also showed that following multiple oral doses, the C max and AUC∞ increased proportionally with dose across the entire dose range (5-200 mg), while the bioavailability, T max , and t 1/2 remained constant with dose <ref type="bibr" target="#b0">(Alhadab and Brundage, 2020)</ref>.</p><p>Sertraline is metabolized mainly in the liver. Hepatic metabolism is thought to play a major role in the overall clearance of sertraline <ref type="bibr" target="#b30">(Zhou et al., 2019)</ref>. In vivo, the levels of ALT and AST can reflect the liver function of patients. High ALT and AST levels indicate that patients may have impaired liver function, which may inhibit the metabolism of sertraline in the liver, resulting in a high plasma sertraline concentration.</p><p>The excretion and secretion of UA are mediated by multiple transporters in the kidney. The level of UA increases once the function of the kidney is impaired <ref type="bibr" target="#b23">(Okui et al., 2020)</ref>. There have been few studies on the correlation between UA levels and sertraline plasma concentrations, but our study revealed a negative correlation between them. Abnormal renal function may lead to a reduction in the reabsorption of UA in the kidney, resulting in a decrease in UA levels in the body. Sertraline and its metabolites are mainly excreted in feces and urine. Renal dysfunction may inhibit the renal excretion of sertraline, resulting in a high plasma concentration of sertraline. This may explain why UA was negatively correlated with the sertraline concentration.</p><p>Sex is another important variable that contributes to the plasma level of sertraline. Several studies have suggested that the apparent clearance of sertraline is significantly increased in male patients and that there is an age/sex interaction, which indicates a low plasma concentration of sertraline in male patients <ref type="bibr">(Davies et al., 2016)</ref>. Similarly, our study displayed a negative correlation between males and sertraline plasma concentration. The mechanistic processes underlying sexspecific pharmacokinetics can be divided into physiological and molecular factors. First, sertraline and desmethylsertraline showed high affinity for P-gp, which meditates the absorption of sertraline in the small intestine. A study confirmed that, compared with female rats, male rats exhibited higher relative P-gp expression in the intestine, which may result in increased intestinal efflux of sertraline in males <ref type="bibr" target="#b19">(Mai et al., 2018)</ref>. Second, sex-related pharmacokinetic differences include the generally lower bodyweight and organ size, a greater percentage of body fat, a lower glomerular filtration rate, and different gastric motility in females compared to males, which may explain low sertraline concentration in males <ref type="bibr" target="#b16">(Li et al., 2020)</ref>.</p><p>Previous studies indicated that concomitant treatment with an inhibitor of CYP2B6/2C19 may influence the concentration of sertraline <ref type="bibr" target="#b23">(Preskorn et al., 2007;</ref><ref type="bibr" target="#b7">Gjestad et al., 2015)</ref>. However, in our study, there was no correlation between the use of combined medication and the plasma concentration of sertraline. This may be due to the small number of patients treated with the combination therapy.</p><p>One advantage of this study is that we conducted subgroup analysis based on different concentration ranges to determine the respective prediction performance at diverse concentrations, helping supplement the data for the specified concentration range to refine the model continuously. In addition, we enhanced the model performance by leveraging the capabilities of ML. Through the stratified mining of data, ML methods can recognize and analyze multiple influencing factors in the real world. In particular, XGBoost has the ability to deal with data rapidly and effectively, reduce model overfitting, and process clinical data with a mass of outliers and missing values to construct an accurate prediction model. The combination of ML and personalized medicine has improved the effectiveness of precision medicine in clinical practice. Finally, to the best of our knowledge, our study is the first to use ML techniques to predict sertraline concentration in patients with depression using ML techniques. This study fills the gap in this field and provides a reference for the rational clinical use of sertraline. However, there are several limitations in our study. First, this was a retrospective study using real-world data rather than a randomized controlled trial, inevitably resulting in some biases. In future studies, we intend to employ a randomized controlled trial utilizing stringent inclusion criteria to effectively manage potential confounding factors that might influence patient outcomes. Following the principle of randomization, subjects are allocated to each group with equal probability. This ensures that potential confounding variables are evenly distributed among the groups. Second, since TDM tests of sertraline were only conducted beginning in November 2019 at the First Hospital of Hebei Medical University, the final sample size was limited, which could lead to inaccurate findings in this study. Expanding the sample size or conducting prospective research in multiple centers is what we should strive for in the future. Third, data for some variables, such as height and weight, were deleted due to a high missing data rate or imbalanced sample size. In future studies, it is necessary to strengthen the training of doctors in recording and collecting data. We will also apply additional methods, such as interpolation, to process missing value to solve this problem. Notably, the theoretical shortcomings of ML models cannot be ignored. ML models suffer from overfitting, especially those with modest datasets <ref type="bibr">(Bacanin et al., 2021)</ref>. Dropout estimation by SI algorithms can help solve this issue <ref type="bibr">(Bacanin et al., 2021)</ref>. Previous studies have shown good results by using hybrid methods of SI and ML <ref type="bibr" target="#b2">(Basha et al., 2021;</ref><ref type="bibr" target="#b27">Wainer and Fonseca, 2021;</ref><ref type="bibr" target="#b32">Zivkovic et al., 2021)</ref>. In the future, we will pursue a more optimized model for predicting the sertraline concentration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>In conclusion, in this study, nine different AI algorithms were used for modeling to compare the ability of the models to predict sertraline concentration, and XGBoost was chosen to establish the personalized medication model with the best performance. Five important variables were found through ML to be correlated with the sertraline concentration. The personalized medication model of sertraline for patients with depression based on XGBoost had an acceptable prediction ability, which can be improved with a larger sample size and provide a reference for clinicians to propose the optimal medication regimen.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 1</head><label>1</label><figDesc>FIGURE 1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 2</head><label>2</label><figDesc>FIGURE 2</figDesc><graphic coords="4,120.13,94.28,354.95,307.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIGURE 3 R</head><label>3</label><figDesc>FIGURE 3 R 2 of the CatBoost model corresponding to the number of ranked features.</figDesc><graphic coords="7,135.67,94.28,324.00,202.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="8,144.00,94.28,307.42,258.01" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="8,120.13,568.18,354.95,158.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1</head><label>1</label><figDesc>Description of demographic and clinical characteristics.</figDesc><table><row><cell>Category</cell><cell>Variable</cell><cell>Median (IQR)| n (%)</cell><cell>Miss rate (%)</cell><cell>p</cell></row><row><cell>Sertraline information</cell><cell>Concentration, median (IQR)</cell><cell>59.00 (34.04-85.56)</cell><cell>0.00</cell><cell></cell></row><row><cell></cell><cell>Dose, median (IQR)</cell><cell></cell><cell>0.00</cell><cell>&lt;0.001</cell></row><row><cell></cell><cell>50</cell><cell>111(22.38%)</cell><cell></cell><cell></cell></row><row><cell></cell><cell>100</cell><cell>145 (29.23%)</cell><cell></cell><cell></cell></row><row><cell></cell><cell>150</cell><cell>170 (34.27%)</cell><cell></cell><cell></cell></row><row><cell></cell><cell>200</cell><cell>70 (14.11%)</cell><cell></cell><cell></cell></row><row><cell>Demographic information</cell><cell>Age, median (IQR)</cell><cell>16.00 (14.00-27.00)</cell><cell>0.00</cell><cell>0.002</cell></row><row><cell></cell><cell>Sex, n (%)</cell><cell></cell><cell>0.00</cell><cell>&lt;0.001</cell></row><row><cell></cell><cell>Female</cell><cell>360 (72.58%)</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Male</cell><cell>136 (27.42%)</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Weight, median (IQR)</cell><cell>56.67 (50.33-68.00)</cell><cell>71.57</cell><cell>0.06</cell></row><row><cell></cell><cell>Height, median (IQR)</cell><cell>163.00 (158.00-169.00)</cell><cell>72.78</cell><cell>0.107</cell></row><row><cell>Combination</cell><cell>CYP2B6 inhibitor, n (%)</cell><cell>4 (0.81%)</cell><cell>0.00</cell><cell>0.976</cell></row><row><cell></cell><cell>CYP2B6 competitive inhibitor, n (%)</cell><cell>4 (0.81%)</cell><cell>0.00</cell><cell>0.767</cell></row><row><cell></cell><cell>CYP2C19 inhibitor, n (%)</cell><cell>18 (3.63%)</cell><cell>0.00</cell><cell>0.714</cell></row><row><cell></cell><cell>CYP2C19 competitive inhibitor, n (%)</cell><cell>46 (9.27%)</cell><cell>0.00</cell><cell>0.6</cell></row><row><cell></cell><cell>Drugs with high plasma protein binding rate, n (%)</cell><cell>1(0.20%)</cell><cell>0.00</cell><cell>1</cell></row><row><cell>Laboratory parameters</cell><cell>AFU (IQR)</cell><cell>17.70 (13.80-21.10)</cell><cell>9.68</cell><cell>0.032</cell></row><row><cell></cell><cell>HBDH, median (IQR)</cell><cell>101.00 (90.30-117.00)</cell><cell>22.18</cell><cell>&lt;0.001</cell></row><row><cell></cell><cell>GGT, median (IQR)</cell><cell>15.00 (12.00-23.00)</cell><cell>21.57</cell><cell>0.813</cell></row><row><cell></cell><cell>ALT, median (IQR)</cell><cell>15.60(10.70-24.60)</cell><cell>21.57</cell><cell>0.008</cell></row><row><cell></cell><cell>LDH, median (IQR)</cell><cell>161.00 (140.00-183.00)</cell><cell>22.18</cell><cell>&lt;0.001</cell></row><row><cell></cell><cell>AST, median (IQR)</cell><cell>19.30 (15.90-23.50)</cell><cell>21.57</cell><cell>0.001</cell></row><row><cell></cell><cell>Urea, median (IQR)</cell><cell>3.97 (3.31-4.83)</cell><cell>4.03</cell><cell>0.421</cell></row><row><cell></cell><cell>UA, median (IQR)</cell><cell>287.75 (235.43-346.52)</cell><cell>4.03</cell><cell>&lt;0.001</cell></row><row><cell></cell><cell>TP, median (IQR)</cell><cell>65.80 (63.60-69.05)</cell><cell>1.21</cell><cell>0.479</cell></row><row><cell></cell><cell>WBC, median (IQR)</cell><cell>6.00 (5.10-7.30)</cell><cell>4.03</cell><cell>0.32</cell></row><row><cell></cell><cell>AL, median (IQR)</cell><cell>40.90 (39.00-43.58)</cell><cell>1.21</cell><cell>0.292</cell></row><row><cell></cell><cell>HCT, median (IQR)</cell><cell>36.80 (31.30-39.60)</cell><cell>6.85</cell><cell>0.457</cell></row><row><cell></cell><cell>RBC, median (IQR)</cell><cell>4.34 (4.03-4.67)</cell><cell>4.03</cell><cell>0.333</cell></row><row><cell></cell><cell>Cr, median (IQR)</cell><cell>55.75 (49.30-63.00)</cell><cell>4.03</cell><cell>0.379</cell></row><row><cell></cell><cell>CK, median (IQR)</cell><cell>68.00 (51.00-99.75)</cell><cell>22.18</cell><cell>0.235</cell></row><row><cell></cell><cell>PC, median (IQR)</cell><cell>252.00 (213.00-293.00)</cell><cell>4.03</cell><cell>0.11</cell></row><row><cell></cell><cell>HB, median (IQR)</cell><cell>127.50 (118.00-138.00)</cell><cell>4.03</cell><cell>0.018</cell></row><row><cell></cell><cell>NEU%, median (IQR)</cell><cell>51.80 (39.90-59.70)</cell><cell>4.03</cell><cell>0.003</cell></row><row><cell></cell><cell>ANC, median (IQR)</cell><cell>3.30 (2.60-4.10)</cell><cell>4.03</cell><cell>0.03</cell></row><row><cell></cell><cell>CO 2 CP, median (IQR)</cell><cell>26.00 (24.00-27.00)</cell><cell>3.43</cell><cell>0.004</cell></row><row><cell></cell><cell>MONO%, median (IQR)</cell><cell>7.20 (5.40-8.60)</cell><cell>4.03</cell><cell>0.16</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">(Continued on following page)</cell></row><row><cell>Frontiers in Pharmacology</cell><cell></cell><cell></cell><cell></cell><cell>frontiersin.org</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 1 (</head><label>1</label><figDesc>Continued) Description of demographic and clinical characteristics.</figDesc><table><row><cell>Category</cell><cell>Variable</cell><cell>Median (IQR)| n (%)</cell><cell>Miss rate (%)</cell><cell>p</cell></row><row><cell></cell><cell>MON, median (IQR)</cell><cell>0.50 (0.40-0.58)</cell><cell>4.03</cell><cell>0.054</cell></row><row><cell></cell><cell>BASO%, median (IQR)</cell><cell>0.40 (0.30-0.60)</cell><cell>28.43</cell><cell>0.496</cell></row><row><cell></cell><cell>BASO, median (IQR)</cell><cell>0.00 (0.00-0.01)</cell><cell>28.43</cell><cell>0.899</cell></row><row><cell></cell><cell>ESO%, median (IQR)</cell><cell>2.10 (1.50-3.00)</cell><cell>28.43</cell><cell>0.085</cell></row><row><cell></cell><cell>AEC, median (IQR)</cell><cell>0.10 (0.10-0.20)</cell><cell>28.43</cell><cell>0.203</cell></row><row><cell></cell><cell>ALT/AST, median (IQR)</cell><cell>1.23 (0.92-1.55)</cell><cell>25.81</cell><cell>0.272</cell></row><row><cell></cell><cell>MCV, median (IQR)</cell><cell>88.20 (84.80-91.57)</cell><cell>6.85</cell><cell>0.446</cell></row><row><cell></cell><cell>MPV, median (IQR)</cell><cell>8.40 (7.70-9.20)</cell><cell>4.03</cell><cell>0.535</cell></row><row><cell></cell><cell>MCHC, median (IQR)</cell><cell>335.00 (326.00-343.00)</cell><cell>4.03</cell><cell>0.037</cell></row><row><cell></cell><cell>MCH, median (IQR)</cell><cell>29.70 (28.38-30.90)</cell><cell>4.03</cell><cell>0.137</cell></row><row><cell></cell><cell>TBA, median (IQR)</cell><cell>3.20 (1.90-4.90)</cell><cell>1.21</cell><cell>0.367</cell></row><row><cell></cell><cell>TBil, median (IQR)</cell><cell>8.40 (6.50-11.00)</cell><cell>1.21</cell><cell>0.012</cell></row><row><cell></cell><cell>Lym%, median (IQR)</cell><cell>31.25(22.48-39.50)</cell><cell>4.03</cell><cell>0.315</cell></row><row><cell></cell><cell>ALC, median (IQR)</cell><cell>2.00 (1.68-2.50)</cell><cell>4.03</cell><cell>0.23</cell></row><row><cell></cell><cell>GLOB, median (IQR)</cell><cell>24.80 (22.80-27.48)</cell><cell>1.21</cell><cell>0.991</cell></row><row><cell></cell><cell>A/G, median (IQR)</cell><cell>1.63 (1.47-1.83)</cell><cell>1.21</cell><cell>0.796</cell></row><row><cell></cell><cell>DB, median (IQR)</cell><cell>1.70 (1.30-2.30)</cell><cell>1.21</cell><cell>0.003</cell></row><row><cell></cell><cell>RDW CV, median (IQR)</cell><cell>13.30 (12.90-14.30)</cell><cell>28.43</cell><cell>0.01</cell></row><row><cell></cell><cell>RDW SD, median (IQR)</cell><cell>42.40 (40.70-44.60)</cell><cell>35.89</cell><cell>0.403</cell></row><row><cell></cell><cell>CHE, median (IQR)</cell><cell>7,124.00 (6,263.00-7,947.75)</cell><cell>1.21</cell><cell>0.121</cell></row><row><cell></cell><cell>ADD, median (IQR)</cell><cell>10.80 (8.78-12.90)</cell><cell>9.68</cell><cell>0.001</cell></row><row><cell></cell><cell>PDW, median (IQR)</cell><cell>16.40 (16.10-16.70)</cell><cell>28.43</cell><cell>0.878</cell></row><row><cell></cell><cell>PCT, median (IQR)</cell><cell>0.21 (0.18-0.25)</cell><cell>6.85</cell><cell>0.151</cell></row><row><cell></cell><cell>SIB, median (IQR)</cell><cell>6.75 (5.10-8.70)</cell><cell>1.21</cell><cell>0.023</cell></row></table><note><p>IQR, interquartile range; AFU, a-L-fucosidase; HBDH, αhydroxybutyrate dehydrogenase; GGT, γ-glutamyl transpeptidase; ALT, alanine aminotransferase; LDH, lactic dehydrogenase; AST, aspartate transaminase; UA, uric acid; TP, total protein; WBC, white blood cell count; RBC, red blood cell count; Cr, creatinine; CK, creatine kinase; AL, albumin; HCT, hematocrit; PC, platelet count; HB, hemoglobin; NEU%, neutrophil percentage; ANC, absolute neutrophil count; CO 2 CP, carbon dioxide combining power; MONO%, monocyte percentage; MON, monocyte absolute count; BASO%, basophil percentage; BASO, basophil absolute count; ESO%, percentage of eosinophils; AEC, absolute eosinophil count; MCV, mean corpuscular volume; MPV, mean platelet volume; MCHC, mean cell hemoglobin concentration; MCH, mean cell hemoglobin; TBA, total bile acid; TBil, total bilirubin; Lym%, lymphocyte percentage; ALC, absolute lymphocyte count; GLOB, globulin; A/G, albumin-globulin ratio; DB, direct bilirubin; RDW, red blood cell volume distribution width; CHE, cholinesterase; ADD, adenosine deaminase; PDW, platelet distribution width; PCT, plateletcrit; SIB, serum indirect bilirubin.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE 2</head><label>2</label><figDesc>Prediction results of the nine algorithms models in the testing cohort.</figDesc><table><row><cell>Model</cell><cell>R 2</cell><cell>RMSE</cell><cell>MAE</cell><cell>Accuracy within ±30 (%) range</cell></row><row><cell>XGBoost</cell><cell>0.63</cell><cell>20.06</cell><cell>15.35</cell><cell>60.00</cell></row><row><cell>LightGBM</cell><cell>0.55</cell><cell>22.02</cell><cell>16.33</cell><cell>58.00</cell></row><row><cell>CatBoost</cell><cell>0.59</cell><cell>20.95</cell><cell>16.34</cell><cell>56.00</cell></row><row><cell>RF</cell><cell>0.60</cell><cell>20.66</cell><cell>16.00</cell><cell>55.00</cell></row><row><cell>GBDT</cell><cell>0.33</cell><cell>26.78</cell><cell>19.55</cell><cell>54.00</cell></row><row><cell>SVM</cell><cell>0.61</cell><cell>20.58</cell><cell>15.20</cell><cell>54.00</cell></row><row><cell>LR</cell><cell>0.56</cell><cell>21.62</cell><cell>17.30</cell><cell>51.00</cell></row><row><cell>ANN</cell><cell>0.57</cell><cell>21.56</cell><cell>17.16</cell><cell>54.00</cell></row><row><cell>TabNet</cell><cell>0.61</cell><cell>20.47</cell><cell>16.16</cell><cell>54.00</cell></row><row><cell>Wide&amp;Deep</cell><cell>0.51</cell><cell>22.89</cell><cell>18.07</cell><cell>52.00</cell></row><row><cell>Net-DNF</cell><cell>0.56</cell><cell>21.75</cell><cell>17.46</cell><cell>53.00</cell></row><row><cell cols="5">RF, random forest; GBDT, gradient-boosted decision tree; SVM, support vector machine; LR, lasso regression; ANN, artificial neural network; MSE, mean square error; RMSE, root mean square</cell></row><row><cell>error; MAE, mean absolute error.</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>TABLE 3</head><label>3</label><figDesc>Importance scores of the variables in the XGBoost model.</figDesc><table><row><cell>Variable</cell><cell>Importance</cell></row><row><cell>Dose</cell><cell>0.629</cell></row><row><cell>AST</cell><cell>0.109</cell></row><row><cell>UA</cell><cell>0.1</cell></row><row><cell>Sex</cell><cell>0.082</cell></row><row><cell>ALT</cell><cell>0.08</cell></row></table><note><p>ALT, alanine aminotransferase; AST, aspartate transaminase; UA, uric acid. FIGURE 5</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>TABLE 4</head><label>4</label><figDesc>Prediction accuracy of the XGBoost model.</figDesc><table><row><cell>Blood concentration</cell><cell>Accuracy</cell><cell>Cases</cell></row><row><cell>&lt;10 ng/mL</cell><cell>0</cell><cell>4</cell></row><row><cell>10-150 ng/mL</cell><cell>62.5%</cell><cell>96</cell></row><row><cell>&gt;150 ng/mL</cell><cell>0</cell><cell>0</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Frontiers in Pharmacology frontiersin.org</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors acknowledge the support of the <rs type="institution">Department of Clinical Pharmacy</rs>, the <rs type="institution">First Hospital of Hebei Medical University, Shijiazhuang, China</rs>, and the <rs type="funder">Technology Innovation Center for Artificial Intelligence in Clinical Pharmacy of Hebei Province</rs>, the <rs type="institution">First Hospital of Hebei Medical University, Shijiazhuang, China</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability statement</head><p>The raw data supporting the conclusion of this article will be made available by the authors, without undue reservation.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics statement</head><p>The studies involving humans were approved by the Ethics Committee of the First Hospital of Hebei Medical University <ref type="bibr">(20220547)</ref>. The studies were conducted in accordance with the local legislation and institutional requirements. Written informed consent for participation in this study was provided by the participants' legal guardians/next of kin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>RF: conceptualization, data curation, project administration, and writing-original draft. XH: formal analysis and writing-review and editing. JY: data curation and writing-review and editing. DW: formal analysis and writing-review and editing. JZ: data curation, formal analysis and writing-review and editing. ZY: formal analysis and writing-review and editing. FG: conceptualization, supervision, and writing-review and editing. CZ: conceptualization, supervision and writing-review and editing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head><p>The authors declare that financial support was received for the research, authorship, and/or publication of this article. This work was supported by the Hebei Provincial Department of Science and Technology in China (grant number YZ202304) and the Medical Science Research Project of Hebei Health Commission (grant number 20221440).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>Authors JZ and FG were employed by Beijing Medicinovo Technology Co., Ltd. Author XH was employed by Dalian Medicinovo Technology Co., Ltd.</p><p>The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's note</head><p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors, and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Performance of a novel chaotic firefly algorithm with enhanced exploration for tackling global optimization problems: application for dropout regularization</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Alhadab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Brundage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bacanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stoean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zivkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Rashid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bezdan</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/math9212705</idno>
+		<idno>doi:10.3390/math9212705</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mathematics</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">2705</biblScope>
+			<date type="published" when="2020">2020. 2021</date>
+		</imprint>
+	</monogr>
+	<note>AAPS J.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Hybridized sine cosine algorithm with convolutional neural networks dropout regularization application</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bacanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zivkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Al-Turjman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkatachalam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Trojovský</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Strumberger</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-022-09744-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">6302</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Chaotic harris hawks optimization with quasi-reflection-based learning: an application to enhance CNN design</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Basha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bacanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vukobrat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zivkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkatachalam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hubálovsk`y</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/s21196654</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page">6654</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J C</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Mulsant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Flint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Meyers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Rothschild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Whyte</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">SSRI-antipsychotic combination in psychotic depression: sertraline pharmacokinetics in the presence of olanzapine, a brief report from the STOP-PD study</title>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1002/hup.2532</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Psychopharmacol. Clin. Exp</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="252" to="255" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Studying the effect of sertraline in reducing aggressive behavior in patients with major depression</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Farnam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mehrara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dadashzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chalabianlou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Safikhanlou</surname></persName>
+		</author>
+		<idno type="DOI">10.15171/apb.2017.033</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Pharm. Bull</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="275" to="279" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Effect of older vs younger age on anthropometric and metabolic variables during treatment of psychotic depression with sertraline plus olanzapine: the STOP-PD II study</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Flint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Rothschild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Whyte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Alexopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Mulsant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Marino</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jagp.2020.11.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Geriatr. Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="645" to="654" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Effect of proton pump inhibitors on the serum concentrations of the selective serotonin reuptake inhibitors citalopram, escitalopram, and sertraline</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gjestad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Westin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Skogvoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Spigset</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/FTD.0000000000000101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ther. Drug Monit</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="90" to="97" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A machine learning model to predict risperidone active moiety concentration based on initial therapeutic drug monitoring</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyt.2021.711868</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">711868</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A machine learning model for predicting blood concentration of quetiapine in patients with schizophrenia and depression based on real-world data</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gao</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/bcp.15734</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br. J. Clin. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2714" to="2725" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Consensus guidelines for therapeutic drug monitoring in neuropsychopharmacology: update</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hiemke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bergemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W C</forename><surname>Clement</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Conca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deckert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Domschke</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-0037-1600991</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacopsychiatry</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1-02</biblScope>
+			<biblScope unit="page" from="1" to="e62" />
+			<date type="published" when="2017">2018. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">An ensemble model for prediction of vancomycin trough concentrations in pediatric patients</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>He</surname></persName>
+		</author>
+		<idno type="DOI">10.2147/DDDT.S299037</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Drug Des. Devel Ther</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1549" to="1559" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kamijima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kuwahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kitayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tadori</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">double-blind comparison of aripiprazole/sertraline combination and placebo/sertraline combination in patients with major depressive disorder</title>
+		<author>
+			<persName><surname>Randomized</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/pcn.12663</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychiatry Clin. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="591" to="601" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Use of sertraline in hemodialysis patients</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kubanek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Przybylak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kanclerz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Rojek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Renke</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/medicina57090949</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med. Kaunas</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">949</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Application of machine learning classification to improve the performance of vancomycin therapeutic drug monitoring</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/pharmaceutics14051023</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmaceutics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">1023</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A systematic review and combined meta-analysis of concentration of oral amisulpride</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Shang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">G</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Ning</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/bcp.14246</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br. J. Clin. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="668" to="678" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Gene expression value prediction based on XGBoost algorithm</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Quan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fgene.2019.01077</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Genet</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1077</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Construction and interpretation of prediction model of teicoplanin trough concentration via machine learning</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cen</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmed.2022.808969</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Med. (Lausanne)</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">808969</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">An animal&apos;s sex influences the effects of the excipient PEG 400 on the intestinal P-gp protein and mRNA levels, which has implications for oral drug absorption</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Murdan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Basit</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ejps.2018.04.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Pharm. Sci</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="53" to="60" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Depression</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Malhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Mann</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0140-6736(18)31948-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">392</biblScope>
+			<biblScope unit="page" from="2299" to="2312" />
+			<date type="published" when="2018">2018. 10161</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A machine learning model that emulates experts&apos; decision making in vancomycin initial dose planning</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsuzaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mizoguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yamada</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jphs.2022.02.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Pharmacol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">148</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="358" to="363" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Treatment of postnatal depression with cognitive behavioural therapy, sertraline and combination therapy: a randomised controlled trial</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Milgrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Gemmill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ericksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Burrows</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Buist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Reece</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0004867414565474</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aust. N. Z. J. Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="236" to="245" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The effect for hyperuricemia inpatient of uric acid overproduction type or in combination with topiroxostat on the pharmacokinetics, pharmacodynamics and safety of dotinurad, a selective urate reabsorption inhibitor</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Okui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fushimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ohashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Preskorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Neff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Golbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Choi</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/00131746-200701000-00002</idno>
+		<idno>doi:10. 1097/00131746-200701000-00002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Psychiatr. Pract</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5" to="12" />
+			<date type="published" when="2007">2020. 2007</date>
+		</imprint>
+	</monogr>
+	<note>Clin. Exp. Nephrol.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Global prevalence of depression and elevated depressive symptoms among adolescents: a systematic review and metaanalysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shorey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wong</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/bjc.12333</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br. J. Clin. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="287" to="305" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Depression in young people</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thapar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Eyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brent</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0140-6736(22)01012-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">400</biblScope>
+			<biblScope unit="page" from="617" to="631" />
+			<date type="published" when="2022">2022. 10352</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Therapeutic drug monitoring of sertraline in children and adolescents: a naturalistic study with insights into the clinical response and treatment of obsessive-compulsive disorder</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Smigielski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Romanos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wewetzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karwautz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Reitzle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.comppsych.2022.152301</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Compr. Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page">152301</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">How to tune the RBF SVM hyperparameters? An empirical evaluation of 18 search algorithms</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wainer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fonseca</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10462-021-10011-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Artif. Intell. Rev</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="4771" to="4797" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">XGBoost algorithm and logistic regression to predict the postoperative 5-year outcome in patients with glioma</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<idno type="DOI">10.21037/atm-22-3384</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Transl. Med</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page">860</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Predicting blood concentration of tacrolimus in patients with autoimmune diseases using machine learning techniques based on real-world evidence</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hao</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphar.2021.727245</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">727245</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Pharmacokinetics of the investigational aurora A kinase inhibitor alisertib in adult patients with advanced solid tumors or relapsed/refractory lymphoma with varying degrees of hepatic dysfunction</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lockhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nemunaitis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sarantopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muehler</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcph.1416</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1204" to="1215" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Hybrid CNN and XGBoost model tuned by modified arithmetic optimization algorithm for COVID-19 early diagnostics from X-ray images</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zivkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bacanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Antonijevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nikolic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kvascev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marjanovic</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/electronics11223798</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electronics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page">3798</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">COVID-19 cases prediction by using hybrid machine learning and beetle antennae search approach</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zivkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bacanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkatachalam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nayyar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Djordjevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Strumberger</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scs.2020.102669</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sustain. Cities Soc</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page">102669</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

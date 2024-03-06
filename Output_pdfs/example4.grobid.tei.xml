@@ -1,0 +1,1499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Reducing Urban Traffic Congestion via Charging Price</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MDPI AG</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-01-21">21 January 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Pablo</forename><surname>González-Aliste</surname></persName>
+							<idno type="ORCID">0000-0001-5097-9200</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Architecture, Design and Digital Arts</orgName>
+								<orgName type="institution">University of Gabriela Mistral</orgName>
+								<address>
+									<postCode>8320000</postCode>
+									<settlement>Santiago</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Iván</forename><surname>Derpich</surname></persName>
+							<email>ivan.derpich@usach.cl</email>
+							<idno type="ORCID">0000-0001-9759-7285</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Industrial Engineering Department</orgName>
+								<orgName type="institution">University of Santiago of Chile</orgName>
+								<address>
+									<postCode>9170124</postCode>
+									<settlement>Estación Central Santiago</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mario</forename><surname>López</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Industrial Engineering Department</orgName>
+								<orgName type="institution">University of Santiago of Chile</orgName>
+								<address>
+									<postCode>9170124</postCode>
+									<settlement>Estación Central Santiago</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Reducing Urban Traffic Congestion via Charging Price</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Sustainability</title>
+						<title level="j" type="abbrev">Sustainability</title>
+						<idno type="eISSN">2071-1050</idno>
+						<imprint>
+							<publisher>MDPI AG</publisher>
+							<biblScope unit="volume">15</biblScope>
+							<biblScope unit="issue">3</biblScope>
+							<biblScope unit="page">2086</biblScope>
+							<date type="published" when="2023-01-21">21 January 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7C071BC4174D2D93D76A7F3B8864200F</idno>
+					<idno type="DOI">10.3390/su15032086</idno>
+					<note type="submission">Received: 16 October 2022 Revised: 11 January 2023 Accepted: 11 January 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1-SNAPSHOT" ident="GROBID" when="2024-03-06T21:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>González-Aliste, P.</term>
+					<term>Derpich, I.</term>
+					<term>López, M. Reducing Urban Traffic Congestion via urban traffic congestion</term>
+					<term>congestion charge</term>
+					<term>multivariable model</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Traffic jams are one of the major transportation problems. The United States spends USD billions to mitigate the problem, and not always with good outcomes. This problem increases and has effects on sustainable transport, such as life quality, pollution, perishables, and costs. Large cities reduce traffic jams through congestion charges. This paper aims to reduce urban traffic congestion by estimating the charge through a multivariable model. It studies the main jammed areas in Santiago, Chile. The data came from published surveys. The model evaluation included Fisher multiple regression (F) and the determination coefficient (R 2 ). These validations showed that the model is statistically significant. They also showed that the parameter estimation was good. Finally, this model contributes to improving the Sustainable Development Goals, such as SDG 3, SDG 11, and SDG 13, which may be successfully applied to Santiago City, as well as to any city worldwide.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>At the present time, one of the major worldwide problems is traffic jams. There are approximately 100 million vehicles on the globe's roads today. That number is going to increase by more than 2 billion vehicles by 2050. People will see greater congestion than ever before <ref type="bibr" target="#b0">[1]</ref>. More than 50% of the worldwide population lives in urban zones <ref type="bibr" target="#b1">[2]</ref>. Two-thirds of people will live in cities by 2030 <ref type="bibr">[3]</ref>. These urbanization tendencies generate challenges in regard to infrastructure. Megacities faced with this foreseen influx require urgent transport planning <ref type="bibr" target="#b2">[4]</ref>. Traffic congestion's overall cost in Germany, the US, and the UK in 2021 was about USD 510 billion per driver <ref type="bibr" target="#b3">[5]</ref>.</p><p>Easing measures include highways and downtown streets being changed into parking lots and zones declared for carpooling only. Although these measures worked for years, people do not use them as much as expected <ref type="bibr" target="#b4">[6]</ref>. Recent research shows that building new freeways or roads does not solve the issue <ref type="bibr" target="#b5">[7]</ref>. For example, In the USA, San Francisco highways have grown by 80% since 2010 <ref type="bibr" target="#b6">[8]</ref>. The Los Angeles region has been number one for six years consecutively in regard to having the worst traffic jams worldwide <ref type="bibr" target="#b7">[9]</ref>. Economic growth, population rise, and urbanization increase are the root causes of traffic jams in most cities around the world <ref type="bibr" target="#b3">[5]</ref>.</p><p>Both emerging and developed countries have cities with high traffic congestion. On average, emerging countries have more traffic jams than developed countries do. This could be the result of the better public transport systems in developed countries, or perhaps because urbanization is greater and continuous in emerging countries <ref type="bibr" target="#b3">[5]</ref>. As emerging countries are growing fast, there are major impacts in peoples' lives. For example, Beijing drivers spend about 5 h commuting. It is a high waste of time and resources and leads to a lower quality of life. Santiago, Chile, is not an exception, as it ranks number 26 of the worst cities in managing congestion around the world. The congestion level is 39% of extra travel time, which means a delay of around 49 min per day <ref type="bibr" target="#b8">[10]</ref>. Developed cities, as later reviewed in the literature section, such as London and Stockholm, obtained a 20% traffic-jam reduction by applying congestion charges <ref type="bibr" target="#b9">[11]</ref>. Transportation planning has three decision-making levels: strategic, tactical, and operational decisions <ref type="bibr" target="#b10">[12]</ref>. Strategic decisions are long-term decisions concerned with transportation infrastructures, roads network, and public transit, e.g., building new streets, designing new bus routes, and widening existing routes. Tactical decisions relate to resources' effective application upon transportation's existing infrastructure, for example, distributing exclusive road space for public buses or deciding transit direction. Operational decisions are short-term decisions, e.g., demand management, public transport schedules, traffic signal timing, traffic control. This paper focuses on a combination of strategic and operational decisions. The charging price calculation uses a multivariable model. It requires the installation of toll infrastructure. Price refers to strategic decision. Time and traffic control concern operational decisions.</p><p>The literature search we conducted showed a lack of math models to figure out congestion charges. Therefore, this research aimed to reduce urban traffic congestion through a multivariable model, which allowed us to find a charging price applicable to any city worldwide. The model feeding was through surveys to residents who live in different sectors of Santiago, Chile. This paper also illustrates the main aspects of multivariablemodel development.</p><p>The paper begins with a review of the literature that is focused on global charging price experiences. Second, the methodology section illustrates the steps to develop the multivariable model. The paper then reviews the mathematical model and hypothesis testing results. Finally, the research concludes with the model feasibility analysis. This research's purpose was to find a multivariable model to reduce urban traffic congestion, which may help governments make traffic-jam decisions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Literature Review</head><p>Governments have encouraged more sustainable transport options and discouraged unsustainable choices by adopting regulations and developing sustainable transport strategies to contribute with the achievement of the Sustainable Development Goals, such as SDG 3 (good health and well-being), preventing citizens from becoming stressed in traffic jams; SDG 11 (sustainable cities and communities), reducing the number of accidents and time wasted in commuting; and SDG 13 (climate action), generating a decrease in greenhouse gas emissions, as approved in 2015 by the UN, by 2030 <ref type="bibr">[13]</ref>. Hysing et al. compared congestion-charge-implementation experiences in the Swedish cities Gothenburg and Stockholm, explaining differences in public and political acceptance. The outcomes reveal the importance of marketing and communication goals' consistency. The results also show the relevance of contextual circumstances, including the level of congestion and the public transport function <ref type="bibr" target="#b12">[14]</ref>. Dieplinger analyzed five European cities through empirical research and concluded that, in general, the congestion-charge acceptance is low. They found that, to increase citizens' acceptability, good communication is a measure that has an impact on people's welfare <ref type="bibr" target="#b13">[15]</ref>. Glavic et al. aimed to financially and sustainably reduce traffic congestion. They decided the toll charge based on the driver's willingness to pay. User analyses of willingness to pay included day of week, trip purpose, vehicle origin, frequency of road usage, and users' monthly income. For example, a high percentage of users would not pay road tolls on weekends, and drivers who travel very often are by far less willing to pay higher toll prices <ref type="bibr" target="#b14">[16]</ref>.</p><p>Pronello and Rappazzo analyzed people's reactions to the supposed introduction of toll charges in the City of Lyon, France. The study concluded that citizens are willing to accept road tolls and that the policy must include compensations, such as improvements to alternative mobility modes and transparently informing how authorities invest revenues <ref type="bibr" target="#b15">[17]</ref>. Lindsey looked at congestion-charge investments in technology and long-term demands that may alter the traffic congestion evolution <ref type="bibr" target="#b16">[18]</ref>. The US Census Bureau studied a new tolling approach wherein users' toll charges depend on paths, destinations, or origins. These approaches give more flexibility than conventional pricing and have shown that they may decrease traffic congestion, decrease the financial burden on drivers, and save time on the trip <ref type="bibr" target="#b17">[19]</ref>. Sandholm supports this, highlighting that decentralized and simple price schemes guarantee productive traffic performance <ref type="bibr" target="#b18">[20]</ref>. Francke and Kaniok argued that the congestion charges are a useful tool, but it would be more efficient if prices were differentiated. The outcomes illustrate that complications arise when estimating the charges for toll pricing schemes differentiated according to both time and place <ref type="bibr" target="#b19">[21]</ref>.</p><p>Iseki and Demisch found that there are two factors that define the most adopted type of tolling technologies: first, the geographical zone of the road network, and second, the high complexity in estimating the charging toll price. The unification of these two factors may vary considerably with dynamic charges that vary by time of day, vehicle class, and congestion level. These authors conclude that the implementation of the congestion charge must be economically and politically integrated <ref type="bibr" target="#b20">[22]</ref>. Agyapong and Kolawole tried to evaluate the administration of traffic congestion in Accra, Ghana's capital. The research showed traffic congestion's major causes were poor road designs; traffic accidents; narrow roads; and traders, drivers, and pedestrians' negative attitudes. In addition, traffic jams' effects include productivity and sales declining, increased stress, pollution, and much time-consuming to get to destination <ref type="bibr" target="#b21">[23]</ref>. Brent and Gross saw two major factors when deciding the demand for roads with tolls' dynamic prices. One is the importance of treating high-occupancy toll roads with dynamic charges, and the other is continuous monitoring <ref type="bibr" target="#b22">[24]</ref>.</p><p>Gibson and Carnovale researched drivers' behavioral responses and the effects of air pollution due to the implementation of road pricing through a natural experiment in the City of Milan (Italy). They found that congestion charges depend on the availability of public transportation and suggested that public transportation may substitute congestion charges <ref type="bibr" target="#b23">[25]</ref>. Cavallaro et al. examined nine UK cities and eleven international cities in the US and Europe. They concluded that a congestion charging policy reduces carbon by more than 10% <ref type="bibr">[26]</ref>. Coria and Zhang argued that, despite the fact that congestion charges reduce traffic jams and air pollution, air quality also depends on the dispersion of pollution <ref type="bibr" target="#b25">[27]</ref>. Agarwal and Koo analyzed, in Singapore, the toll-rate-adjustment effect on passengers changing to public transport. When morning congestion tax incremented USD 1, commuters switched to public transportation between 12% and 20%; however, when the evening congestion tax incremented from USD 0.50 to USD 1.00, the switch to public transport was by 10% <ref type="bibr">[28]</ref>. Buyukeren and Hiramatsu studied how urban growth and congestion tolls should be developed, particularly in cities with public transport and private cars traveling from the suburbs into downtown. At best, decreasing traffic congestion may cause an increase in urbanism, depending on the level of substitutability between public and car transit <ref type="bibr" target="#b27">[29]</ref>.</p><p>Percoco analyzed the experiences of different cities worldwide and found that Milan's congestion charge measures resulted in reductions not only in congestion but also in pollution. Percoco also concluded that housing prices decline in the congestion charge zones <ref type="bibr">[30]</ref>. Duque-Escoba described how Colombia implemented the toll system twentyfive years ago, mainly to finance highway projects. There are now considerably lower traffic jams. However, users claim an oversaturated system and an ineffective income management. The toll price in Colombia has low dispersion depending on the vehicle type <ref type="bibr">[31]</ref>. Anas and Timilsina examined the welfare impacts of the tolls system on fuel tax, excess delays, and improving fuel economy to reduce traffic congestion and atmospheric emissions in Sao Paulo, Brazil.</p><p>Pricing instruments such as fuel tax and tolls on excess delays would certainly decrease emissions and congestion; however, they increase the cost of travel and, therefore, are politically difficult to execute. However, they found that applying just small tolls is socially more acceptable and has great benefits in decreasing emissions and congestion. The toll estimated for Sao Paulo is approximately BRL 10 per trip, which is socially possible. Nonetheless, the cost of a trip increases by 6.5 times. This induces drivers to consider public transport or other non-motorized modes. Emissions are reduced dramatically due to decreases in fuel use. An example is a reduction of 0.13%, on average, for every 1% increase in the monetary cost per km (see Figure <ref type="figure" target="#fig_1">1</ref>). The tolls' revenues focus on improving transit control rather than building roads. <ref type="bibr" target="#b30">[32]</ref>.</p><p>Sustainability 2023, 15, x FOR PEER REVIEW 4 of 21 public transport or other non-motorized modes. Emissions are reduced dramatically due to decreases in fuel use. An example is a reduction of 0.13%, on average, for every 1% increase in the monetary cost per km (see Figure <ref type="figure" target="#fig_1">1</ref>). The tolls' revenues focus on improving transit control rather than building roads. <ref type="bibr" target="#b30">[32]</ref>.  <ref type="formula">2008</ref>). (Implementation road pricing years in parentheses). The congestion charge policy has also decreased other negative externalities produced by traffic congestion. For example, CO2 emissions decreased by 14% in the three cities. Traffic congestion reduction was 20%. Accident reduction was 15% on average. In the three cities, at the beginning of the congestion charge's implementation, citizens disagreed with the measures. However, over time, most citizens favor them. In addition, in all cases, there were improvements in public transportation due to charge revenue <ref type="bibr" target="#b31">[33]</ref>.</p><p>Santiago has two tolled highways. One is a city ring road, and the other unites the city's east and west. Both have rates at peak and off-peak hours, about USD 2 and USD 1, respectively. These rates discourage motorists from using tolled highways. So, city center streets get very busy as they take north-south and east-west and vice versa traffic. The pricing to be proposed needs to regulate these two things: one is the flow from tolled highways to the city streets, and the other is the vehicles circulating inside the ring road. This study's novelty is its proposal of a pricing system based on survey information and a linear regression model. Segmenting the model is through motorists entering the payment zone. The price motorists are willing to pay differs according to their areas of origin, with the highest being the eastern area, which has the highest economic income. The lowest price was from the southern area, which has the lowest economic income. Another contribution of this work is the calculation of the emission of greenhouse gases that will be saved both within and outside the restriction zone, as well as the calculation of the savings in noise pollution.</p><p>An increasing number of countries in the world, particularly in Europe, are using the congestion pricing approach to solve congestion and pollution. However, there are few cities that apply it directly.</p><p>Table <ref type="table" target="#tab_0">1</ref> shows the result of the Web of Science search using "congestion pricing" as a keyword and restricted to transport and the year 2022. The search gave 69 results. Some papers evaluate pricing systems, while other papers evaluate mixed options, such as vehicles' restriction days for air pollution or for degree of pollution thrown by the vehicle. Ten papers were selected for their closeness to the theme. In Europe, London, Stockholm, and Milan only apply the pricing approach, and outside Europe, so do Singapore and Tehran. Only one of the studied cases uses a linear regression model. It classifies Europe cities regarding low emission zones. It also determines if this measure is efficient with  <ref type="formula">2008</ref>). (Implementation road pricing years in parentheses). The congestion charge policy has also decreased other negative externalities produced by traffic congestion. For example, CO 2 emissions decreased by 14% in the three cities. Traffic congestion reduction was 20%. Accident reduction was 15% on average. In the three cities, at the beginning of the congestion charge's implementation, citizens disagreed with the measures. However, over time, most citizens favor them. In addition, in all cases, there were improvements in public transportation due to charge revenue <ref type="bibr" target="#b31">[33]</ref>.</p><p>Santiago has two tolled highways. One is a city ring road, and the other unites the city's east and west. Both have rates at peak and off-peak hours, about USD 2 and USD 1, respectively. These rates discourage motorists from using tolled highways. So, city center streets get very busy as they take north-south and east-west and vice versa traffic. The pricing to be proposed needs to regulate these two things: one is the flow from tolled highways to the city streets, and the other is the vehicles circulating inside the ring road. This study's novelty is its proposal of a pricing system based on survey information and a linear regression model. Segmenting the model is through motorists entering the payment zone. The price motorists are willing to pay differs according to their areas of origin, with the highest being the eastern area, which has the highest economic income. The lowest price was from the southern area, which has the lowest economic income. Another contribution of this work is the calculation of the emission of greenhouse gases that will be saved both within and outside the restriction zone, as well as the calculation of the savings in noise pollution.</p><p>An increasing number of countries in the world, particularly in Europe, are using the congestion pricing approach to solve congestion and pollution. However, there are few cities that apply it directly.</p><p>Table <ref type="table" target="#tab_0">1</ref> shows the result of the Web of Science search using "congestion pricing" as a keyword and restricted to transport and the year 2022. The search gave 69 results. Some papers evaluate pricing systems, while other papers evaluate mixed options, such as vehicles' restriction days for air pollution or for degree of pollution thrown by the vehicle. Ten papers were selected for their closeness to the theme. In Europe, London, Stockholm, and Milan only apply the pricing approach, and outside Europe, so do Singapore and Tehran. Only one of the studied cases uses a linear regression model. It classifies Europe cities regarding low emission zones. It also determines if this measure is efficient with respect to pollution. No other study uses multiple linear regression or segmentation by city zones. Only two papers report on surveys; however, their surveys are different from the one used in this paper. Zurich, Switzerland, <ref type="bibr" target="#b34">[36]</ref> Simulation-based optimization model</p><p>The work evaluates where and how much to charge, under the uncertainties of origin-to-destination traffic demand, and through a set of probability distributions.</p><p>Anaheim network <ref type="bibr" target="#b35">[37]</ref> Mixed logistic models applied to 558 electric vehicles Analyses of user preferences related to electric vehicle (EV) charging decisions. The design declared two experiments.</p><p>The first analyzed long-term decisions related to regular loading practices. The second captures decisions related to occasional cargo needs on longer trips. Denmark, Finland, Iceland, Norway, and Sweden, <ref type="bibr" target="#b36">[38]</ref> Mixed logistic and supply model for static congestion.</p><p>The work proposes a revolving credit scheme as an alternative to congestion charges. It studies the impact of sales behavior on the performance of the credit system. It models travel demand by using a mixed logistic and supply model on static congestion.</p><p>Denmark, France, USA <ref type="bibr" target="#b37">[39]</ref> Transport Cost Modes Model</p><p>It calculates the impact of congestion on operational and social costs. A meeting of experts used the literature's relevant concepts to develop a proprietary instrument for the calculation of congestion costs that was applied and validated in a specific congestion situation. Results tested the effect of congestion mitigation measures (e.g., road pricing).</p><p>Flanders, Belgium <ref type="bibr" target="#b38">[40]</ref> Equitable costing model This document identifies and evaluates ways to make congestion pricing equitable. The authors review the equity notion applicable to congestion pricing.</p><p>It explores equity issues that arise in restricted areas, charging systems, and high-occupancy toll lanes.</p><p>Los Angeles, USA <ref type="bibr" target="#b39">[41]</ref> NQRP economic evaluation models</p><p>This paper reviews the literature to demonstrate the potential of no-queue road pricing (NQRP). It aims at establishing tolls that respond to traffic conditions in real time and addresses three challenges, namely congestion management, projects investment prioritization, and sustainable road financing. It examines the limitations of NQRP and the reasons why it does not have implementations in Europe.</p><p>European countries <ref type="bibr" target="#b40">[42]</ref> Linear regression    per capita on average. Meanwhile, the TCO 2 in Singapore and Tehran is 9.07 per capita, which is 92% higher than European countries. These figures may indicate an energy matrix based on fossil fuels. The value kg CO 2 /USD 1000 for European countries, on average, is 0.103, and for Singapore, the value is 0.10. This indicates greater efficiency regarding energy use and an energetic matrix with an important part of fuels from renewable sources. Tehran shows a high value for this index, which corresponds to high emission of greenhouse gases to produce goods. Table <ref type="table" target="#tab_0">1</ref> shows five charging systems applying congestion pricing. The following five subsections describe how these charging systems were implemented.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">London</head><p>Buntz did not consider cars; it is one of the main smart cities worldwide in regard to managing traffic jams. London has invested a large amount of money in intelligent traffic technology. For example, some years ago, the city announced investing more than GBP 4 billion in roads and bus networks over the following decade <ref type="bibr" target="#b57">[62]</ref>. Measures included traffic lights and technological control to speed up the public transport progression.</p><p>Ken Livingstone, in 2003, was the first mayor who introduced a charge to reduce congestion in London. This measure rapidly improved bus services and goods' distribution and made shorter travel times for car drivers. This key measure reduced traffic by 20% in 2006, which implied 30% less extra trip time. In the restricted zone, the traffic volume is now lowering to almost 25% less than ten years ago, enabling Central London roads to focus on pedestrians and cyclists. The charge area is 21 square kilometers in London. The system is remarkably simple: when vehicles enter the area on weekdays between 7 a.m. and 6 p.m., they pay a daily rate. In 2003, the charge was GBP 5, and since 2018, it has been GBP 11.50. Residents have a discount of 90%. It is free for disabled registered individuals, as it is for emergency services, minicabs, taxis, and motorcycles (see Figure <ref type="figure" target="#fig_4">2</ref>) <ref type="bibr" target="#b9">[11]</ref>. Table 2 also shows that the European countries' TCO2 per capita index has similar values: 4.74 TCO2 per capita on average. Meanwhile, the TCO2 in Singapore and Tehran is 9.07 per capita, which is 92% higher than European countries. These figures may indicate an energy matrix based on fossil fuels. The value kg CO2/USD 1000 for European countries, on average, is 0.103, and for Singapore, the value is 0.10. This indicates greater efficiency regarding energy use and an energetic matrix with an important part of fuels from renewable sources. Tehran shows a high value for this index, which corresponds to high emission of greenhouse gases to produce goods. Table <ref type="table" target="#tab_0">1</ref> shows five charging systems applying congestion pricing. The following five subsections describe how these charging systems were implemented.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">London</head><p>Buntz did not consider cars; it is one of the main smart cities worldwide in regard to managing traffic jams. London has invested a large amount of money in intelligent traffic technology. For example, some years ago, the city announced investing more than GBP 4 billion in roads and bus networks over the following decade <ref type="bibr" target="#b57">[62]</ref>. Measures included traffic lights and technological control to speed up the public transport progression.</p><p>Ken Livingstone, in 2003, was the first mayor who introduced a charge to reduce congestion in London. This measure rapidly improved bus services and goods' distribution and made shorter travel times for car drivers. This key measure reduced traffic by 20% in 2006, which implied 30% less extra trip time. In the restricted zone, the traffic volume is now lowering to almost 25% less than ten years ago, enabling Central London roads to focus on pedestrians and cyclists. The charge area is 21 square kilometers in London. The system is remarkably simple: when vehicles enter the area on weekdays between 7 am and 6 pm, they pay a daily rate. In 2003, the charge was GBP 5, and since 2018, it has been GBP 11.50. Residents have a discount of 90%. It is free for disabled registered individuals, as it is for emergency services, minicabs, taxis, and motorcycles (see Figure <ref type="figure" target="#fig_4">2</ref>) <ref type="bibr" target="#b9">[11]</ref>. However, while the number of private vehicles is decreasing, the number of for-hire private vehicles is increasing, e.g., Ubers and minicabs. In 2015, this number rose by roughly 10% due to people leaving their cars at home. Minicabs and taxis do not have to pay the congestion charge. A consequence of this is that their numbers rose from 50,000 in 2013 to about 90,000 in 2017. Therefore, these increasing numbers had a negative effect on the income from the congestion price <ref type="bibr">[63]</ref>. This also decreased the traffic-flow speed across the city, affecting the public bus system. Likewise, passengers who initially used the service reverted to using private cars. Despite these setbacks, London's congestion charge is a successful strategy. It supplies efficient and sustainable options for drivers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Stockholm</head><p>Stockholm had a great deal of road congestion in the past. In 2006, the authorities, apart from investing in roads or improving public transport, started to charge vehicles EUR 2 as a trial in the city center. This was a low fee, compared with car running cost and parking charges. However, this small charge reduced traffic jams by 20%. Eliasson stated that reducing 20% of traffic jams does not mean that there is 80% congestion, because traffic "congestion is a nonlinear phenomenon". Once the road capacity reaches a certain limit, the traffic begins to rise quickly. Fortunately, it also functions the other way. If congestion decreases, then traffic will reduce much faster than expected. Intriguingly, the city abolished the congestion charge in 2007. The immediate effect was that vehicles returned to the center and congestion increased <ref type="bibr" target="#b58">[64]</ref>.</p><p>Hysing et al. conducted surveys regarding the population's support for congestion charges. At the beginning, 70% disagreed. When the congestion charge disappeared, 70% of the surveys wanted the congestion charge back. Therefore, Stockholm returned the measure of congestion charges, and the traffic jams went down again by 20% <ref type="bibr" target="#b12">[14]</ref>. Currently, Stockholm's charge zone covers 35 km 2 . Prices differ depending on the time-period of the day. The highest daily charge is about GBP 9.20 <ref type="bibr" target="#b58">[64]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Milan</head><p>The ECOPASS is a Municipality of Milan initiative, which began operating in 2008. It is a system that charges for cars' circulation in the Milan area. The pricing system's aims are to face the increase in air pollution and decongest the city streets. Milan's created system consists of charging cars according to their emissions of fine particles (PM10). In regard to polluting particles' emission, vehicles fall into five categories. Those lower polluters, the first two categories, do not have to pay to enter the ECOPASS zone. The remainder of vehicles pay between EUR 2 and 10 to transit through the area. Motorcycles and other exceptional cases can travel for free, e.g., cars for the disabled, emergency vehicles, and public transport. The system operates with tolls and cameras that work during the hours with most traffic. The Milan ECOPASS was chosen as one of the "25 best urban practices" at the Urban World Forum, Rio de Janeiro, 2010 <ref type="bibr" target="#b59">[65]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Teheran</head><p>Tehran, the capital of Iran, is one of the world's 24 megacities. It has approximately 8 million inhabitants. Iran is OPEC's second-largest oil producer and has the second-largest reserves of natural gas. Tehran experienced two rebellions in the last 40 years; both involved economic, political, religious, and socioeconomic transformations <ref type="bibr" target="#b60">[66]</ref>.</p><p>Growing car ownership has caused increased travel times and environmental pollution. In recent years, authorities have introduced various policies for travel-demand management. Among Tehran's implemented plans was the definition of odd and even areas as an extension of the traffic congestion zone. Under this plan, Tehran's citizens pay pre-approved amounts. The restriction base is the vehicle license plate's rightmost digit. Thus, cars with even license plates may circulate on Saturdays, Mondays, and Wednesdays, and cars with odd license plates do it on Sundays, Tuesdays, and Thursdays <ref type="bibr" target="#b56">[61]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Singapore</head><p>Singapore is one of the world's major cities that has effectively implemented the road charging system to restrict cars' entry into the city. The Singapore government has remarked areas as a "Restricted Zone (RZ)" and collected fees since 1975 <ref type="bibr" target="#b61">[67]</ref>. Prices are above the best rate, as the first 45% reduction in rush hour traffic in the RZ far exceeded the original target of a 25% to 30% reduction, leading to underused roads <ref type="bibr" target="#b62">[68]</ref>.</p><p>Since 2014, Singapore, a worldwide leader in the transport network, has implemented cameras and sensors in high numbers across the city. The aim was to track traffic. It applied congestion charges and invested significantly in smart parking, coordinated traffic lights, and road sensors. The system is efficient in terms of enhancing vehicles' average speed on the principal roads <ref type="bibr" target="#b57">[62]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Methodology of Analysis and Diagnostic</head><p>The methodology is a cross-section data collection process and a nonexperimental survey with random results. The methodology has six steps: to identify sources and collect data; to analyze and diagnose the London charging zone, which is similar to Santiago in density and number of inhabitants; to design a multivariable model to determine the regression and correlation significance; to run the model to obtain results; and, finally, to discuss the results and make conclusions. Figure <ref type="figure" target="#fig_5">3</ref> shows the step-by-step solution block diagram.</p><p>Singapore is one of the world's major cities that has effectively im charging system to restrict cars' entry into the city. The Singapore marked areas as a "Restricted Zone (RZ)" and collected fees since 1 above the best rate, as the first 45% reduction in rush hour traffic in the original target of a 25% to 30% reduction, leading to underused ro Since 2014, Singapore, a worldwide leader in the transport n mented cameras and sensors in high numbers across the city. The aim It applied congestion charges and invested significantly in smart p traffic lights, and road sensors. The system is efficient in terms of enh erage speed on the principal roads <ref type="bibr" target="#b57">[62]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Methodology of Analysis and Diagnostic</head><p>The methodology is a cross-section data collection process and survey with random results. The methodology has six steps: to identify data; to analyze and diagnose the London charging zone, which is si density and number of inhabitants; to design a multivariable model gression and correlation significance; to run the model to obtain res discuss the results and make conclusions. Figure <ref type="figure" target="#fig_5">3</ref> shows the step-by diagram. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Design of the Survey and Sample Design</head><p>The availability of the correct and appropriate data is required </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Design of the Survey and Sample Design</head><p>The availability of the correct and appropriate data is required to have quantitative analysis success. Cross-section data use one or more variables at the same point in time, such as surveys. The survey was used as a means of data collection, as we conducted a survey of a certain number of people from different sectors of Santiago. The questions are the following: (1) What price are you willing to pay to get into the center of Santiago between CLP 200 and 1000? (2) Where do you live? (3) Would you prefer not to pay and use public transport? With these data, we had the source to develop the multivariable model.</p><p>The estimated population variable is the "price to pay", assuming that this variable follows a normal distribution, mean and unknown variance. Student's t-test distribution was used for its estimation according to the following Formula (1) <ref type="bibr" target="#b63">[69]</ref>:</p><formula xml:id="formula_0">n = σ 2 t 2 1-α,n-2 ε 2 (1)</formula><p>where the variable is n, pre-sample, and the parameters are σ 2 , variance; t 2 , T-distributions; ε, maximum estimation error; m, sample; and α, level of significance, error associated with the making decision.</p><p>The sample is used to calculate the sample variance, and this is then used as the population variance in Formula (1).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Data Analysis</head><p>The data collection is non-experimental, because, in social sciences, data are not directly under the researcher's control <ref type="bibr" target="#b64">[70]</ref>. Thus, the data came from a non-influenced or conditioned opinion sample. In questionnaire-type surveys, the issue of nonresponse may be serious; the examination based on such a limited response may not truly reflect the expected response. In this case, data collection reached 635 observations, and this is rather low for the universe; however, as the research is nonexperimental, the multivariable model runs with this number of observations. The model assessment is through the F and R 2 tests to see their significance. The people surveyed were vehicle users who entered Santiago Center. Out of total 635 responses, 135 (21%) responded that they prefer to leave the car, not pay tolls, and use public transport. This percentage coincides with previous research in different countries about the effect of applying a toll in a city. The number of observations = 500 (635-135). (Table <ref type="table" target="#tab_6">3</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Traffic Charging Zone</head><p>Having researched the traffic charging zone (Figure <ref type="figure" target="#fig_4">2</ref>) in the center of London to decrease traffic congestion, we have real evidence of the feasibility of this measure; however, we cannot apply the same charging price of London, even proportionally to that city's per capita income, because the income distributions between Chile and Great Britain that are quite different <ref type="bibr">[71]</ref>. Thus, this is another reason to design a model to determine the charging price. Now we are going to limit the chosen area to where it generates the highest congestion in Santiago <ref type="bibr" target="#b65">[72]</ref>. The area of this city is a triangle (Figure <ref type="figure" target="#fig_7">4</ref>); this area will be fenced with tolls. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Multivariable Model</head><p>This section designs the multivariable model and determines the regression and correlation significance. From the surveys' data, it defines the parameters and their weights. Then it determines the charging price to implement in the Santiago Center in the chosen area. This proposed model is new, and this is its first application.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Regression versus Correlation</head><p>A regression analysis measures the degree or strength of linear connection between two variables. It estimates the average number of one variable based on the fixed numbers of other variables. Correlation, instead, is based on the randomness of variables. The regression analysis is based on the stochastic dependent variable; however, the explanatory variables are not stochastic or fixed. This paper intends to determine the regression and correlation to verify the hypotheses through F and R² tests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Characteristics of the Model</head><p>Survey data collapsed into North, West, South, East and Center Sectors around Santiago Center. These sectors became the parameters. Therefore, as there are five parameters, the regression model becomes a multivariable model. The function of this model is to determine the implemented toll price in the chosen area of Santiago Center. Finally, the model analyzes and verifies the two hypotheses through F and R² tests. These tests provide the information from the model that is statistically significant.</p><p>With the data of 500 people left who responded that are willing to pay some price, in the Table <ref type="table" target="#tab_0">1</ref>, we analyze the descriptive statistics. We estimate a pre-sample 𝒏, and if this result is close to 500, the sample is acceptable; so, we take m = 500, 𝛼 0,05 → 𝑡 4, 𝜎 = 61,306 𝜺 = 400 x 0,06 = 24.</p><p>By applying all these numbers to Formula (1), we estimate 𝒏 = 426, which is very close to the size of the sample m = 500. This validates that the sample m is acceptable; however, the error is about 6%, and this means that, from the average price of CLP 400, there exists a maximum estimation error of CLP 24, which is not significant.</p><p>Table <ref type="table" target="#tab_7">4</ref> illustrates the descriptive statistics for the price intervals; we can see that the highest frequency from the surveys is in the interval of the price between CLP 160 and CLP 800. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Multivariable Model</head><p>This section designs the multivariable model and determines the regression and correlation significance. From the surveys' data, it defines the parameters and their weights. Then it determines the charging price to implement in the Santiago Center in the chosen area. This proposed model is new, and this is its first application.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Regression versus Correlation</head><p>A regression analysis measures the degree or strength of linear connection between two variables. It estimates the average number of one variable based on the fixed numbers of other variables. Correlation, instead, is based on the randomness of variables. The regression analysis is based on the stochastic dependent variable; however, the explanatory variables are not stochastic or fixed. This paper intends to determine the regression and correlation to verify the hypotheses through F and R 2 tests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Characteristics of the Model</head><p>Survey data collapsed into North, West, South, East and Center Sectors around Santiago Center. These sectors became the parameters. Therefore, as there are five parameters, the regression model becomes a multivariable model. The function of this model is to determine the implemented toll price in the chosen area of Santiago Center. Finally, the model analyzes and verifies the two hypotheses through F and R 2 tests. These tests provide the information from the model that is statistically significant.</p><p>With the data of 500 people left who responded that are willing to pay some price, in the Table <ref type="table" target="#tab_0">1</ref>, we analyze the descriptive statistics. We estimate a pre-sample n, and if this result is close to 500, the sample is acceptable; so, we take m = 500, α = 0.05 → t 2 = 4, σ 2 = 61,306 ε = 400 × 0.06 = 24.</p><p>By applying all these numbers to Formula (1), we estimate n = 426, which is very close to the size of the sample m = 500. This validates that the sample m is acceptable; however, the error is about 6%, and this means that, from the average price of CLP 400, there exists a maximum estimation error of CLP 24, which is not significant.</p><p>Table <ref type="table" target="#tab_7">4</ref> illustrates the descriptive statistics for the price intervals; we can see that the highest frequency from the surveys is in the interval of the price between CLP 160 and CLP 800. Figure <ref type="figure" target="#fig_9">5</ref> shows the percentage of people that would not be willing to pay over a certain price. For example, over CLP 320 implies that 51% of observers would not pay and over CLP 800, and 95% of drivers are not willing to pay the charging price; this is directly related with the number of vehicles to get into the charging zone.  Figure <ref type="figure" target="#fig_9">5</ref> shows the percentage of people that would not be willing to pay over a certain price. For example, over CLP 320 implies that 51% of observers would not pay and over CLP 800, and 95% of drivers are not willing to pay the charging price; this is directly related with the number of vehicles to get into the charging zone. In order to develop the equation of the model to calculate the price of the toll, we are going to apply the analysis of the variance (ANOVA) because we have 5 ranges as answers from different zones: North, East, Center, West, and South Santiago. Table <ref type="table" target="#tab_10">5</ref> shows that East Santiago has the highest parameter, with 157.72, and South Santiago has the lowest one, with -127.27. This is reasonably expected because the people who live in the East Zone have the greatest income in Santiago. The Center Zone did not have much of an impact in this model due to its proximity to the charging zone, which is one of the reasons why that variable of the center is not included. The average price by sector (Table <ref type="table" target="#tab_10">5</ref>) is calculated by the sum of the interception plus the parameters price. The model equation is shown as follows: In order to develop the equation of the model to calculate the price of the toll, we are going to apply the analysis of the variance (ANOVA) because we have 5 ranges as answers from different zones: North, East, Center, West, and South Santiago. Table <ref type="table" target="#tab_10">5</ref> shows that East Santiago has the highest parameter, with 157.72, and South Santiago has the lowest one, with -127.27. This is reasonably expected because the people who live in the East Zone have the greatest income in Santiago. The Center Zone did not have much of an impact in this model due to its proximity to the charging zone, which is one of the reasons why that variable of the center is not included. The average price by sector (Table <ref type="table" target="#tab_10">5</ref>) is calculated by the sum of the interception plus the parameters price. The model equation is shown as follows: The average price by sector (Table <ref type="table" target="#tab_6">3</ref>) is calculated by the sum of the interception plus the parameters price.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Result</head><p>Having developed the model equation, now we show how we calculate the average weight of every standardized coefficient. Table <ref type="table" target="#tab_12">6</ref> shows the level of difficulty of arrival at the center from any zone based on the quality roads and transport access, and then the average distance in kilometers to the center in order to calculate the weight by distance in kilometers. Finally, with all of these numbers, we calculate the average weight of every zone, averaging the level of difficulty with the weight per distance, which replaces it in the equation model to calculate the price of the toll. Therefore, the price of the toll is CLP 428.59, but for the sake of simplification for the public, the final price will be CLP 430.</p><p>The regression on standardized variables. It states that the analysis can be extended to multivariable regressions. Thus, a variable is said to be standardized or in standard deviation units if it is expressed in terms of deviation from its mean and divided by its standard deviation. For our price example, the results are as follows:</p><p>As we can see from this regression, with the North, West, and East Sectors held constant, a standard deviation increase in the South Sector is equal, on average, to a -0.247 standard-deviation decrease in price. Similarly, holding the South, West, and East Sectors constant, a standard-deviation increase in the North Section, on average, leads to a 0.247 standard-deviation increase in price. This means that the East Sector has a greater impact on price than the other sectors (Table <ref type="table" target="#tab_13">7</ref>). That is to say, people from the East Sector are affected less by paying the charging price than the rest. Here, observers will see the advantage of using standardized variables, for standardization puts all variables on equal footing because all standardized variables have zero means and unit variances. However, from Table <ref type="table" target="#tab_12">6</ref>, we applied different average weights for each sector, where the highest, in this case, is the South Sector, with 32%. From the F test, we see that this F value is significant at about the 5 percent level; the p-value is actually 0.0001. Thus, we can reject the null hypothesis that the four regressors have no impact on the regressand, in spite of the fact that the R 2 is only 0.230. Therefore, through the analysis of variance, we verified the validity of the model, testing the overall significance of an observed multiple regression and applying the F and R 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3.">Emissions Savings and Calculation of Environmental Decongestion</head><p>Interpolating the prices of USD 320 and USD 480 in Figure <ref type="figure" target="#fig_9">5</ref> between, this study's suggested price of USD 430 implies that 63.45% of the cars that enter the restriction zone today will stop doing so. Considering that the vehicle fleet of Santiago is 5.5 million vehicles, the number of cars that will stop entering the restriction zone is about 3,489,750 vehicles. If a car that stops circulating in the restriction zone saves 4 km at a time, the saving is about 13,959,000 km. Assuming an average vehicle performance of 10 km per fuel liter, the fuel saving is about 1,395,000 L within the zone.</p><p>The fossil fuels per liter for CO For the estimates shown in Tables <ref type="table" target="#tab_14">9</ref> and<ref type="table" target="#tab_15">10</ref>, the percentages of the greenhouse gas emissions CO 2 , CH 4 , and N 2 O and other gases (HFCs + PFCs + SF6) that were registered in Spain during the year 2021 were used, which were 75.5%, 15.08%, 7.27%, and 2.13%, respectively.</p><p>As 100% of journeys do not take place, Table <ref type="table" target="#tab_16">11</ref> shows the CO 2 and other greenhouse gases' emission savings. These calculations allow us to foresee a total GHC emission saving of about 23,668,101 equivalent tons. This contributes to the Sustainable Development Goals, such as the SDG 3, SDG 11, and SDG 13 policies [13]. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.4.">Savings in Noise Pollution Emissions</head><p>A motor car with its engine running and standing radiates noise up to 78 dB (A). The engine cooling fan can produce up to 82 dB (A). The air filter can produce up to 75 dB (A). The exhaust pipe can produce up to 85 dB (A). The brakes produce a low noise level, except when the shoes squeak. Additionally, vehicles in motion aerodynamics produce an indeterminate noise level, up to 75 dB (A) for speeds below 60 km/h and up to 95 dB(A) for speeds above 60 km/h. This level depends on the vehicle profile, the load placement, and the rolling tires. All of this sums up to 400 dB (A) per vehicle. Considering that 3,489,750 vehicles could stop entering the restriction zone in one year, there is a potential saving of 1395 million dB <ref type="bibr" target="#b68">[75]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Discussion</head><p>The main finding of this research is to propose a charged area in the center of the City of Santiago to reduce vehicular congestion; this lies in establishing a rate price for the entry of vehicles in an area, as shown in Figure <ref type="figure" target="#fig_7">4</ref>. This type of charging is known as the cordon rate. It is interesting to see that other studies, such as the one developed by Crotte et al., indicate that the two most favorable cities to establish this type of measure are Bogotá and Santiago <ref type="bibr" target="#b69">[76,</ref><ref type="bibr" target="#b70">77]</ref>.</p><p>Table <ref type="table" target="#tab_17">12</ref> shows the Santiago district data. Santiago has a high population, and its density is between that of London and Milan (Table <ref type="table" target="#tab_0">1</ref>). However, the vehicles number per 1000 inhabitants is much lower. This may be one of the explanatory causes for why the fixed price (USD 0.46) is much lower than those of other cities. Another reason which may explain the low surveys-based price set in contrast to European capitals is the GDP per capita, which is about a third that of these European capitals.</p><p>Chile has higher emissions than European countries. This may be due to its less developed industry, but also to an electricity generation mixed matrix. By May 2022, the installed capacity was 57.8% based on renewable sources (23.1% hydraulic, 20.8% solar, 11.9% wind, 1.9% biomass, and 0.2% geothermal), while 42.2% corresponds to thermal sources (15.8% coal, 15.7% natural gas, and 10.7% oil) <ref type="bibr" target="#b71">[78]</ref>. Tehran's weekly rate is USD 11.5, which is higher than the estimated rate for Santiago, Chile, in this study. Iran's GDP is approximately half of Chile's. In all the cities shown in the table, there was a reduction in traffic congestion that, in the worst case, was 20% in Stockholm, 30% in London, and 80% in Tehran. The rate, based on the number of vehicles entering the cordon, allows the income valuation. The rate also allows us to calculate the CO 2 savings, since there is a reduction in circulation, and decreases in noise pollution. There is a reduction in road accidents, too. Authorities implementing the rate should inform the population about the funds that will benefit the restricted-area users.</p><p>Chile's kg CO 2 /USD 1000 indicator is 0.17, like Italy (0.13) and the United Kingdom (0.11). This shows that Chile is on the right track. Applying congestion prices would be a contribution in the same way.</p><p>The strength of this research is the development of a simple randomized scheme with a sample size that meets the statistical criteria for this type of study. Moreover, the price value obtained considered the value from the survey. Considering area distances and access difficulty, origin areas corrected the value. Since it started, the Santiago urban highway has three controversial subjects: first, economic questioning to a state subsidy granted to highway concessionaires; second, transportation engineering challenge regarding the effectiveness of addressing the vehicular congestion problem through highway construction; and three, urban architectural has worries about the effects that highway infrastructure may have on the neighborhoods it crosses <ref type="bibr" target="#b73">[80]</ref>. In addition, the calculated charging price would be the base to make a dynamic charge, which considers the time of day and vehicle class. Therefore, these must be the other aspects that are studied in order for this proposal to be addressed in a comprehensive manner, considering all aspects of the problem.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Conclusions</head><p>This paper developed a methodology to analyze the data collected by surveys and a multivariable model to reduce urban traffic congestion by estimating the charging price. The first evaluation of the model used empirical data from the City of London and then validated them with data from other researched cities. Then the paper described data collection through a survey and found the pay disposition to enter Santiago Center's congested areas. The paper calculated a charging price of CLP 428.59, regardless of the origin's sector. The model testing was through the multiple regression overall significance in terms of F and R 2 . These validation tests proved that the model is statistically significant. The sustainable transportation effects in reducing urban traffic congestion via the charging price are increased quality of life, less polluting emissions, reduction in deteriorated products for being stuck in traffic, and lessening extra-fuel consumption. This model contributes to improving the Sustainable Development Goals, such as SDG 11 and SDG 13. Developed cities have significantly reduced traffic congestion by implementing congestion charge schemes.</p><p>Congested capitals have applied pricing accompanied by other measures, with the most important being the creation of multimodal systems that allows motorists to stop using cars and prefer other transport systems, e.g., metro, bus, walking, or bicycling. The bus and metro have high use in</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Emissions and car speed under tolling. Reprinted/adapted with permission from Ref. [32] 2022. Croci compared experiences in three European cities: London (2003), Stockholm (2006), and Milan (2008). (Implementation road pricing years in parentheses). The congestion charge policy has also decreased other negative externalities produced by traffic congestion. For example, CO2 emissions decreased by 14% in the three cities. Traffic congestion reduction was 20%. Accident reduction was 15% on average. In the three cities, at the beginning of the congestion charge's implementation, citizens disagreed with the measures. However, over time, most citizens favor them. In addition, in all cases, there were improvements in public transportation due to charge revenue<ref type="bibr" target="#b31">[33]</ref>.Santiago has two tolled highways. One is a city ring road, and the other unites the city's east and west. Both have rates at peak and off-peak hours, about USD 2 and USD 1, respectively. These rates discourage motorists from using tolled highways. So, city center streets get very busy as they take north-south and east-west and vice versa traffic. The pricing to be proposed needs to regulate these two things: one is the flow from tolled highways to the city streets, and the other is the vehicles circulating inside the ring road. This study's novelty is its proposal of a pricing system based on survey information and a linear regression model. Segmenting the model is through motorists entering the payment zone. The price motorists are willing to pay differs according to their areas of origin, with the highest being the eastern area, which has the highest economic income. The lowest price was from the southern area, which has the lowest economic income. Another contribution of this work is the calculation of the emission of greenhouse gases that will be saved both within and outside the restriction zone, as well as the calculation of the savings in noise pollution.An increasing number of countries in the world, particularly in Europe, are using the congestion pricing approach to solve congestion and pollution. However, there are few cities that apply it directly.Table1shows the result of the Web of Science search using "congestion pricing" as a keyword and restricted to transport and the year 2022. The search gave 69 results. Some papers evaluate pricing systems, while other papers evaluate mixed options, such as vehicles' restriction days for air pollution or for degree of pollution thrown by the vehicle. Ten papers were selected for their closeness to the theme. In Europe, London, Stockholm, and Milan only apply the pricing approach, and outside Europe, so do Singapore and Tehran. Only one of the studied cases uses a linear regression model. It classifies Europe cities regarding low emission zones. It also determines if this measure is efficient with</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Emissions and car speed under tolling. Reprinted/adapted with permission from Ref. [32] 2022. Croci compared experiences in three European cities: London (2003), Stockholm (2006), and Milan (2008). (Implementation road pricing years in parentheses). The congestion charge policy has also decreased other negative externalities produced by traffic congestion. For example, CO 2 emissions decreased by 14% in the three cities. Traffic congestion reduction was 20%. Accident reduction was 15% on average. In the three cities, at the beginning of the congestion charge's implementation, citizens disagreed with the measures. However, over time, most citizens favor them. In addition, in all cases, there were improvements in public transportation due to charge revenue<ref type="bibr" target="#b31">[33]</ref>.Santiago has two tolled highways. One is a city ring road, and the other unites the city's east and west. Both have rates at peak and off-peak hours, about USD 2 and USD 1, respectively. These rates discourage motorists from using tolled highways. So, city center streets get very busy as they take north-south and east-west and vice versa traffic. The pricing to be proposed needs to regulate these two things: one is the flow from tolled highways to the city streets, and the other is the vehicles circulating inside the ring road. This study's novelty is its proposal of a pricing system based on survey information and a linear regression model. Segmenting the model is through motorists entering the payment zone. The price motorists are willing to pay differs according to their areas of origin, with the highest being the eastern area, which has the highest economic income. The lowest price was from the southern area, which has the lowest economic income. Another contribution of this work is the calculation of the emission of greenhouse gases that will be saved both within and outside the restriction zone, as well as the calculation of the savings in noise pollution.An increasing number of countries in the world, particularly in Europe, are using the congestion pricing approach to solve congestion and pollution. However, there are few cities that apply it directly.Table1shows the result of the Web of Science search using "congestion pricing" as a keyword and restricted to transport and the year 2022. The search gave 69 results. Some papers evaluate pricing systems, while other papers evaluate mixed options, such as vehicles' restriction days for air pollution or for degree of pollution thrown by the vehicle. Ten papers were selected for their closeness to the theme. In Europe, London, Stockholm, and Milan only apply the pricing approach, and outside Europe, so do Singapore and Tehran. Only one of the studied cases uses a linear regression model. It classifies Europe cities regarding low emission zones. It also determines if this measure is efficient with respect to pollution. No other study uses multiple linear regression or segmentation by city zones. Only two papers report on surveys; however, their surveys are different from the one used in this paper.</figDesc><graphic coords="4,166.67,133.72,263.76,162.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Sustainability 2023 ,</head><label>2023</label><figDesc>15, x FOR PEER REVIEW 7 of 21</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Traffic charging zone in the center of London Reprinted/adapted with permission from Ref. [11] 2021.</figDesc><graphic coords="7,167.42,446.04,382.97,275.62" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Proposed methodological framework for designing a multivariable traffic congestion (own source).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Proposed methodological framework for designing a multivariable model to reduce urban traffic congestion (own source).</figDesc><graphic coords="9,170.93,367.51,310.80,362.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Triangle area of Santiago, Chile, to implement tolls (own source).</figDesc><graphic coords="11,74.19,100.97,444.96,212.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Triangle area of Santiago, Chile, to implement tolls (own source).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Percentage of people who are not willing to pay over a certain congestion price (Chilean peso/CLP). (Own source.)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Summary of Web of Science papers on congestion pricing from year 2020.</figDesc><table><row><cell>Author</cell><cell>Methodology/Method</cell><cell>Description</cell><cell>Study Case</cell></row><row><cell></cell><cell></cell><cell>Evaluation of congestion pricing policies</cell><cell></cell></row><row><cell></cell><cell></cell><cell>in hourly population segments in New</cell><cell></cell></row><row><cell>[34]</cell><cell>Multi-agent simulation model</cell><cell>York City. The work presented here</cell><cell>New York City</cell></row><row><cell></cell><cell></cell><cell>differs from the New York study in that</cell><cell></cell></row><row><cell></cell><cell></cell><cell>the segmentation is by time slots.</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Assessment of dynamic pricing in</cell><cell></cell></row><row><cell>[35]</cell><cell>Multilayer neural network model</cell><cell>large-scale urban networks aiming at</cell><cell></cell></row><row><cell></cell><cell></cell><cell>transport balances.</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 1 .</head><label>1</label><figDesc>Cont.    </figDesc><table><row><cell>Author</cell><cell>Methodology/Method</cell><cell>Description</cell><cell>Study Case</cell></row><row><cell></cell><cell></cell><cell>It analyzes a tradable credit scheme</cell><cell></cell></row><row><cell></cell><cell></cell><cell>operation (TCS), which aims to reduce</cell><cell></cell></row><row><cell></cell><cell></cell><cell>road traffic and contribute to livable</cell><cell></cell></row><row><cell></cell><cell></cell><cell>cities and climate-change promises. The</cell><cell></cell></row><row><cell></cell><cell></cell><cell>study uses qualitative methods,</cell><cell></cell></row><row><cell>[43]</cell><cell>Semi structured interview method to experts</cell><cell>including semi-structured interviews a review of the literature and documents. with experts and stakeholders, as well as</cell><cell>United Kingdom</cell></row><row><cell></cell><cell></cell><cell>Based on the results, it proposes a new</cell><cell></cell></row><row><cell></cell><cell></cell><cell>TCS form to keep government revenues,</cell><cell></cell></row><row><cell></cell><cell></cell><cell>which will encourage road users to</cell><cell></cell></row><row><cell></cell><cell></cell><cell>reduce kilometers traveled, reducing</cell><cell></cell></row><row><cell></cell><cell></cell><cell>pollution and congestion.</cell><cell></cell></row><row><cell></cell><cell>3. Examples</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>of Reducing Urban Traffic Congestion via Charging Price in City of Milan, Italy; City of London, England; City of Stockholm, Sweden; City of Singapore; and City of Teheran, Iran The</head><label></label><figDesc>most successful and well-known cases in the literature are Stockholm, London, and Milan, which we registered in Table2. Table2includes Singapore and Tehran because they have diverse cultures compared to Europe.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 2 .</head><label>2</label><figDesc>Comparison of estimated charged rate with other countries.</figDesc><table><row><cell></cell><cell>Singapore [44-46]</cell><cell>Stockholm [47-49]</cell><cell>London [50-53]</cell><cell>Milan [54-57]</cell><cell>Tehran [58-61]</cell></row><row><cell>No. of inhabitants</cell><cell>5,454,000</cell><cell>912,000</cell><cell>9498.212</cell><cell>1,396,522</cell><cell>8,693,706</cell></row><row><cell>No. of inhabitants Country or region</cell><cell>5,454,000</cell><cell>Region: 1,057,120</cell><cell>Country: 67,651,228</cell><cell>Region: 3,775,765</cell><cell>Region: 15,232,564</cell></row><row><cell>City area</cell><cell>728 km 2</cell><cell>381.63 km 2</cell><cell>1572 km 2</cell><cell>1982 km 2</cell><cell>707 km 2</cell></row><row><cell>Density</cell><cell>7720 hab./km 2</cell><cell>3597 hab./km 2</cell><cell>5518 hab./km 2</cell><cell>7400 hab./km 2</cell><cell>12,296 hab./km 2</cell></row><row><cell>No. of</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>vehicles/1000</cell><cell>146 vehicles</cell><cell>543 vehicles</cell><cell>2600 vehicles</cell><cell>679 vehicles</cell><cell>4000 vehicles</cell></row><row><cell>inhabitants</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>GDP per capita</cell><cell>USD 61,507</cell><cell>USD 50,050 (EUR 51,560)</cell><cell>68,510.22 USD (GBP 55,974)</cell><cell>USD 55,600</cell><cell>USD 5333.05</cell></row><row><cell>TCO 2 per capita</cell><cell>9.71 ton</cell><cell>3.82 ton</cell><cell>3.5 ton</cell><cell>5.45 ton</cell><cell>8.43 ton</cell></row><row><cell>Kg CO 2 /USD 1000</cell><cell>0.10 kg CO 2</cell><cell>0.07 kg CO 2</cell><cell>0.11 kg CO 2</cell><cell>0.13 kg CO 2</cell><cell>0.54 kg CO 2</cell></row><row><cell>Type of System</cell><cell>It was the first city to successfully implement ERP electronic toll, charged to all vehicles entering urban center. and leaving the</cell><cell>Two areas, fixed 6:30 p.m. rates when entering and leaving from Monday to Friday from 6:30 a.m. to</cell><cell>Area. Fixed rate per day with unlimited entries and exits to the charged zone.</cell><cell>Area. Fixed rate depending on the type of user. Eco pass paid based on gases emission.</cell><cell>Area. Fee to obtain a pass to enter the area, which can be per day.</cell></row><row><cell></cell><cell>Collection is</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Charged rate</cell><cell>through a card; daily charges are USD 3.3 for residents and USD 35 for</cell><cell>Between EUR 1.19 and 3.24 per crossing. EUR 11 per day maximum.</cell><cell>GBP 15. Electronic payment.</cell><cell>Non-residents (EUR 5), residents (EUR 2), commercial vehicles (EUR 3).</cell><cell>(USD 11.5) per week, (USD 70) per month or (USD 174) per year.</cell></row><row><cell></cell><cell>non-residents.</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 2</head><label>2</label><figDesc>also shows that the European countries' TCO 2 per capita index has similar values: 4.74 TCO 2</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 3 .</head><label>3</label><figDesc>Characteristics of the sample (own source).</figDesc><table><row><cell>Variable</cell><cell>Observations</cell><cell>Minimum Price</cell><cell>Maximum Price</cell><cell>Average</cell><cell>Standard Deviation</cell></row><row><cell>Price</cell><cell>500</cell><cell>200</cell><cell>1000</cell><cell>400</cell><cell>247.60</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 4 .</head><label>4</label><figDesc>Descriptive statistics for the intervals (Chilean peso, CLP). Own source.</figDesc><table><row><cell>Lower Limit (CLP)</cell><cell>Upper Limit (CLP)</cell><cell>Frequency (Drivers)</cell><cell>Payment Probability</cell></row><row><cell>160</cell><cell>320</cell><cell>256</cell><cell>51.2%</cell></row><row><cell>320</cell><cell>480</cell><cell>88</cell><cell>17.6%</cell></row><row><cell>480</cell><cell>640</cell><cell>80</cell><cell>16.0%</cell></row><row><cell>640</cell><cell>800</cell><cell>52</cell><cell>10.4%</cell></row><row><cell>800</cell><cell>960</cell><cell>0</cell><cell>0.00%</cell></row><row><cell>960</cell><cell>1120</cell><cell>24</cell><cell>4.80%</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head>Table 4 .</head><label>4</label><figDesc>Descriptive statistics for the intervals (Chilean peso, CLP). Own source.</figDesc><table><row><cell cols="4">Lower Limit (CLP) Upper Limit (CLP) Frequency (Drivers) Payment Probability</cell></row><row><cell>160</cell><cell>320</cell><cell>256</cell><cell>51.2%</cell></row><row><cell>320</cell><cell>480</cell><cell>88</cell><cell>17.6%</cell></row><row><cell>480</cell><cell>640</cell><cell>80</cell><cell>16.0%</cell></row><row><cell>640</cell><cell>800</cell><cell>52</cell><cell>10.4%</cell></row><row><cell>800</cell><cell>960</cell><cell>0</cell><cell>0.00%</cell></row><row><cell>960</cell><cell>1120</cell><cell>24</cell><cell>4.80%</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head>Table 5 .</head><label>5</label><figDesc>Parameters of the model (price). Own source.</figDesc><table><row><cell>Source</cell><cell>Value</cell><cell>Average (Price)</cell></row><row><cell>Interception</cell><cell>381.818</cell><cell></cell></row><row><cell>South</cell><cell>-127.273</cell><cell>254.545</cell></row><row><cell>East</cell><cell>157.312</cell><cell>539.130</cell></row><row><cell>North</cell><cell>127.273</cell><cell>509.091</cell></row><row><cell>West</cell><cell>103.896</cell><cell>458.714</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head>Table 5 .</head><label>5</label><figDesc>Parameters of the model (price). Own source. Price = 381.81 + 157.312 × East +127.273 × North -127.27 × South + 103.896 × West (2)</figDesc><table><row><cell>Source</cell><cell>Value</cell><cell>Average (Price)</cell></row><row><cell>Interception</cell><cell>381.818</cell><cell></cell></row><row><cell>South</cell><cell>-127.273</cell><cell>254.545</cell></row><row><cell>East</cell><cell>157.312</cell><cell>539.130</cell></row><row><cell>North</cell><cell>127.273</cell><cell>509.091</cell></row><row><cell>West</cell><cell>103.896</cell><cell>458.714</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head>Table 6 .</head><label>6</label><figDesc>Average weight by zones (own source).</figDesc><table><row><cell>Zones</cell><cell>Level of Difficulty of Arrival at the Center</cell><cell>Average Distance in the Center Kilometers to</cell><cell>Weight by Kilometers Distance in</cell><cell>Average Weight</cell></row><row><cell>North</cell><cell>30%</cell><cell>17</cell><cell>23%</cell><cell>27%</cell></row><row><cell>East</cell><cell>13%</cell><cell>13.2</cell><cell>18%</cell><cell>15%</cell></row><row><cell>Center</cell><cell>2%</cell><cell>2</cell><cell>3%</cell><cell>2%</cell></row><row><cell>South</cell><cell>30%</cell><cell>25</cell><cell>34%</cell><cell>32%</cell></row><row><cell>West</cell><cell>25%</cell><cell>16.5</cell><cell>22%</cell><cell>24%</cell></row><row><cell></cell><cell>100%</cell><cell>73.7</cell><cell>100%</cell><cell>100%</cell></row><row><cell cols="2">Equation of the model:</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="4">Price = 381.81 + 157.312 × 0.15 + 127.273 × 0.27 -127.27 × 0.32 + 103.896 × 0.24</cell></row><row><cell></cell><cell>Price = CLP 428.59</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head>Table 7 .</head><label>7</label><figDesc>Standardized coefficients (price) (own source).</figDesc><table><row><cell>Source</cell><cell>Value</cell></row><row><cell>South</cell><cell>-0.247</cell></row><row><cell>North</cell><cell>0.230</cell></row><row><cell>East</cell><cell>0.478</cell></row><row><cell>West</cell><cell>0.129</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head>Table 9 .</head><label>9</label><figDesc>2 emission are 2.7 kg CO 2 equivalent<ref type="bibr" target="#b41">[43]</ref>. Thus, by lowering vehicle traffic, the CO 2 emission decrease is about 3,768,930 kg CO 2 . Spain's Ministry of Ecological Transition and the Democratic Challenge states that, for 2021, 75.52% of the total greenhouse gases corresponded to CO 2 emissions. The rest corresponded to methane gas (CH4), at 15.08%; N 2 O gas, at 7.27%; and other gases (HFCs + PFCs + SF6), at 2.13%[44]. Table9, below, shows the saved gases emission by less traffic within the restriction zone. Calculation of ton GHC saved within the restricted zone due to less traffic "Adapted with permission from Refs.<ref type="bibr" target="#b66">[73,</ref><ref type="bibr" target="#b67">74]</ref> 2022.</figDesc><table><row><cell>Concept</cell><cell>Unit</cell><cell>Savings per Pass</cell><cell>Savings Assuming 100 Passes per Year</cell></row><row><cell>75.52% CO 2 emission savings</cell><cell>TonCO 2 e.</cell><cell>3768.93</cell><cell>376,893</cell></row><row><cell>15.08% CH 4 emission savings (t)</cell><cell>TonCO 2 e.</cell><cell>752.588</cell><cell>75,258.8</cell></row><row><cell>7.27% N 2 O gas savings</cell><cell>TonCO 2 e.</cell><cell>362.819</cell><cell>36,281.9</cell></row><row><cell>2.13% other gases</cell><cell></cell><cell></cell><cell></cell></row><row><cell>(HFCs + PFCs + SF6)</cell><cell>TonCO 2 e.</cell><cell>10.630</cell><cell>1063.00</cell></row><row><cell>savings</cell><cell></cell><cell></cell><cell></cell></row><row><cell>GHG total emission</cell><cell></cell><cell></cell><cell></cell></row><row><cell>savings = CO 2 + CH 4 + N 2 O + other gases</cell><cell>TonCO 2 e.</cell><cell>4894.967</cell><cell>489,496.7</cell></row><row><cell>(HFCs + PFCs + SF6)</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15"><head>Table 10 .</head><label>10</label><figDesc>Total GHC saved outside the restriction zone "Adapted with permission from Refs.<ref type="bibr" target="#b66">[73,</ref><ref type="bibr" target="#b67">74]</ref> 2022.</figDesc><table><row><cell></cell><cell>Average Weight</cell><cell>Average Distance in Kilometers to the Center Zones</cell><cell>Km by Area</cell><cell>Fuel Liters Saved per Vehicle (Approximately 10 Km per Liter)</cell><cell>Kg CO 2 Emission Saving per Vehicle</cell><cell>Total Savings per Ton CO 2 Considering the Total Number of Vehicles (3,489,750)</cell></row><row><cell>North</cell><cell>27%</cell><cell>17</cell><cell>4.59</cell><cell>0.459</cell><cell>1.2393</cell><cell>4,324,847</cell></row><row><cell>East</cell><cell>15%</cell><cell>13.2</cell><cell>1.98</cell><cell>0.198</cell><cell>0.5346</cell><cell>1,865,620</cell></row><row><cell>Center</cell><cell>2%</cell><cell>2</cell><cell>0.04</cell><cell>0.004</cell><cell>0.0108</cell><cell>37,689</cell></row><row><cell>South</cell><cell>32%</cell><cell>25</cell><cell>8</cell><cell>0.8</cell><cell>2.16</cell><cell>7,537,860</cell></row><row><cell>West</cell><cell>24%</cell><cell>16.5</cell><cell>3.96</cell><cell>0.396</cell><cell>1.0692</cell><cell>3,731,241</cell></row><row><cell></cell><cell></cell><cell cols="2">Ton CO 2 saved</cell><cell></cell><cell></cell><cell>17,497,258</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16"><head>Table 11 .</head><label>11</label><figDesc>Total GHC saved outside the restriction zone "Adapted with permission from Refs.<ref type="bibr" target="#b66">[73,</ref><ref type="bibr" target="#b67">74]</ref> 2022.</figDesc><table><row><cell>Concept</cell><cell>Unit</cell><cell></cell></row><row><cell>75.52% CO 2 emission savings</cell><cell>TonCO 2 e.</cell><cell>17,497,258</cell></row><row><cell>15.08% CH4 emission savings (t)</cell><cell>TonCH 4 e.</cell><cell>3,493,890</cell></row><row><cell>7.27% Gas N 2 O saving</cell><cell>TonN 2 O e.</cell><cell>1,684,389</cell></row><row><cell>2.13% Other gases savings (HFCs + PFCs + SF6)</cell><cell>Ton (HFCs + PFCs + SF6) 2.13%.e.</cell><cell>493,500</cell></row><row><cell>Total emission savings of GHG = CO 2 + CH 4 + N 2 O + other gases (HFCs + PFCs + SF6)</cell><cell>Ton GHC e.</cell><cell>23,169,038</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17"><head>Table 12 .</head><label>12</label><figDesc>Santiago district data summary "Adapted with permission from Ref.<ref type="bibr" target="#b72">[79]</ref>. 2022.</figDesc><table><row><cell>Santiago</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>the <rs type="institution">Santiago Center. However</rs>, long distances (greater than 5 km) do not allow cycling or walking. Measures like this will hopefully continue in application and the innovative studies and implementations conducted. Thus, there will be cities with less traffic congestion and less air and noise pollution. This research may motivate other studies, such as price discrimination, environmental effects, etc. Finally, this model and its methodology not only apply to the <rs type="institution">City of Santiago</rs>, but also, and more importantly, it apples to any city worldwide.</p></div>
+<div><head>Acknowledgments:</head><p>The authors gratefully acknowledge the support of the "<rs type="institution">Facultad de Ingeniería de la Universidad de Santiago de Chile</rs>" and <rs type="institution">University of Gabriela Mistral, Chile</rs>, and to the <rs type="institution">Center of Operations</rs> management and operations research CIGOMM.</p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data Availability Statement: Not applicable.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.">Testing the Overall Significance of the Sample Regression</head><p>In this section, we are going to conduct a hypothesis test through the analysis of variance (ANOVA) to verify the validation of the model <ref type="bibr" target="#b63">[69]</ref>. The analysis of variance approach is used to test the overall significance of an observed multiple regression. It is tested through the F and R 2 tests. Table <ref type="table">8</ref> shows the ANOVA results of the exercise. We cannot utilize the typical t-test to examine the joint hypothesis that simultaneously the true coefficients of the partial slope are zero. Nevertheless, this joint hypothesis could be tested by the analysis of variance (ANOVA) technique, which can be demonstrated as follows: Decision Rule; given the k-variable regression model:</p><p>The F test.</p><p>To test the hypothesis H0:</p><p>H1: Not all slope coefficients are simultaneously zero.</p><p>If F &gt; f (α, k-1,n-k), reject H0; otherwise, we accept H0, where F α(k-1,n-k) is the critical F value at the α level of significance and (k -1) numerator and (nk) denominator. Otherwise, if the p-value of F is sufficiently low, reject H0. This means that the sample data provide sufficient evidence to conclude that the multivariable model fits the data better than the model with no independent variables.</p><p>There is a close relationship between the F test used in the analysis of variance and the coefficient of correlation, ρ. These two factors change directly. Therefore, the F test, which is an indicator of the significance of the estimated regression, as well as a significance test of ρ. That is to say, testing the null hypothesis in the prior calculation is equal to testing the null hypothesis that ρ (the population) is zero. A ρ of 0.480 (Table <ref type="table">6</ref>) is reasonable for a study of this type. Furthermore, even a seemingly reasonable ρ value could be statistically significant (different from zero), as we later show in Section 6.2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.">Testing the Overall Significance of a Multiple Regression in Terms of Coefficient of Correlation, ρ</head><p>The R 2 test. To test the hypothesis H0:</p><p>H2: Not all slope coefficients are simultaneously zero.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Compute</head><p>If F &gt; F (α, k -1, nk), reject H0; otherwise, we accept H0, where F α(k -1, nk) is the critical F value at the α level of significance and (k -1) numerator and (nk) denominator. Alternatively, if the p-value of F is sufficiently low, reject H0.</p><p>From the regression, we observe that the four sectors explain only about 23 percent of the variation in price in a sample of 500 answers. This R 2 of 0.230 seems to be a "low" value. Is it statistically different from zero? There is a relevant relationship between F and R 2 for the specific case of four regressors. As was noted, if R 2 is equal 0, then F is zero ipso facto, which will be the case </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Bill Ford Discusses a Future Beyond Traffic Gridlock</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ford</surname></persName>
+		</author>
+		<ptr target="https://www.ted.com/talks/bill_ford_a_future_beyond_traffic_gridlock" />
+		<imprint>
+			<date type="published" when="2011-07-17">July 2011. 17 March 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<ptr target="http://www.un.org/en/development/desa/population/publications/pdf/urbanization/the_worlds_cities_in_2016_data_booklet.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">United Nations. The World&apos;s Cities</title>
+		<imprint>
+			<date type="published" when="2016-04-23">2016. 23 April 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<ptr target="https://www.census.gov/newsroom/press-releases/2021/public-transportation-commuters.html" />
+		<title level="m">Growth in Urban Population Outpaces Rest of Nation, Census Bureau Reports. United States Census Bureau. 2021. Available online</title>
+		<imprint>
+			<date type="published" when="2022-12-15">15 December 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Global Traffic Scorecard Report</title>
+		<author>
+			<persName><surname>Inrix</surname></persName>
+		</author>
+		<ptr target="http://inrix.com/scorecard/" />
+		<imprint>
+			<date type="published" when="2021-11-15">2021. 15 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Smart City Solutions to Reduce Traffic Congestion</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sotra</surname></persName>
+		</author>
+		<ptr target="https://www.geotab.com/blog/reduce-traffic-congestion/" />
+		<imprint>
+			<date type="published" when="2017-09-17">2017. 17 September 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Beat Congestion. Senior Traffic Expert at TomTom</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cohn</surname></persName>
+		</author>
+		<ptr target="https://www.tomtom.com/en_gb/trafficindex/beatcongestion" />
+		<imprint>
+			<date type="published" when="2016-05">2016. May 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Metropolitan Transportation Commission</title>
+		<author>
+			<persName><surname>Mtc</surname></persName>
+		</author>
+		<ptr target="https://mtc.ca.gov/" />
+		<imprint>
+			<date type="published" when="2018-06">2018. June 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">&apos;s Traffic Congestion Is World&apos;s Worst for Sixth Straight Year, Study Says</title>
+		<author>
+			<persName><forename type="middle">L</forename><surname>Latimes</surname></persName>
+		</author>
+		<ptr target="http://www.latimes.com/local/lanow/la-me-la-worst-traffic-20180206-story.html" />
+		<imprint>
+			<date type="published" when="2018-02-06">2018. 6 February 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<ptr target="https://www.tomtom.com/traffic-index/santiago-traffic" />
+	</analytic>
+	<monogr>
+		<title level="j">Tomtom Traffic Index. Measuring Congestion Worldwide. Available online</title>
+		<imprint>
+			<date type="published" when="2022-11-20">20 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">London Congestion Charge: Why It&apos;s Time to Reconsider One of the City&apos;s Great Successes</title>
+		<ptr target="https://theconversation.com/london-congestion-charge-why-its-time-to-reconsider-one-of-the-citys-great-successes-92478" />
+		<imprint>
+			<date type="published" when="2018-03-02">2 March 2018. 20 July 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Magnanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Network Design and Transportation Planning: Models and Algorithms. Transp. Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1" to="55" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<ptr target="https://sdgs.un.org/events/thematic-session-5-policies-sustainable-transport-34334" />
+		<title level="m">Thematic Session 5: Policies for Sustainable Transport 16 October 2021</title>
+		<imprint>
+			<publisher>United Nations. Sustainable Development</publisher>
+			<date type="published" when="2022-11-10">10 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Building acceptance for congestion charges-The Swedish experiences compared</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hysing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Isaksson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jtrangeo.2015.10.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Transp. Geogr</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="52" to="60" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The acceptability of road pricing: Evidence from two studies in Vienna and four other European cities</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dieplinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fürst</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tranpol.2014.06.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Policy</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="10" to="18" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Road to price: User perspectives on road pricing in transition country</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Glavic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mladenovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Luttinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cicevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Trifunovic</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tra.2017.08.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Res. Part A</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="79" to="94" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Road pricing: How people perceive a hypothetical introduction. The case of Lyon</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pronello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Rappazzo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tranpol.2014.08.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Policy</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="192" to="205" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Road pricing and investment</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lindsey</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ecotra.2012.07.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Econ. Transp</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="49" to="63" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Differentiated Congestion Pricing of Urban Transportation Networks with Vehicle-Tracking Technologies</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zangui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lawphongpanich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.sbspro.2013.05.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia-Soc. Behav. Sci</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="289" to="303" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Evolutionary Implementation and Congestion Pricing</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Sandholm</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1467-937X.t01-1-00026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Econ. Stud</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="667" to="689" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Responses to differentiated road pricing schemes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Francke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kaniok</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tra.2012.10.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Res. Part A</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="25" to="30" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Examining the linkages between electronic roadway tolling technologies and road pricing policy objectives</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Iseki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Demisch</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.retrec.2012.03.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Res. Transp. Econ</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="121" to="132" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Managing traffic congestion in the Accra Central Market</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Agyapong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ojo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jum.2018.04.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ghana. J. Urban Manag</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="85" to="96" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Dynamic road pricing and the value of time and reliability</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gross</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jors.12362</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Reg. Sci</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="330" to="349" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The effects of road pricing on driver behavior and air pollution</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Carnovale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Urban Econ</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="62" to="73" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The potential of road pricing schemes to reduce carbon emissions</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cavallaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Giaretta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nocera</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tranpol.2017.03.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Policy</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="85" to="92" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Optimal environmental road pricing and daily commuting patterns</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Coria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-B</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Res. Part B</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="297" to="314" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Impact of electronic road pricing (ERP) changes on transport modal choice</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Agarwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Koo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.regsciurbeco.2016.05.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Reg. Sci. Urban Econ</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Anti-congestion policies in cities with public transportation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Buyukeren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hiramatsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Econ. Geogr</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="395" to="421" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The impact of road pricing on housing prices: Preliminary evidence from Milan</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Percoco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Res. Part A</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="188" to="194" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Toll Roads in Colombia Are Overexploited</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Duque-Escoba</surname></persName>
+		</author>
+		<ptr target="http://unperiodico.unal.edu.co/pages/detail/toll-roads-in-colombia-are-overexploited/" />
+		<imprint>
+			<date type="published" when="2018-04-18">2018. 18 April 2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad Nacional de Colombia: Bogotá, Colombia</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Impacts of Policy Instruments to Reduce Congestion and Emissions from Urban Transportation: The Case of São Paulo</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Timilsina</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<pubPlace>Washington, DC, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Brazil1; The World Bank Development Research Group Environment and Energy Team</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Urban Road Pricing: A Comparative Study on the Experiences of London, Stockholm and Milan</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Croci</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.trpro.2016.05.062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Res. Procedia</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="253" to="262" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A validated multi-agent simulation test bed to evaluate congestion pricing policies on population segments by time-of-day in New York City</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Chow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ozbay</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tranpol.2020.12.011</idno>
+		<ptr target="https://www.sciencedirect.com/science/article/abs/pii/S0967070X20309483#!" />
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Policy</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="145" to="161" />
+			<date type="published" when="2021-11-15">2021. 15 November 2022</date>
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Dynamic optimal congestion pricing in multi-region urban networks by application of a Multi-Layer-Neural network</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Genser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kouvelas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.trc.2021.103485</idno>
+		<ptr target="https://www.sciencedirect.com/science/article/pii/S0968090X2100471X#!" />
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Res. Part C Emerg. Technol</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<date type="published" when="2022">2022. 103485. 15 November 2022</date>
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Time-of-day pricing for toll roads under traffic demand uncertainties: A distributionally robust simulation-based optimization method</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>He</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.trc.2022.103894</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Res. Part C Emerg. Technol</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<date type="published" when="2022">2022. 103894</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">User preferences for EV charging, pricing schemes, and charging infrastructure</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Visaria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thorhauge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mabit</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tra.2022.08.013</idno>
+		<ptr target="https://www.webofscience.com%2" />
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Res. Part-A Policy Pract</title>
+		<imprint>
+			<biblScope unit="volume">165</biblScope>
+			<biblScope unit="page" from="120" to="143" />
+			<date type="published" when="2022">2022. fwos%2fauthor% 2frecord%2f29795377. 15 November 2022</date>
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Congestion tolling-Dollars versus tokens: Within-day dynamics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Raviseshadri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ben-Akiva</surname></persName>
+		</author>
+		<ptr target="https://www.sciencedirect.com%2" />
+	</analytic>
+	<monogr>
+		<title level="m">fscience%2farticle%2fpii%2fS0968090X2200256X% 3fvia%253Dihub#!</title>
+		<imprint>
+			<date type="published" when="2022">2022. 103836. 15 November 2022</date>
+			<biblScope unit="volume">143</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Calculating the cost of congestion to society: A case study application to Flanders</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Struyf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Voorde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vanelslander</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.rtbm.2020.100573</idno>
+		<ptr target="https://www.sciencedirect.com/science/article/abs/pii/S2210539520301115?via%3Dihub" />
+	</analytic>
+	<monogr>
+		<title level="j">Res. Transp. Bus. Manag</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<date type="published" when="2022">2022. 100573. 15 November 2022</date>
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Making Congestion Pricing Equitable</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ecola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Light</surname></persName>
+		</author>
+		<idno type="DOI">10.3141/2187-08</idno>
+		<ptr target="https://journals.sagepub.com/doi/10.3141/2187-08" />
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Res. Rec. J. Transp. Res. Board</title>
+		<imprint>
+			<biblScope unit="volume">2187</biblScope>
+			<biblScope unit="page" from="53" to="59" />
+			<date type="published" when="2010-11-15">2010. 15 November 2022</date>
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vanelslander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roumboutsos</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jup.2022.101413</idno>
+		<ptr target="https://www.sciencedirect.com/science/article/abs/pii/S0957178722000789?via%3Dihub" />
+		<title level="m">No-queue road pricing: A comprehensive policy instrument for Europe? Util. Policy 2022, 78, 101413. Available online</title>
+		<imprint>
+			<date type="published" when="2022-11-15">15 November 2022</date>
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Price versus quantity measures to deal with pollution and congestion in urban areas: A political economy approach</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fageda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Flores-Fillol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Theilen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jeem.2022.102719</idno>
+		<ptr target="https://www.sciencedirect.com/science/article/pii/S0095069622000778?via%3Dihub" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Environ. Econ. Manag</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<date type="published" when="2022">2022. 102719. 15 November 2022</date>
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<author>
+			<persName><forename type="first">J.-A</forename><surname>Pattinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mullen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shepherd</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su14148413</idno>
+		<ptr target="https://www.mdpi.com/2071-1050/14/14/8413" />
+		<title level="m">Combining Tradable Credit Schemes with a New Form of Road Pricing: Producing Liveable Cities and Meeting Decarbonisation Goals. Sustainability 2022</title>
+		<imprint>
+			<date type="published" when="2022-11-15">15 November 2022</date>
+			<biblScope unit="volume">14</biblScope>
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<author>
+			<persName><forename type="first">Singapore</forename><surname>Government</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Agency</forename><surname>Website</surname></persName>
+		</author>
+		<ptr target="https://onemotoring.lta.gov.sg/content/onemotoring/home/driving/entering_and_exiting_singapore/cars-and-motorcycles-registered-in-malaysia.html" />
+		<title level="m">#:~{}:text=Vehicles%20Entry%20 Permit%20(VEP)%20Fees</title>
+		<imprint>
+			<date type="published" when="2022-11-08">8 November 2022</date>
+		</imprint>
+	</monogr>
+	<note>Sundays%20and%20Singapore%20public%20holidays</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<ptr target="http://poblacion.population.city/suecia/stockholm/" />
+		<title level="m">City Populations Worldwide</title>
+		<imprint>
+			<date type="published" when="2022-11-09">9 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Datosmacro</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Com</surname></persName>
+		</author>
+		<ptr target="https://datosmacro.expansion.com/energia-y-medio-ambiente/emisiones-co2/suecia" />
+		<imprint>
+			<date type="published" when="2022-11-09">9 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<ptr target="https://www.transportstyrelsen.se/en/road/road-tolls/Congestion-taxes-in-Stockholm-and-Goteborg/congestion-tax-in-stockholm/hours-and-amounts-in-stockholm/" />
+		<title level="m">Transport in Stockholm</title>
+		<imprint>
+			<date type="published" when="2022-11-09">9 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">City</title>
+		<ptr target="http://population.city/united-kingdom/london/" />
+	</analytic>
+	<monogr>
+		<title level="j">Population</title>
+		<imprint>
+			<date type="published" when="2022-11-10">10 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Statista</forename><surname>Statistic</surname></persName>
+		</author>
+		<ptr target="https://www.statista.com/statistics/314980/licensed-cars-in-london-england-united-kingdom/" />
+		<imprint>
+			<date type="published" when="2022-11-10">10 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<ptr target="https://data.london.gov.uk/dataset/leggi" />
+		<title level="m">London Energy and Greenhouse Gas Inventory (LEGGI). Available online</title>
+		<imprint>
+			<date type="published" when="2022-11-10">10 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Transport Of London</surname></persName>
+		</author>
+		<ptr target="https://tfl.gov.uk/modes/driving/congestion-charge/congestion-charge-zone" />
+		<imprint>
+			<date type="published" when="2022-11-10">10 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Studocu</surname></persName>
+		</author>
+		<ptr target="https://www.studocu.com/ec/document/universidad-tecnica-del-norte/metodologia-de-la-investigacion/datos-sobre-milan-apuntes-1/21255417" />
+		<imprint>
+			<date type="published" when="2022-11-11">11 November 2022</date>
+			<pubPlace>Italia</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad del Norte</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Milan</forename><surname>Economy</surname></persName>
+		</author>
+		<ptr target="https://dbpedia.org/page/Economy_of_Milan" />
+		<imprint>
+			<date type="published" when="2022-11-11">11 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Worldbank</surname></persName>
+		</author>
+		<ptr target="https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?locations=IT" />
+		<imprint>
+			<date type="published" when="2022-11-11">11 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<ptr target="https://es.urbanaccessregulations.eu/countries-mainmenu-147/italy-mainmenu-81/lombardia/milan-area-c-charging-scheme" />
+		<title level="m">Urban Access Regulation in Europe</title>
+		<imprint>
+			<date type="published" when="2022-11-11">11 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Britannica</surname></persName>
+		</author>
+		<ptr target="https://www.britannica.com/place/Tehran" />
+		<imprint>
+			<date type="published" when="2022-11-12">12 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Expansion</title>
+		<ptr target="https://datosmacro.expansion.com/paises/iran" />
+		<imprint>
+			<date type="published" when="2022-11-12">12 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Tehran Traffic Congestion Charging Management</orgName>
+		</author>
+		<ptr target="https://www.witpress.com/elibrary/wit-transactions-on-the-built-environment/128/23240" />
+		<imprint>
+			<date type="published" when="2022-11-12">12 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">The World&apos;s 5 Smartest Cities</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Buntz</surname></persName>
+		</author>
+		<ptr target="http://www.iotworldtoday.com/2016/05/18/world-s-5-smartest-cities/" />
+		<imprint>
+			<date type="published" when="2016-04-16">2016. 16 April 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">How to Solve Traffic Jams. TED Talk</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eliasson</surname></persName>
+		</author>
+		<ptr target="https://www.youtube.com/watch?v=CX_Krxq5eUI&amp;t=39s" />
+		<imprint>
+			<date type="published" when="2012-07-23">2012. 23 July 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<ptr target="https://www.plataformaurbana.cl/archive/2010/05/26/ecopass-el-sistema-de-tarificacion-vial-de-milan/" />
+		<title level="m">Sistema de Tarificación Vial de Milán</title>
+		<imprint>
+			<date type="published" when="2022-11-16">16 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thynell</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Modernidad En Movimiento</surname></persName>
+		</author>
+		<ptr target="https://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0250-71612005009400004#9" />
+	</analytic>
+	<monogr>
+		<title level="j">N</title>
+		<imprint>
+			<biblScope unit="volume">XXXI</biblScope>
+			<biblScope unit="issue">94</biblScope>
+			<biblScope unit="page" from="55" to="77" />
+			<date type="published" when="2005-12-05">December 2005. 5 November 2022</date>
+			<pubPlace>Santiago de Chile</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Cómo Enfrentarse a la Movilidad Motorizada en Teherán, Santiago y Copenhague. Revista Eure</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Impact of electronic road pricing on real estate prices in Singapore</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Agarwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Koo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Sing</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jue.2015.09.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Urban Econ</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="50" to="59" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Road congestion pricing in Singapore: 1975 to 2003</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Phang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Toh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transp. J</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="16" to="25" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<author>
+			<persName><forename type="first">G</forename><surname>Canavos</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Probabilidad Y Estadística</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Aplicaciones y Métodos</title>
+		<meeting><address><addrLine>Mexico</addrLine></address></meeting>
+		<imprint>
+			<publisher>McGraw-Hill</publisher>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<author>
+			<persName><forename type="first">O</forename><surname>Morgenstern</surname></persName>
+		</author>
+		<title level="m">The Accuracy of Economic Observations</title>
+		<meeting><address><addrLine>Princeton, NJ, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Tarificación Vial por Congestión para la Ciudad de Santiago de Chile; Programa de las Naciones Unidas para el Desarrollo: Vitacura</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gleave</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<pubPlace>Chile</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Cálculo del consumo de combustible y emisiones De co2 de camiones mineros, mediante simulación Discreta</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dönicke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Lanyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Del Bío-Bío</surname></persName>
+		</author>
+		<idno type="DOI">10.22320/S07179103/2017.10</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Ingeneria Ind</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="151" to="168" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+		<title level="m" type="main">Avance de Emisiones de Gases de Efecto Invernadero Correspondientes al Año 2021. Ministerio para la Transición Ecológica y el Reto Demográfico</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>Ministerio Para la Transición Ecológica y el Reto Demográfico: Madrid, Spain</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+		<ptr target="https://tuteorica.com/material-complementario/contaminacion-acustica-de-los-vehculos/" />
+		<title level="m">Contaminación Acústica de los Vehiculos. Available online</title>
+		<imprint>
+			<date type="published" when="2022-11-14">14 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Tarificación Vial: Una Política para la Reducción de Externalidades Negativas Producidas por el Congestionamiento Vial</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Garduño</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Arvizu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018. 2018</date>
+			<biblScope unit="volume">IDB</biblScope>
+			<pubPlace>Washington, DC, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<monogr>
+		<title level="m" type="main">Políticas de Tarificación por Congestión: Efectos Potenciales y Consideraciones para su Implementación en Bogotá</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Bocarejo</surname></persName>
+		</author>
+		<idno type="DOI">10.18235/0001116</idno>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>Banco Interamericano de Desarrollo</publisher>
+			<pubPlace>Washington, DC, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Generadoras</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chile</forename></persName>
+		</author>
+		<ptr target="http://generadoras.cl/generacion-electrica-en-chile" />
+		<imprint>
+			<date type="published" when="2022-11-15">15 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Statista</surname></persName>
+		</author>
+		<ptr target="https://www.statista.com/statistics/952800/main-means-transport-chile/" />
+		<imprint>
+			<date type="published" when="2022-11-23">23 November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Las Autopistas Urbanas Concesionadas: Una Nueva Forma de Segregación</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mora</surname></persName>
+		</author>
+		<ptr target="http://www.scielo.cl/pdf/arq/n52/art18" />
+	</analytic>
+	<monogr>
+		<title level="j">Revista ARQ</title>
+		<imprint>
+			<date type="published" when="2005-08">2005. August 2022</date>
+			<pubPlace>Santiago</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<monogr>
+		<title level="m" type="main">The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods</title>
+		<imprint>
+			<publisher>Disclaimer/Publisher&apos;s Note</publisher>
+		</imprint>
+	</monogr>
+	<note>instructions or products referred to in the content</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
