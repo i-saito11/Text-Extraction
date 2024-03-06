@@ -1,0 +1,9 @@
+site_name: Text Extraction Project Documentation
+nav:
+  - Introduction: index.md
+  - Scripts:
+    - keyword_cloud.md
+    - figures.md
+    - links.md
+theme:
+  name: material
