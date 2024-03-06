@@ -1,9 +1,9 @@
-site_name: Text Extraction Project Documentation
+site_name: Text Extraction Project
 nav:
-  - Introduction: index.md
+  - Home: index.md
   - Scripts:
     - keyword_cloud.md
     - figures.md
     - links.md
 theme:
-  name: material
+  name: readthedocs
