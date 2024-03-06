@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/763659834.svg)](https://zenodo.org/doi/10.5281/zenodo.10790932)
-[![ReadTheDocs](https://img.shields.io/badge/Documentation-Read%20The%20Docs-blue)](https://isaitotext-extraction.readthedocs.io/en/real/?badge=real)
+[![ReadTheDocs](https://img.shields.io/badge/Documentation-Read%20The%20Docs-brightgreen)](https://isaitotext-extraction.readthedocs.io/en/real/?badge=real)
 
 
 
