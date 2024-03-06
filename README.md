@@ -1,3 +1,5 @@
+ [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10790933.svg)](https://doi.org/10.5281/zenodo.10790933)
+
 # Text Extraction Project
 
 This project focuses on extracting structured data from PDF files using the Grobid tool and Python scripts.
@@ -39,7 +41,7 @@ python links.py
 ## Preferred Citation
 
 If you use this project, please cite:
-Iñigo Rodriguez Saito. Text Extraction Project. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10790933.svg)](https://doi.org/10.5281/zenodo.10790933)
+Iñigo Rodriguez Saito. Text Extraction Project.
 
 ## Input data
 
