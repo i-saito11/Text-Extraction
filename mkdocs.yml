@@ -1,6 +1,7 @@
 site_name: Text Extraction Project
 nav:
   - Home: index.md
+  - README: README.md
   - Scripts:
     - keyword_cloud.md
     - figures.md
