@@ -33,3 +33,20 @@ This script extracts links from TEI XML files produced by Grobid and filters out
 python keyword_cloud.py
 python figures.py
 python links.py
+```
+5. Follow the prompts to provide input folder paths containing raw PDFs and output folder paths for TEI XML files
+
+## Input data
+
+The input data for the scripts can be stored in any folder on your system. However, its preferred to use the provided 'input_pdfs' folder withing the project directory.
+
+## Output data
+
+The output of the scripts will be generated in the same way input works. 
+
+## More Information
+
+- [Grobid Documentation](https://grobid.readthedocs.io/en/latest/)
+- [Grobid Client Python Documentation](https://github.com/kermitt2/grobid_client_python?tab=readme-ov-file#using-the-client-in-your-python)
+
+
