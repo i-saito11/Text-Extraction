@@ -1,4 +1,4 @@
- [![DOI](https://zenodo.org/badge/763659834.svg)](https://zenodo.org/doi/10.5281/zenodo.10790932)
+[![DOI](https://zenodo.org/badge/763659834.svg)](https://zenodo.org/doi/10.5281/zenodo.10790932)
 
 # Text Extraction Project
 
