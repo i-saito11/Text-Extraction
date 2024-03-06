@@ -22,6 +22,3 @@ These links include URLs mentioned in the text content as well as those embedded
 To validate the accuracy of the keyword clouds, I manually reviewed the abstracts of the articles and cross-referenced the identified keywords with the actual content.
 For the visualization of figure counts, I compared the generated visualizations with the actual number of figures reported in the articles.
 Similarly, for link extraction, I verified the extracted links by inspecting the text content and document structure of the articles.
-
-## Conclusion
-
