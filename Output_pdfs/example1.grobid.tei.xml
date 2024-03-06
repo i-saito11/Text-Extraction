@@ -9,8 +9,11 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 				<title level="a" type="main">Comparison of selected physical fitness components among male football players of different playing positions</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher/>
-				<availability status="unknown"><licence/></availability>
+				<publisher>Turkish Journal of Sport and Exercise</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2015-11-14">2015-11-14</date>
 			</publicationStmt>
 			<sourceDesc>
 				<biblStruct>
@@ -50,7 +53,16 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 						<title level="a" type="main">Comparison of selected physical fitness components among male football players of different playing positions</title>
 					</analytic>
 					<monogr>
+						<title level="j" type="main">Turkish Journal of Sport and Exercise</title>
+						<title level="j" type="abbrev">Turk J Sport Exe</title>
 						<idno type="ISSN">2147-5652</idno>
+						<imprint>
+							<publisher>Turkish Journal of Sport and Exercise</publisher>
+							<biblScope unit="volume">17</biblScope>
+							<biblScope unit="issue">2</biblScope>
+							<biblScope unit="page">22</biblScope>
+							<date type="published" when="2015-11-14" />
+						</imprint>
 					</monogr>
 					<idno type="MD5">BEED10E4F624732ADEB196E928294E4E</idno>
 					<idno type="DOI">10.15314/tjse.68533</idno>
@@ -59,7 +71,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.1-SNAPSHOT" ident="GROBID" when="2024-03-06T18:35+0000">
+				<application version="0.8.1-SNAPSHOT" ident="GROBID" when="2024-03-06T21:28+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>

@@ -48,5 +48,6 @@ The output of the scripts will be generated in the same way input works.
 
 - [Grobid Documentation](https://grobid.readthedocs.io/en/latest/)
 - [Grobid Client Python Documentation](https://github.com/kermitt2/grobid_client_python?tab=readme-ov-file#using-the-client-in-your-python)
+- [DOAJ (Directory of Open Access Journals)](https://doaj.org) - A site for obtaining open access PDFs used in the project.
 
 
