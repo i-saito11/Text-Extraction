@@ -1,7 +1,6 @@
 
 **links.md**:
 
-```markdown
 # Links
 
 This script extracts links from TEI XML files produced by Grobid and filters out unwanted links.
