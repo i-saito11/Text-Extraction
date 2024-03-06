@@ -2,6 +2,7 @@
 [![Documentation Status](https://readthedocs.org/projects/isaitotext-extraction/badge/?version=real)](https://isaitotext-extraction.readthedocs.io/en/real/?badge=real)
 
 
+
 # Text Extraction Project
 
 This project focuses on extracting structured data from PDF files using the Grobid tool and Python scripts.
