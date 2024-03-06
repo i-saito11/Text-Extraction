@@ -1,4 +1,6 @@
 [![DOI](https://zenodo.org/badge/763659834.svg)](https://zenodo.org/doi/10.5281/zenodo.10790932)
+[![Documentation Status](https://readthedocs.org/projects/isaitotext-extraction/badge/?version=real)](https://isaitotext-extraction.readthedocs.io/en/real/?badge=real)
+
 
 # Text Extraction Project
 
