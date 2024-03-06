@@ -1,0 +1,1959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Self-regulation, stress appraisal, and esport action performance</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-10-10">10 October 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ale</forename><surname>Quartiroli</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Laura</forename><surname>Swettenham</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Michael</forename><forename type="middle">G</forename><surname>Trotter</surname></persName>
+							<email>michael.trotter@umu.se</email>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">Umeå University</orgName>
+								<address>
+									<settlement>Umeå</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Emmanuel</forename><forename type="middle">A C</forename><surname>Obine</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Institute of Psychology, Business and Human Sciences</orgName>
+								<orgName type="institution">University of Chichester</orgName>
+								<address>
+									<settlement>Chichester</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Benjamin</forename><forename type="middle">T</forename><surname>Sharpe</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Institute of Psychology, Business and Human Sciences</orgName>
+								<orgName type="institution">University of Chichester</orgName>
+								<address>
+									<settlement>Chichester</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">The International Federation of Esports Coaches (IFoEC)</orgName>
+								<orgName type="institution">University of Wisconsin</orgName>
+								<address>
+									<addrLine>La Crosse</addrLine>
+									<country>United States United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Iván Bonilla</orgName>
+								<orgName type="institution" key="instit2">Autonomous University of Barcelona</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Self-regulation, stress appraisal, and esport action performance</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-10-10">10 October 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7FCDA56A0CD425CDA121EA6B82EC0131</idno>
+					<idno type="DOI">10.3389/fpsyg.2023.1265778</idno>
+					<note type="submission">RECEIVED 24 July 2023 ACCEPTED 18 September 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1-SNAPSHOT" ident="GROBID" when="2024-03-06T18:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>challenge</term>
+					<term>threat</term>
+					<term>self-regulation</term>
+					<term>stress</term>
+					<term>Counter-Strike</term>
+					<term>video-games</term>
+					<term>e-sport</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Electronic sport has seen substantial growth in market value and popularity in the last 10 years. With this growth has come the pursuit of elite esports performance, especially from a psychological perspective. This study aimed to investigate potential variations in self-regulation levels among athletes of different levels (national vs. student), compare the self-regulation profiles of CS:GO players in the current study to an international sample of e'athletes and to assess the predictive capacity of self-regulation on performance outcomes. A total of 53 esports athletes (student competitors, n = 27 and national-level CS:GO competitors, n = 26), participated in an experiment exploring self-regulation, DRES, and action performance. Furthermore, analysis comparing our collective findings against a larger global sample of e'athletes (n = 993) was conducted. Results demonstrated that CS:GO players who displayed higher levels of selfregulation tended to perceive stressful situations as challenges, consequently showcasing superior accuracy and time trial performance. In contrast, individuals with lower self-regulation tended to perceive such situations as threats, which correlated with less favorable performance outcomes. On a broader scale, the study observed that CS:GO competitors generally exhibited lower levels of self-regulation when compared to the larger global sample. Furthermore, selfregulation was identified as a mediating variable in the relationship between stress appraisal and performance, suggesting that improved self-regulation skills can lead to enhanced accuracy and quicker time trial performance. This may imply that competitors with greater self-regulatory abilities perceive themselves as having more personal resources, enabling them to effectively assess challenging situations and employ problem-focused coping strategies. Overall, this research underscores the significance of self-regulation in optimizing esports performance, while providing valuable insights for player development, action performance, and overall outcomes in the field.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Sporting success requires constant cognitive, behavioral and emotional regulation, over a long period of time both during practice and in competitive settings <ref type="bibr" target="#b15">(Crocker et al., 2015)</ref>. To excel in competitive contexts, athletes must possess the ability to self-regulate their behaviors through meticulous planning, control, and adaptation <ref type="bibr" target="#b28">(Jonker et al., 2010a;</ref><ref type="bibr" target="#b71">Young et al., 2023)</ref>. In the realm of esports, research has revealed that esports athletes 10.3389/fpsyg.2023.1265778 (e'athletes; <ref type="bibr" target="#b12">Bubna et al., 2023)</ref> who exhibit strong self-regulation skills are more likely to achieve success <ref type="bibr" target="#b68">(Trotter et al., 2021)</ref>. <ref type="bibr" target="#b5">Behnke et al. (2020)</ref> observed that experienced e'athletes who perceived themselves to possess abundant personal resources relative to the demands of the competition tended to appraise stressful situations as challenges rather than threats. To date, no research has explored the possibility that self-regulatory skills may influence stress appraisal in esports. The study aims to enhance our understanding of the relationship between self-regulation and stress appraisal in e'athletes. It is anticipated that self-regulatory skills will manifest as prominent personal attributes, particularly among expert e'athletes, and that these skills will mediate the connection between stress appraisal and performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Esport performance</head><p>Achieving high performance is perceived as being paramount in the realm of professional sports culture <ref type="bibr" target="#b19">(Douglas and Carless, 2006)</ref>. This holds true for competitive esports, which boasts year on year growth of industry revenue at 16.4% in 2022 with the industry estimated to be worth over 24.9 billion US dollars <ref type="bibr" target="#b0">(Ahn et al., 2020;</ref><ref type="bibr" target="#b44">Newzoo, 2022)</ref>. Furthermore, the popularity of esports shows no signs of diminishing. Notably, performance in esports can significantly impact a team's or individual's ability to secure sponsorships, which are crucial for financing various competition-related expenses such as travel and obtaining vital support health services like psychology or physiotherapy <ref type="bibr" target="#b26">(Hong, 2022)</ref>. Sponsorships are also a vital component of the business models of many esports stakeholders <ref type="bibr" target="#b56">(Scholz, 2019)</ref>. The inability to deliver satisfactory performance may negatively affect a player or team's prospects of acquiring or retaining sponsorships, as sponsors may be hesitant to associate their brand with notions of failure and inferiority <ref type="bibr" target="#b16">(Crompton, 2015)</ref>. Given the substantial impact of performance in the esports industry, it is not surprising that a significant amount of research has been dedicated to investigating factors that distinguish high-performing teams from lowerperforming ones. Research has explored various performance related factors variables, including stress coping, utilization of psychological skills, self-regulation, and physical activity <ref type="bibr" target="#b52">(Poulus et al., 2020</ref><ref type="bibr" target="#b53">(Poulus et al., , 2022c;;</ref><ref type="bibr" target="#b67">Trotter et al., 2020</ref><ref type="bibr" target="#b68">Trotter et al., , 2021))</ref>.</p><p>Specifically, esports psychology research has shown significant interest in stress and coping <ref type="bibr" target="#b37">(Leis and Lautenbach, 2020;</ref><ref type="bibr" target="#b38">Leis et al., 2021)</ref> psychological skill use <ref type="bibr" target="#b68">(Trotter et al., 2021;</ref><ref type="bibr" target="#b8">Bonilla et al., 2022)</ref>. Studies have highlighted notable internal stressors (e.g., performance pressures) and external stressors (e.g., performing in front of an audience; see <ref type="bibr">Poulus et al., 2022a,b</ref> for qualitative investigations), that appear to inhibit performance. The assessment of esports performance often relies on broad indicators such as ingame rank, which may lack transparency regarding the calculation methods and the specific factors influencing rank assignment <ref type="bibr" target="#b52">(Poulus et al., 2020;</ref><ref type="bibr" target="#b67">Trotter et al., 2020</ref><ref type="bibr" target="#b68">Trotter et al., , 2021))</ref>. A recent Delphi study conducted by <ref type="bibr" target="#b58">Sharpe et al. (2023a)</ref> engaged esports performance experts to explore alternative measures of esports performance. The study highlighted the inclusion of more action performance measures (any performance measure that may directly or indirectly influence the outcome of the domain goal), such as reaction time and accuracy, as they offer a more comprehensive and reliable assessment of individual esports performance to date. These metrics present a promising avenue for future research in the field, offering valuable alternatives to relying solely on game rank and provide an opportunity for researchers to note the intention of their research more explicitly. As such, the following line of research will be investigating the influence of stress appraisal and selfregulation on esport action performance (see <ref type="bibr" target="#b58">Sharpe et al., 2023a</ref> for description). Effective self-regulation is one potential action performance measure, which has been associated with performance in numerous contexts <ref type="bibr" target="#b64">(Toering et al., 2009;</ref><ref type="bibr" target="#b28">Jonker et al., 2010a;</ref><ref type="bibr" target="#b68">Trotter et al., 2021)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Self-regulation</head><p>Self-regulation can be defined as the cyclical "capacity to plan, guide, and monitor one's behavior" <ref type="bibr">(Brown, 1998, p. 62)</ref>. Within the field of psychology, self-regulation has garnered significant attention, resulting in the formulation of various models since the 1980s. These models diverge in terms of the number and sequence of their phases and subprocesses (see <ref type="bibr" target="#b49">Panadero, 2017</ref> for a comprehensive review). While each self-regulation model possesses its unique characteristics, each model can generally be categorized as having three main phases: preparatory phase (e.g., task definition, planning, goal setting), performance phase (e.g., monitoring, control, utilization of task-specific strategies), and appraisal phase (e.g., performance feedback, reflection, adaptation, regulation). During the preparatory phase, individuals establish goals and select appropriate strategies based on the available information. In the performance phase, individuals enact their chosen strategies and assess the efficacy of the associated behaviors. Finally, in the appraisal phase, individuals reflect on goal outcomes and prepare for future performances.</p><p>The <ref type="bibr" target="#b43">Miller and Brown (1991)</ref> and <ref type="bibr" target="#b72">Zimmerman (2000)</ref> models of self-regulation have been previously used to measure selfregulation in esports <ref type="bibr" target="#b30">(Kleinman et al., 2021;</ref><ref type="bibr" target="#b68">Trotter et al., 2021</ref><ref type="bibr" target="#b69">Trotter et al., , 2022))</ref>. This study has chosen to use the <ref type="bibr" target="#b43">Miller and Brown (1991)</ref> model, which includes seven phases of self-regulation (i.e., information input, self-evaluation, instigation to change, search, planning, implementation and plan evaluation) to allow for comparison of this studies results, with quantitative self-regulation results from a previously measured global population of e'athletes <ref type="bibr" target="#b68">(Trotter et al., 2021)</ref>. In the <ref type="bibr" target="#b43">Miller and Brown (1991)</ref> model, the self-regulation cycle begins with information input, which involves the monitoring of the self and external situational cues to determine the capacity for coping with situational demands. Information input is followed by self-evaluation, which occurs to judge if a disparity exists between a current state and a goal state. If a discrepancy exists (e.g., being in the process of losing a current esports match), then an instigation to change occurs to consciously adjust behaviors toward the goal. The individual then searches for possible options to reduce the discrepancy (e.g., changing the current game strategy to improve the likelihood of winning). Once a feasible course of action has been identified, the next step is to plan specific strategies to begin the process of change. Then, to aid with adherence to change during implementation, self-control behaviors are employed. Finally, the cycle is completed with a self-evaluation of the attempted behavior change, the information which is produced then influences the information input of the next cycle <ref type="bibr" target="#b11">(Brown, 1998)</ref>.</p><p>In highly competitive environments such as sport, research suggests that an athlete's capacity for self-regulation positively influences both their development <ref type="bibr" target="#b41">(McCardle et al., 2018;</ref><ref type="bibr" target="#b71">Young et al., 2023)</ref> and performance <ref type="bibr">(Jonker et al., 2010b)</ref>. <ref type="bibr" target="#b41">McCardle et al. (2018)</ref> conducted a survey of 482 athletes' selfregulated learning in practice, revealed that both junior and senior athletes competing at an international level exhibited significantly higher levels of self-regulation compared to their counterparts participating at the national, provincial, and local levels. Furthermore, <ref type="bibr" target="#b70">Wilson et al. (2021)</ref> found that more elite athletes demonstrated superior self-regulated learning during practice sessions. Additionally, <ref type="bibr" target="#b73">Zimmerman (2002)</ref> demonstrated that self-regulatory skills accounted for 90% of the variance in volleyball serving skills, highlighting the predictive power of selfregulation in sports performance. In a study conducted by <ref type="bibr" target="#b64">Toering et al. (2009)</ref>, it was reported that soccer players with enhanced self-regulatory skills were more likely to be classified as being at an elite level. It has been indicated that psychological skills such as self-monitoring and reflection, which constitute integral aspects of the performance and reflection phases of the self-regulatory process, are reported up to 11 times more frequently by elitelevel athletes <ref type="bibr" target="#b4">(Bartulovic et al., 2017;</ref><ref type="bibr" target="#b62">Te Wierike et al., 2018)</ref>. However, despite the considerable amount of research conducted on self-regulation and self-regulated learning in academic and traditional sports contexts, the exploration of self-regulation in esports remains limited.</p><p>Researchers acknowledge the potential benefits of investigating self-regulation in esports for players and their social networks <ref type="bibr" target="#b9">(Brevers et al., 2020)</ref>. A study by <ref type="bibr" target="#b68">Trotter et al. (2021)</ref> examined the self-regulatory skills of 993 e'athletes who exhibited low (impaired) to moderate levels of self-reported self-regulatory skills. Furthermore, when compared to other athletic populations, e'athletes displayed notably weaker self-regulatory skills. However, within the sample of e'athletes examined, those belonging to the highest performing group (top 10%) demonstrated significantly higher self-regulatory skills than the lowest performing group (bottom 70%). Although limited, this evidence suggests that like other sporting domains, self-regulatory skills may play a crucial role in esports performance. Research has also indicated differences in self-regulated learning between experts and novice e'athletes <ref type="bibr" target="#b30">(Kleinman et al., 2021)</ref>. Specifically, in the preparatory phase, novices were found to prioritize process goals more frequently than experts. Additionally, <ref type="bibr" target="#b30">Kleinman et al. (2021)</ref> discovered that more advanced League of Legends (LoL) players exhibited greater structure in their practice routines compared to novice LoL players. It was hypothesized that this could be attributed to the design of LoL, as the game itself records players' progress and provides information, potentially reducing the need for extensive monitoring or self-reflection among LoL players. Furthermore, <ref type="bibr" target="#b31">Kleinman et al. (2022)</ref> proposed that digital tools may offer valuable support for e'athletes in implementing their self-regulatory skills. Previous research has shown that psychological skills training (PST) interventions improved athletes' self-regulatory processes and lead to stressful situations being appraised as a challenge rather than a threat <ref type="bibr" target="#b25">(Hogue, 2020)</ref>. Further research is warranted to ascertain whether self-regulation has the same potential to influence stress and performance in esports as it does in traditional sports.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appraisal</head><p>The cognitive-motivational-relational theory (CMRT), proposed by <ref type="bibr" target="#b36">Lazarus (2000)</ref>, stands as the most influential framework in the field of stress and coping. According to this theory, the process of stress and coping begins with the cognitive appraisal of a stressful event. <ref type="bibr" target="#b36">Lazarus (2000)</ref> delineated two distinct types of stress appraisal: primary and secondary appraisal. Primary appraisals revolve around the significance of the outcome of a given stressful situation in relation to the relevance, congruence, and content of a goal. During primary appraisal, an assessment is made regarding the likelihood that the current situation poses a threat to one's wellbeing. Consequently, the situation is appraised as one of four alternatives: harm/loss (damage that has already occurred), threat (potential future damage), challenge (a sense of enthusiasm about the current or imminent struggle), or benefit (gaining advantage from the situation; see <ref type="bibr" target="#b45">Nicholls and Polman, 2007</ref>, for a comprehensive review). Secondary appraisal entails the evaluation of available options and resources that can facilitate coping with the stressor <ref type="bibr" target="#b36">(Lazarus, 2000)</ref>. It is during secondary appraisal that individuals make decisions regarding which coping strategies to employ <ref type="bibr" target="#b45">(Nicholls and Polman, 2007)</ref>. Problem-focused and emotion-focused coping methods are often utilized when dealing with stressors appraised as challenges, whereas avoidance-focused coping tends to be employed more frequently in response to stressors perceived as threats <ref type="bibr" target="#b1">(Allen et al., 2012)</ref>. Threat appraisals are more likely to elicit avoidance coping and emotion-focused strategies <ref type="bibr" target="#b18">(Dias et al., 2012)</ref>, whereas challenge appraisals are more conducive to the adoption of task-oriented coping strategies <ref type="bibr" target="#b46">(Nicholls et al., 2016)</ref>. Furthermore, stress appraisal has been found to predict performance outcomes, with challenge appraisals yielding superior performance in training tasks compared to threat appraisals <ref type="bibr" target="#b21">(Gildea et al., 2007)</ref>.</p><p>In recent years, there has been attention given to the study of stress and coping mechanisms in esports. Though, stress appraisal in esports athletes has remained relatively understudied. <ref type="bibr" target="#b50">Poulus et al. (2022b)</ref> proposed that the perceived intensity of stressors did not significantly impact the appraisal of stress among League of Legends players. In a separate investigation, <ref type="bibr" target="#b52">Poulus et al. (2020)</ref> found that e'athletes were equally likely to perceive stressors as both threats and challenges. Additionally, it was observed that e'athletes tended to view performance-related stressors as challenges, while perceiving challenges arising from teammates as threats <ref type="bibr" target="#b50">(Poulus et al., 2022b)</ref>. <ref type="bibr" target="#b5">Behnke et al. (2020)</ref> discovered that e'athletes who believed they possessed ample personal resources were more likely to achieve favorable outcomes when confronted with stressful situations, compared to those who perceived a lack of personal resources. <ref type="bibr" target="#b39">Leis et al. (2023)</ref> suggested that the availability of coping resources and strategies, such as social support, selfregulatory skills, and psychological techniques, could influence the appraisal of competitive situations. Notably, self-regulatory skills, including goal setting, have been found to be associated with stress appraisal, as increased utilization of goal setting has been linked to more effective coping mechanisms and improved mental wellbeing among athletes <ref type="bibr" target="#b46">(Nicholls et al., 2016)</ref>. Nevertheless, there remains a noticeable dearth of scholarly investigations that have specifically focused on interventions targeting the mitigation of psychological pressure in real-world competitive esport scenarios <ref type="bibr" target="#b14">(Cottrell et al., 2019;</ref><ref type="bibr" target="#b39">Leis et al., 2023)</ref>. Consequently, there is a pressing need for research that can contribute to the development of evidence-based strategies aimed at effectively managing the challenges posed by performance-related pressure. With this objective in mind, the current study aimed to bridge this gap in knowledge and enhance our comprehension of the influence of appraisal and self-regulation on performance in esports.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aims</head><p>The primary aim of this study was to investigate potential variations in self-regulation levels among athletes of different levels (national vs. student) and subsequently compare the self-regulation profiles of CS:GO players in the current study to an international sample of e'athletes, utilizing data acquired from previous research <ref type="bibr" target="#b68">(Trotter et al., 2021)</ref>. Furthermore, the study aimed to assess the predictive capacity of self-regulation on performance outcomes in CS:GO players. The study hypothesized that nationallevel competitors would exhibit superior self-regulation scores compared to the student group, no significant distinctions would emerge between CS:GO players and the international sample, and self-regulation would serve as a predictor of performance across all e'athletes. Additionally, in an exploratory analysis, considering the absence of prior investigations on the mediating role of self-regulation in the relationship between stress appraisal and performance in esports, the study sought to explore the potential mediational effect of self-regulation in this context among CS:GO players.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participant information</head><p>A total of 53 participants were used as part of the study (M age = 21.89, SD = 3.52) consisting of 13.2% females (n = 7) and 86.8% males (n = 46). Participants were separated based on two criteria: student competitors (SC) who were actively competing in local or University-based competitions and aiming to become national competitors (n = 27), consisting of 3 females and 24 males, and national competitors (NC) who were actively aiming to become professional international competitors (n = 26) consisting of 4 females and 22 males. The SC participants had in-game ranks which ranged from Distinguished Master Guardian to Global Elite. These participants represented the top 13.99% of all CS:GO players. All NC participants were actively preparing with their teams for ESL Premiership Spring 2022. The ESL premiership is the highest national division of CS:GO in the United Kingdom and Republic of Ireland. The participants, termed national competitors, comprised of four full teams (n = 20), including the teams back-up players (n = 6). These individuals were salaried only during the competitive season during the time of data collection. The NC participants had in-game ranks which ranged from Supreme Master First Class to Global Elite. These participants represented the top 3.39% of players (96%). However, all but one of the NC participants were in the top 0.75% of all CS:GO players. All individuals held normal or corrected vision and had no known psychiatric or neurological disorders. The study protocol received ethical approval from the United Kingdom-based institution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measures Challenge and threat appraisals (DRES)</head><p>The assessment of challenge and threat appraisals involved two items adapted from the cognitive appraisal ratio <ref type="bibr" target="#b65">(Tomaka et al., 1993)</ref>. The first item measured evaluated task demands through the question "What is your expectation of the demands of the upcoming competition?, " while the second item assessed evaluated personal coping resources by asking "What is your perceived ability to cope with the demands of the upcoming competition?" Both items were rated on a 6-point Likert scale, with response anchors ranging from "Not at all" (scored as 1) to "Extremely" (scored as 6). Following previous research protocols (e.g., <ref type="bibr" target="#b10">Brimmell et al., 2019)</ref>, a demand-resource evaluation score (DRES) was derived by subtracting the evaluated demands from the evaluated resources. A score of zero or above indicated a challenge appraisal, signifying that personal coping resources matched or exceeded task demands. Conversely, a negative score indicated a threat appraisal, indicating that task demands exceeded personal coping resources.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Action performance task</head><p>Action performance was assessed by measuring the total time required (in seconds) to complete the CS:GO time-trial and the shooting accuracy percentage in hitting targets. In the context of esports, action performance pertains to attributes such as accuracy that can influence the outcome, such as winning or losing a match <ref type="bibr" target="#b58">(Sharpe et al., 2023a)</ref>. Each participant completed a single task involving navigating from the starting point to the endpoint of a map while engaging with appearing obstacles. The experimental task was conducted uniformly across all participants, with participants completing four trials with a one-minute break between trails. Consequently, performance variables were averaged, and all individuals followed the same scripted task.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Self-regulation questionnaire</head><p>The measurement of self-regulatory skills was conducted using the self-regulation questionnaire (SRQ; <ref type="bibr" target="#b11">Brown et al., 1999)</ref>. Comprising 63 items, the SRQ assesses a global factor and six associated sub-factors. A 5-point Likert scale was employed for scoring, ranging from 1 (strongly disagree) to 5 (strongly agree). While individual factor scores can be computed, it is recommended to utilize an overall SRQ score encompassing all factors <ref type="bibr" target="#b11">(Brown et al., 1999)</ref>. For classification purposes, overall self-regulation scores can be categorized as high (&gt; 239), intermediate (214-238), or low/impaired (&lt; 213; <ref type="bibr" target="#b11">Brown et al., 1999)</ref>. The SRQ demonstrates favorable reliability (α = 0.91) and validity (r = 0.94, p &lt; 0.01) and has been previously employed to measure self-regulation within diverse sporting populations <ref type="bibr" target="#b11">(Brown et al., 1999;</ref><ref type="bibr" target="#b54">Sadri and Janani, 2015;</ref><ref type="bibr" target="#b57">Shandi et al., 2016;</ref><ref type="bibr" target="#b63">Thapar and Nancy, 2018;</ref><ref type="bibr" target="#b23">Gupta and Sudhesh, 2019)</ref>. The SRQ was found to be highly reliable in the current study (α = 0.95).   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study design and procedure</head><p>Prior to participating in the laboratory experiment, the participants were provided with an information sheet that outlined the study's objectives and informed them about their ethical entitlements, such as confidentiality, anonymity, and the right to withdraw from the study. Upon granting informed consent, the data collection process commenced and lasted approximately 30 min. The data collection sessions were scheduled during daytime hours (9 am-4 pm), data was gathered by the lastnamed author (Male), and the participants were instructed to abstain from consuming any beverages containing caffeine for a 24-h period prior to the testing (see <ref type="bibr">Sainz et al., 2020, for discussion)</ref>. Once the testing process began, participants were initially asked to complete the self-regulation questionnaire, before undergoing a familiarization phase of the domain-specific esport task. Participants were then informed of the primary task, that they were to simply perform to their best ability, and then complete a challenge and threat appraisal assessment (DRES). Following this, they completed four rounds of the performance task, with each round concluding after 3 min if not completed by the participant. A one-minute break was provided between each round. Further detail of the study design and procedure for this experimental study, beyond the inclusion of self-regulation, can be found in <ref type="bibr" target="#b58">Sharpe et al. (2023a)</ref>. Note: Only the DRES and action performance measures were used in this study, and data was only extracted from the control condition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transparency and openness</head><p>The present study involved the extraction of performance data from a subset of the work conducted by <ref type="bibr">Sharpe et al. (2023b)</ref>, which was then amalgamated with the concurrently collected selfregulation data. Interested parties may request access to the study materials, performance measures, and anonymised data from the corresponding author. Throughout the entire research process, strict adherence was maintained to the American Psychological Association (APA) standards for reporting quantitative research <ref type="bibr" target="#b2">(Appelbaum et al., 2018)</ref>. The authors hold no conflicts of interest associated with the publication of the following manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>Statistical analyses were conducted using R Studio (RStudio Inc., v 0.99.903) with the R statistical package (v 4.2.1). Assumptions were assessed using the ggplot2 function of the ggpubr package (0.4.0), including evaluations of normality <ref type="bibr" target="#b20">(Fallowfield et al., 2005)</ref> and the identification of univariate and multivariate outliers <ref type="bibr" target="#b32">(Kline, 1998)</ref>. Skewness and Kurtosis values for all measures met the criteria for normality and no outliers were detected. Pearson correlation analysis and a series of paired samples t-tests were performed using the rstatix package (0.7.0) to investigate the relationships between challenge and threat appraisals, self-regulation, and performance (see Table <ref type="table" target="#tab_0">1</ref>), and examine potential differences across expertise groups (two levels: student vs. national-level competitors). Participants matchmaking groups then were determined based on the method described prior authors (see <ref type="bibr">Poulus et al., 2020, for information)</ref>. A one sample t-test was then run to compare the self-regulation mean scores from prior literature <ref type="bibr" target="#b67">(Trotter et al., 2020)</ref> with SRQ data obtained with permission from the original authors. Finally, mediation analyses were conducted using the PROCESS add-on for SPSS <ref type="bibr">(version 4.30;</ref><ref type="bibr" target="#b24">Hayes and Scharkow, 2013)</ref> to explore whether selfregulation mediates the relationship between DRES and action performance (i.e., time trial performance and shooting accuracy). We used 5,000 bias-corrected and accelerated (BCa) bootstrap samples for indirect effects <ref type="bibr" target="#b17">(Davidson and MacKinnon, 2000;</ref><ref type="bibr" target="#b61">Streukens and Leroi-Werelds, 2016)</ref>. The alpha level (p) was set at 0.05 and Cohen's d (with 0.2 being small, 0.5 medium, and 0.8 and above large) were used as effect size estimates <ref type="bibr" target="#b13">(Cohen, 1988)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>To determine the differences in DRES, self-regulation, and performance scores between levels of expertise a series of t-tests were performed (see Table <ref type="table" target="#tab_0">1</ref>).</p><p>This study compared the findings obtained in this study with the sample of 993 e'athletes who competed in a variety of esports (Overwatch, League of Legends, Counter-Strike: Global Offensive, Rocket League, and Defense of the Ancients 2), novice to elite <ref type="bibr" target="#b68">(Trotter et al., 2021;</ref><ref type="bibr"></ref> see Tables <ref type="table" target="#tab_1">2</ref><ref type="table" target="#tab_2">3</ref><ref type="table" target="#tab_3">4</ref><ref type="table" target="#tab_4">5</ref><ref type="table" target="#tab_5">6</ref><ref type="table" target="#tab_6">7</ref>). When comparing the mean values of self-regulation for the combined study sample, it was found that the study sample was significantly lower on total selfregulation and on all self-regulation subscales. When compared with all skill groups of e'athletes from the <ref type="bibr" target="#b68">Trotter et al. (2021)</ref> study, the SC participants scored significantly lower on selfregulation including all subscales of the SRQ. Initially, only the top 10 and 20% skill groups were compared, but each skill group (i.e., the 0-69%, 70-79%, 80-89% and top 10% skill groups) was subsequently examined when significantly lower self-regulation scores were observed between the SC group and all skill groups in the <ref type="bibr" target="#b68">Trotter et al. (2021)</ref> study. When comparing the NC group with the top 10% skill group, no differences were observed in total self-regulation, but the NC group was significantly lower on information input, search and implementation.</p><p>Two simple mediation analyses, following <ref type="bibr" target="#b3">Baron and Kenny (1986)</ref>     </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>This study aimed to explore the variations in self-regulation among NC and SC CS:GO players, compared their self-regulation results with an international sample, and investigated selfregulation's predictive role in performance. It also explored selfregulation as a potential mediator between stress appraisal and performance. The findings indicated that the examined group of e'athletes demonstrated compromised or borderline compromised levels of self-regulation. However, the NC group exhibited significantly higher self-regulation than the SC group. When comparing the self-regulation of CS:GO players to a global sample Simple mediation model: Self-regulation mediating the relationship between mental demand and accuracy. of e'athletes, it was observed that the CS:GO players exhibited significantly weaker self-regulatory skills than the international population <ref type="bibr" target="#b68">(Trotter et al., 2021)</ref>. Furthermore, the NC group outperformed the SC group in terms of shooting accuracy and time trial performance. In addition, the NC group displayed a greater tendency to perceive stressful situations as a challenge rather than a threat compared to the SC group. Finally, self-regulation was found to mediate the relationship between stress appraisal and both shooting accuracy and time trial performance. Based on these findings, we contend that despite the impaired or borderline impaired self-regulation reported by the e'athlete sample in this study, individuals with superior self-regulation abilities were more likely to achieve better performance outcomes. We propose that this may be attributed to the mediating effect of self-regulation between stress appraisal and the action performance metrics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Self-regulation</head><p>Initial data suggested that the NC group exhibited selfregulation skills at the lower end of the moderate range, with only borderline scores (i.e., a mean score only two points above the impaired classification cutoff) between impaired and moderate selfregulation being reported. Nonetheless, this finding corroborated earlier research, which found that e'athletes reported borderline moderate/impaired-level self-regulation skills <ref type="bibr" target="#b68">(Trotter et al., 2021)</ref>. On the other hand, the SC group demonstrated impaired levels of self-regulation skills, indicating a lower proficiency compared to the global sample that identified impaired to moderate levels of self-regulation among all skill groups. Similar patterns have been observed in other sports, where self-regulatory abilities have been identified as a differentiating factor between elite football players and their less skilled counterparts <ref type="bibr" target="#b64">(Toering et al., 2009)</ref>. Additionally, a study focusing on women's volleyball serving skills revealed that experts exhibited superior self-regulation abilities compared to non-experts and novices. Furthermore, selfregulation was found to account for 90% of the variance in serving skills <ref type="bibr" target="#b29">(Kitsantas and Zimmerman, 2002)</ref>. Consequently, it is recommended that athletes, coaches, and professional esports organizations aiming to enhance performance prioritize the development of psychological skills that contribute to improved self-regulation <ref type="bibr" target="#b42">(McCrory et al., 2013)</ref>. This may be especially important for CS:GO players, as the SC group whose online ranks represent the top 14% of CS:GO players reported significantly lower self-regulation than the lowest skill groups from the international sample collected by <ref type="bibr" target="#b68">Trotter et al. (2021)</ref>. However, the authors wish to note that prior literature has also observed inconsistencies associated with in-game rank influencing variables of interest <ref type="bibr" target="#b66">(Toth et al., 2019)</ref>. Such findings may be unsurprising given that in-game rank is merely an indication of success with temporary teams, like that of other popular competitive esports <ref type="bibr" target="#b33">(Kou et al., 2016)</ref>, and not necessarily a direct reflection of an individual's performance capability. For example, in CS:GO's in-game matchmaking system, teams are collated at random to compete in a best-of-30 rounds for a period of 45-60 min. Teams may, or may not, communicate through verbal, typing, or ingame signals to surpass the performance of their opponents. Given CS:GO requires some degree of team cohesion, and that negative team communication has been associated with poor performance <ref type="bibr" target="#b34">(Kwak et al., 2015)</ref>, it is unlikely a single individual can "carry" (referring to an individual's capacity to independently achieve success) their entire team to victory. As such, caution should be taken when using in-game rank as a direct classification method Simple mediation model: Self-regulation mediating the relationship between mental demand and time performance.</p><p>of an individual's performance capacity, and so should be avoided when possible.</p><p>When examining self-regulation in comparison to a global population sample, the SC group demonstrated significantly lower levels of self-regulation across all subscales, in contrast to all comparison skill groups. The NC group exhibited significantly lower scores in informational input, search, and implementation when compared to the top 10% skill group in the global sample <ref type="bibr" target="#b68">(Trotter et al., 2021)</ref>. Notably, both the NC and SC groups exhibited notably inferior information gathering skills, which form part of the information input phase of self-regulation, in comparison to the global sample of e'athletes. This may affect stress appraisal as the information input phase initiates the selfregulation cycle, and may occur while the individual appraises the stressful situation and subsequently influences which coping strategy an individual employs. Considering that self-regulation has been found to be associated with success across various performance domains, such as sports and academia <ref type="bibr" target="#b28">(Jonker et al., 2010a)</ref>, it is disconcerting that both the SC and NC groups scored significantly lower than the global sample of e'athletes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stress appraisal</head><p>Regarding the appraisal process, it was observed that the NC group demonstrated a greater tendency to appraise situations as challenges, while the SC group tended to perceive situations as threats. This discrepancy may be attributed to several factors. Firstly, the NC group reported significantly higher levels of ingame skills, such as accuracy and time trial performance, as well as self-regulation than the SC group. Additionally, the NC group had access to additional resources, such as coaches and organizational support. These internal and external personal and perceived resources may have resulted in the CS:GO players appraisal of stressful situations as challenges. According to the <ref type="bibr" target="#b36">Lazarus (2000)</ref> when a person has access to both internal (e.g., psychological or self-regulatory skills; <ref type="bibr" target="#b46">Nicholls et al., 2016)</ref> and external resources (e.g., social support; <ref type="bibr" target="#b48">Pakenham et al., 2007)</ref> are available they are more likely to appraise stress as a challenge rather than a threat. Nevertheless, study results indicate that skill level and the availability of internal and external resources may be linked to stress appraisal among e'athletes. While there is limited existing literature that supports such claims, this in fact falls in accordance with the Biopsychosocial Model of Challenge and Threat <ref type="bibr" target="#b6">(Blascovich, 2008)</ref>, which tentatively proposes that factors such as skill/expertise influence appraisal evaluations, thus facilitating the maintenance of performance. Coaches, organizations, and support systems (e.g., grassroots esports clubs) within the esports industry should, in addition to developing player experience (e.g., tournament experience, in-game strategy), consider implementing strategies to help e'athletes develop positive stress appraisal patterns, as this will likely impact the coping strategies e'athletes use to deal with stressful situations which impact their performance and wellbeing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mediation</head><p>Mediation analysis revealed that self-regulation played a significant mediating role in the relationship between stress appraisal and performance outcomes (i.e., accuracy and time trial performance). The results indicated a direct effect of stress appraisal on both performance factors, with appraising a stressful situation as a challenge being associated with higher accuracy and faster time trial performance. Moreover, the indirect effects demonstrated that self-regulation mediated the relationship between stress appraisal and performance outcomes, whereby higher self-regulation explained the performance outcomes when e'athletes appraised the stressful situation as a challenge. To the authors' knowledge, this study represents the first examination of the mediating effect of self-regulation between stress appraisal and performance factors. One possible explanation for this mediating effect is that e'athletes who perceive a stressful situation as a challenge possess better self-regulatory skills, allowing them to adopt problem-focused coping strategies to directly deal with the problems which are causing their stress. The current study tentatively suggests that enhancing self-regulatory skills may contribute to better performance in terms of accuracy and time trial results in esports. This would imply that interventions targeting self-regulation could positively impact the overall performance of e'athletes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Practical applications and limitations</head><p>The incorporation of psychological skills, such as goal setting and imagery, into the training regimen of e'athletes is worthy of consideration for the purpose of fostering self-regulation. Particularly for novice e'athletes, who demonstrated impaired self-regulatory abilities, these psychological skills hold potential for substantial benefits. While further investigation specific to e'athletes is warranted, existing research has recognized an associated link between self-regulatory skills and academic as well as sports performance <ref type="bibr" target="#b29">(Kitsantas and Zimmerman, 2002;</ref><ref type="bibr" target="#b28">Jonker et al., 2010a;</ref><ref type="bibr" target="#b68">Trotter et al., 2021)</ref>. Ideally, the cultivation of these skills should commence at the grassroots level, wherein disparities between student e'athletes and their peers are minimal <ref type="bibr" target="#b69">(Trotter et al., 2022)</ref>. By integrating these skills early in their development, novice e'athletes can establish a solid foundation for self-regulation, facilitating their progress as they advance in their competitive journey <ref type="bibr" target="#b69">(Trotter et al., 2022)</ref>. Furthermore, incorporating these psychological techniques into coaching and training programs can help establish a holistic framework that nurtures the mental and emotional wellbeing of e'athletes. Particularly, when literature has demonstrated that the arduous nature of competitive gaming can indeed exact a toll on the mental and emotional wellbeing of e'athletes, resulting in heightened pressure, mental ill health symptoms, and burnout <ref type="bibr" target="#b60">(Smith et al., 2022)</ref>. It is therefore imperative to provide e'athletes with a repertoire of self-regulatory strategies, empowering them to skilfully navigate stress, sustain concentration, and enhance decision-making amidst high-pressure situations. By honing these self-regulatory skills, e'athletes can not only optimize their performance but also cultivate resilience, bolster psychological wellbeing, and experience greater overall satisfaction within their chosen pursuit <ref type="bibr" target="#b39">(Leis et al., 2023)</ref>.</p><p>This study presents certain limitations that warrant acknowledgment. Foremostly the sample size utilized in this research is relatively small, comprising solely one esports discipline within a specific geographical region. Consequently, the generalizability of these findings to other esports or larger cohorts of e'athletes remains uncertain. Cultural, socioeconomic, and environmental factors inherent to the geographical region (UK and the Republic of Ireland) where participants were recruited could have influenced the results in ways that may not be applicable to e'athletes from diverse backgrounds or alternative gaming ecosystems. Therefore, caution should be exercised when attempting to extrapolate these findings to a broader population of e'athletes or when comparing them across different regions or cultural contexts.</p><p>Additionally, the study's focus on one esports discipline limits its applicability to variations in self-regulatory processes across different games. Previous research has suggested that different genres of video games may promote development of different cognitive skills <ref type="bibr" target="#b22">(Granic et al., 2014)</ref>. However, differences in self-regulatory skills between genres of esports has not yet been explored and may offer an interesting future area of research. Future research should address these limitations by including larger and more diverse samples encompassing multiple esports disciplines and participants from various regions. This may enhance understanding of self-regulatory processes in esports aid in developing tailored interventions and training programs to support the psychological wellbeing and performance optimization of e'athletes across different contexts.</p><p>Furthermore, it has been posited that primary and secondary appraisal constitute integral components of the preparatory phase of self-regulation <ref type="bibr" target="#b49">(Panadero, 2017)</ref>. However, this proposition is confined to the dual processing model <ref type="bibr" target="#b7">(Boekaerts and Cascallar, 2006)</ref>, while more widely employed models of self-regulation <ref type="bibr" target="#b72">(Zimmerman, 2000)</ref> do not explicitly incorporate the concepts of primary and secondary appraisal. If stress appraisal indeed forms an integral part of the self-regulation process, it may provide an explanation for the substantial correlation observed between appraisal and self-regulation. Therefore, it is recommended that future research delves deeper into the intricate relationship between stress appraisal and the preparatory phases of self-regulation.</p><p>Another limitation is that the present study did not differentiate between different types of self-regulation (e.g., behavioral, emotional). As a result, we have not explored the effectiveness of other interventions which could be used to target the development of specific forms of self-regulation. For example, although PST is known to foster behavioral self-regulation <ref type="bibr" target="#b47">(Ntoumanis and Cumming, 2016)</ref>, other interventions such as acceptance and commitment therapy (ACT) have been shown to improve emotional regulation <ref type="bibr" target="#b40">(Mahmoudpour et al., 2021)</ref>. Future studies should explore how different psychological interventions might influence the development of specific types of self-regulation in esports.</p><p>Finally, current research exploring regulation in esports has focused on the individual athlete. However, as many esports games occur in teams future research should explore how cognitive and behavioral regulation occurs in teams in esports. Previous research has reported that teammates represent a large proportion of stressors for e'athletes <ref type="bibr">(Poulus et al., 2022a)</ref>. How teams collectively regulate their behaviors may give further insight new methods for minimizing the stress cause by teammate interactions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>This study reveals that CS:GO players exhibited impaired self-regulation compared to a global sample of e'athletes. However, CS:GO players with better self-regulatory skills outperformed their peers in shooting accuracy and time trial performance. Better self-regulation was also associated with the appraisal of stressful situations as challenges, while lower self-regulation was associated with threat appraisal. These findings align with previous research in sports, emphasizing the importance of psychological skills development to enhance self-regulation and improve esports performance. It is recommended that athletes, coaches, and organizations in esports prioritize the cultivation of psychological skills that contribute to improved self-regulation. It may be beneficial to have to have a sport psychologist support the introduction or augmentation of psychological skills into the performance environment, especially if e'athletes are at risk of, or suffer from mental ill health. Additionally, this study highlights the need for interventions targeting information input skills, essential for effective coping and initiating selfregulation. Furthermore, self-regulation was found to mediate the relationship between stress appraisal and performance, indicating that better self-regulation leads to improved shooting accuracy and faster time trial performance. This suggests that e'athletes with higher self-regulatory skills perceive themselves as having more personal resources, enabling them to appraise challenging situations and utilize problem-focused coping strategies. Overall, this research underscores the significance of self-regulation in esports performance and provides valuable insights for player development, action performance, and outcomes in the field.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>self-regulation total significantly mediates the relationship between DRES and performance. First, self-regulation significantly mediated the relationship between DRES and shooting accuracy. The total effect of the model was significant [b = 0.312, 95% CI (0.265, 0.369)]. Direct effects [b = 0.257, 95% CI (0.214, 0.301)] and indirect effects were found to be statistically significant [b = 0.054, 95% CI (0.020, 0.088)]. See Figure 1 for path coefficients. Second, self-regulation significantly mediated the relationship between DRES and time trial performance. The total effect of the model was significant [b = -0.296, 95% CI (-0.350, -0.242)]. Direct effects [b = -0.261, 95% CI (-0.319, -0.203)] and indirect effects were found to be statistically significant [b = -0.035, 95% CI (-0.068, -0.003)]. See Figure 2 for path coefficients.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 1</head><label>1</label><figDesc>FIGURE 1</figDesc><graphic coords="8,66.16,88.96,205.20,101.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIGURE 2</head><label>2</label><figDesc>FIGURE 2</figDesc><graphic coords="8,119.05,567.66,354.54,169.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1</head><label>1</label><figDesc>Demonstrating the differences in variables across levels of expertise.</figDesc><table><row><cell></cell><cell>Student-level</cell><cell>National-level</cell><cell></cell><cell></cell></row><row><cell>Variable</cell><cell>M (SD)</cell><cell>M (SD)</cell><cell>t (51)</cell><cell>Cohen's d</cell></row><row><cell>DRES</cell><cell>-0.65 (2.20)</cell><cell>3.70 (1.14)</cell><cell>9.08***</cell><cell>0.495</cell></row><row><cell>Information input</cell><cell>2.47 (0.45)</cell><cell>3.40 (0.67)</cell><cell>5.91***</cell><cell>0.624</cell></row><row><cell>Self-evaluation</cell><cell>2.36 (0.62)</cell><cell>3.30 (0.67)</cell><cell>5.21***</cell><cell>0.431</cell></row><row><cell>Instigation to change</cell><cell>2.40 (0.51)</cell><cell>3.35 (0.73)</cell><cell>5.39***</cell><cell>0.480</cell></row><row><cell>Search</cell><cell>2.41 (0.48)</cell><cell>3.55 (0.48)</cell><cell>8.58***</cell><cell>0.358</cell></row><row><cell>Planning</cell><cell>2.46 (0.52)</cell><cell>3.4 (0.59)</cell><cell>6.26***</cell><cell>0.720</cell></row><row><cell>Implement</cell><cell>2.27 (0.49)</cell><cell>3.63 (0.53)</cell><cell>9.66***</cell><cell>0.654</cell></row><row><cell>Plan evaluation</cell><cell>2.36 (0.55)</cell><cell>3.43 (0.68)</cell><cell>6.24***</cell><cell>0.714</cell></row><row><cell>Self-regulation total</cell><cell>150.46 (23.78)</cell><cell>216.85 (30.08)</cell><cell>8.89***</cell><cell>0.443</cell></row><row><cell>Time trial performance (s)</cell><cell>77.23 (15.51)</cell><cell>44.14 (3.58)</cell><cell>10.79***</cell><cell>0.966</cell></row><row><cell>Accuracy (%)</cell><cell>59 (7.46)</cell><cell>85 (2.56)</cell><cell>17.60***</cell><cell>0.835</cell></row></table><note><p>*&lt;0.05, **&lt;0.01, and ***&lt;0.001.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 2 T</head><label>2</label><figDesc>-test self-regulation comparisons of all participants with the mean of the<ref type="bibr" target="#b68">Trotter et al. (2021)</ref> sample.</figDesc><table><row><cell></cell><cell>N</cell><cell>Mean</cell><cell>Comparison</cell><cell>t</cell><cell>sig</cell><cell>Mean</cell><cell>Cohen's</cell><cell>CI</cell></row><row><cell></cell><cell></cell><cell></cell><cell>M</cell><cell></cell><cell></cell><cell>diff</cell><cell>d</cell><cell></cell></row><row><cell>Information input</cell><cell>53</cell><cell>2.95</cell><cell>3.66</cell><cell>-7.05</cell><cell>&lt;0.001***</cell><cell>-0.71</cell><cell>0.74</cell><cell>-0.92/-0.51</cell></row><row><cell>Self-evaluation</cell><cell>53</cell><cell>2.84</cell><cell>3.27</cell><cell>-3.93</cell><cell>&lt;0.001***</cell><cell>-0.71</cell><cell>0.80</cell><cell>-0.65/-0.21</cell></row><row><cell>Instigation to change</cell><cell>53</cell><cell>2.88</cell><cell>3.48</cell><cell>-5.50</cell><cell>&lt;0.001***</cell><cell>-0.60</cell><cell>0.79</cell><cell>-0.81/-0.38</cell></row><row><cell>Search</cell><cell>53</cell><cell>2.99</cell><cell>3.76</cell><cell>-7.46</cell><cell>&lt;0.001***</cell><cell>-0.77</cell><cell>0.75</cell><cell>-0.98/-0.56</cell></row><row><cell>Planning</cell><cell>53</cell><cell>2.95</cell><cell>3.20</cell><cell>-2.48</cell><cell>&lt;0.01*</cell><cell>-0.25</cell><cell>0.73</cell><cell>-0.45/-0.05</cell></row><row><cell>Implement</cell><cell>53</cell><cell>2.97</cell><cell>3.26</cell><cell>-2.49</cell><cell>&lt;0.01*</cell><cell>-0.29</cell><cell>0.85</cell><cell>-0.53/-0.06</cell></row><row><cell>Plan evaluation</cell><cell>53</cell><cell>2.91</cell><cell>3.42</cell><cell>-4.55</cell><cell>&lt;0.001***</cell><cell>-0.51</cell><cell>0.82</cell><cell>-0.74/-0.29</cell></row><row><cell>Total SR</cell><cell>53</cell><cell>184.28</cell><cell>216.45</cell><cell>-5.45</cell><cell>&lt;0.001***</cell><cell>-32.17</cell><cell>42.98</cell><cell>-44.01/-20.32</cell></row></table><note><p>* &lt; 0.05, ** &lt; 0.01, *** &lt; 0.001.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE 3 T</head><label>3</label><figDesc>-test self-regulation comparisons of the SC group with the 0-69% group of the<ref type="bibr" target="#b68">Trotter et al. (2021)</ref> sample.</figDesc><table><row><cell></cell><cell>N</cell><cell>Mean</cell><cell>Comparison</cell><cell>t</cell><cell>sig</cell><cell>Mean</cell><cell>Cohen's</cell><cell>CI</cell></row><row><cell></cell><cell></cell><cell></cell><cell>M</cell><cell></cell><cell></cell><cell>diff</cell><cell>d</cell><cell></cell></row><row><cell>Information input</cell><cell>26</cell><cell>2.47</cell><cell>3.63</cell><cell>-12.98</cell><cell>&lt;0.001***</cell><cell>-1.16</cell><cell>0.45</cell><cell>-1.34/-0.97</cell></row><row><cell>Self-evaluation</cell><cell>26</cell><cell>2.36</cell><cell>3.27</cell><cell>-7.35</cell><cell>&lt;0.001***</cell><cell>-0.91</cell><cell>0.63</cell><cell>-1.16/-0.65</cell></row><row><cell>Instigation to change</cell><cell>26</cell><cell>2.41</cell><cell>3.44</cell><cell>-10.27</cell><cell>&lt;0.001***</cell><cell>-1.03</cell><cell>0.51</cell><cell>-1.24/-0.83</cell></row><row><cell>Search</cell><cell>26</cell><cell>2.41</cell><cell>3.72</cell><cell>-13.73</cell><cell>&lt;0.001***</cell><cell>-1.31</cell><cell>0.49</cell><cell>-1.51/-1.12</cell></row><row><cell>Planning</cell><cell>26</cell><cell>2.46</cell><cell>3.15</cell><cell>-6.68</cell><cell>&lt;0.001***</cell><cell>-0.69</cell><cell>0.53</cell><cell>-0.90/-0.48</cell></row><row><cell>Implement</cell><cell>26</cell><cell>2.28</cell><cell>3.26</cell><cell>-10.09</cell><cell>&lt;0.001***</cell><cell>-0.98</cell><cell>0.50</cell><cell>-1.18/-0.78</cell></row><row><cell>Plan evaluation</cell><cell>26</cell><cell>2.36</cell><cell>3.39</cell><cell>-9.47</cell><cell>&lt;0.001***</cell><cell>-1.03</cell><cell>0.55</cell><cell>-1.25/-0.80</cell></row><row><cell>Total SR</cell><cell>26</cell><cell>150.46</cell><cell>214.68</cell><cell>-13.77</cell><cell>&lt;0.001***</cell><cell>-64.22</cell><cell>23.78</cell><cell>-73.83/-54.61</cell></row><row><cell>*** &lt; 0.001.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>TABLE 4 T</head><label>4</label><figDesc>-test self-regulation comparisons of the SC group with the 70-79% group of the<ref type="bibr" target="#b68">Trotter et al. (2021)</ref> sample.</figDesc><table><row><cell>10.3389/fpsyg.2023.1265778</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>TABLE 5 T</head><label>5</label><figDesc>three step method, were performed to investigate whether 10.3389/fpsyg.2023.1265778 -test self-regulation comparisons of the SC group with the 80-89% group of the<ref type="bibr" target="#b68">Trotter et al. (2021)</ref> sample.</figDesc><table><row><cell></cell><cell>N</cell><cell>Mean</cell><cell>Comparison</cell><cell>t</cell><cell>sig</cell><cell>Mean</cell><cell>Cohen's</cell><cell>CI</cell></row><row><cell></cell><cell></cell><cell></cell><cell>M</cell><cell></cell><cell></cell><cell>diff</cell><cell>d</cell><cell></cell></row><row><cell>Information input</cell><cell>26</cell><cell>2.47</cell><cell>3.75</cell><cell>-14.33</cell><cell>&lt;0.001***</cell><cell>-1.28</cell><cell>0.45</cell><cell>-1.46/-1.09</cell></row><row><cell>Self-evaluation</cell><cell>26</cell><cell>2.36</cell><cell>3.24</cell><cell>-7.11</cell><cell>&lt;0.001***</cell><cell>-0.88</cell><cell>0.63</cell><cell>-1.13/-0.62</cell></row><row><cell>Instigation to change</cell><cell>26</cell><cell>2.41</cell><cell>3.56</cell><cell>-11.46</cell><cell>&lt;0.001***</cell><cell>-1.15</cell><cell>0.51</cell><cell>-1.36/-0.95</cell></row><row><cell>Search</cell><cell>26</cell><cell>2.41</cell><cell>3.74</cell><cell>-13.94</cell><cell>&lt;0.001***</cell><cell>-1.33</cell><cell>0.49</cell><cell>-1.53/-1.14</cell></row><row><cell>Planning</cell><cell>26</cell><cell>2.46</cell><cell>3.25</cell><cell>-7.65</cell><cell>&lt;0.001***</cell><cell>-0.79</cell><cell>0.53</cell><cell>-1.00/-0.58</cell></row><row><cell>Implement</cell><cell>26</cell><cell>2.28</cell><cell>3.29</cell><cell>-10.40</cell><cell>&lt;0.001***</cell><cell>-1.01</cell><cell>0.50</cell><cell>-1.21/-0.81</cell></row><row><cell>Plan evaluation</cell><cell>26</cell><cell>2.36</cell><cell>3.41</cell><cell>-9.65</cell><cell>&lt;0.001***</cell><cell>-1.05</cell><cell>0.55</cell><cell>-1.27/-0.82</cell></row><row><cell>Total SR</cell><cell>26</cell><cell>150.46</cell><cell>218.29</cell><cell>-14.54</cell><cell>&lt;0.001***</cell><cell>-67.82</cell><cell>23.78</cell><cell>-77.44/-58.22</cell></row><row><cell>*** &lt; 0.001.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>TABLE 6 T</head><label>6</label><figDesc>-test self-regulation comparisons of the SC group with the top 10% group of the Trotter et al. (2021) sample.</figDesc><table><row><cell></cell><cell>N</cell><cell>Mean</cell><cell>Comparison</cell><cell>t</cell><cell>sig</cell><cell>Mean</cell><cell>Cohen's</cell><cell>CI</cell></row><row><cell></cell><cell></cell><cell></cell><cell>M</cell><cell></cell><cell></cell><cell>diff</cell><cell>d</cell><cell></cell></row><row><cell>Information input</cell><cell>26</cell><cell>2.47</cell><cell>3.81</cell><cell>-15.00</cell><cell>&lt;0.001***</cell><cell>-1.34</cell><cell>0.45</cell><cell>-1.52/-1.15</cell></row><row><cell>Self-evaluation</cell><cell>26</cell><cell>2.36</cell><cell>3.33</cell><cell>-7.84</cell><cell>&lt;0.001***</cell><cell>-0.97</cell><cell>0.63</cell><cell>-1.22/-0.71</cell></row><row><cell>Instigation to change</cell><cell>26</cell><cell>2.41</cell><cell>3.50</cell><cell>-10.86</cell><cell>&lt;0.001***</cell><cell>-1.09</cell><cell>0.51</cell><cell>-1.30/-0.89</cell></row><row><cell>Search</cell><cell>26</cell><cell>2.41</cell><cell>3.93</cell><cell>-15.93</cell><cell>&lt;0.001***</cell><cell>-1.52</cell><cell>0.49</cell><cell>-1.72/-1.33</cell></row><row><cell>Planning</cell><cell>26</cell><cell>2.46</cell><cell>3.37</cell><cell>-8.81</cell><cell>&lt;0.001***</cell><cell>-0.91</cell><cell>0.53</cell><cell>-1.12/-0.70</cell></row><row><cell>Implement</cell><cell>26</cell><cell>2.28</cell><cell>3.40</cell><cell>-11.53</cell><cell>&lt;0.001***</cell><cell>-1.12</cell><cell>0.50</cell><cell>-1.32/-0.92</cell></row><row><cell>Plan evaluation</cell><cell>26</cell><cell>2.36</cell><cell>3.51</cell><cell>-10.58</cell><cell>&lt;0.001***</cell><cell>-1.15</cell><cell>0.55</cell><cell>-1.37/-0.92</cell></row><row><cell>Total SR</cell><cell>26</cell><cell>150.46</cell><cell>223.59</cell><cell>-15.68</cell><cell>&lt;0.001***</cell><cell>-73.13</cell><cell>23.78</cell><cell>-82.74/-63.52</cell></row></table><note><p>*** &lt; 0.001.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>TABLE 7 T</head><label>7</label><figDesc>-test self-regulation comparisons of the NC group with the top 10% group of the Trotter et al. (2021) sample.</figDesc><table><row><cell></cell><cell>N</cell><cell>Mean</cell><cell>Comparison</cell><cell>t</cell><cell>sig</cell><cell>Mean</cell><cell>Cohen's</cell><cell>CI</cell></row><row><cell></cell><cell></cell><cell></cell><cell>M</cell><cell></cell><cell></cell><cell>diff</cell><cell>d</cell><cell></cell></row><row><cell>Information input</cell><cell>27</cell><cell>3.40</cell><cell>3.81</cell><cell>-3.17</cell><cell>&lt;0.01**</cell><cell>-0.41</cell><cell>0.67</cell><cell>-0.67/-0.14</cell></row><row><cell>Self-evaluation</cell><cell>27</cell><cell>3.29</cell><cell>3.33</cell><cell>-0.26</cell><cell>= 0.40</cell><cell>-0.03</cell><cell>0.67</cell><cell>-0.30/0.23</cell></row><row><cell>Instigation to change</cell><cell>27</cell><cell>3.34</cell><cell>3.50</cell><cell>-1.09</cell><cell>= 0.14</cell><cell>-0.15</cell><cell>0.73</cell><cell>-0.44/0.14</cell></row><row><cell>Search</cell><cell>27</cell><cell>3.55</cell><cell>3.93</cell><cell>-4.06</cell><cell>&lt;0.001***</cell><cell>-0.38</cell><cell>0.49</cell><cell>-0.57/-0.18</cell></row><row><cell>Planning</cell><cell>27</cell><cell>3.42</cell><cell>3.37</cell><cell>0.44</cell><cell>= 0.33</cell><cell>0.05</cell><cell>0.59</cell><cell>-0.18/-0.28</cell></row><row><cell>Implement</cell><cell>27</cell><cell>3.63</cell><cell>3.40</cell><cell>2.32</cell><cell>= 0.01*</cell><cell>0.23</cell><cell>0.52</cell><cell>0.03/0.44</cell></row><row><cell>Plan evaluation</cell><cell>27</cell><cell>3.43</cell><cell>3.51</cell><cell>-0.59</cell><cell>= 0.28</cell><cell>-0.08</cell><cell>0.68</cell><cell>-0.35/0.19</cell></row><row><cell>Total SR</cell><cell>27</cell><cell>216.85</cell><cell>223.59</cell><cell>-1.16</cell><cell>= 0.13</cell><cell>-6.73</cell><cell>30.08</cell><cell>-18.64/5.16</cell></row><row><cell>* &lt; 0.05, ** &lt; 0.01, *** &lt; 0.001.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Frontiers in Psychology</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>frontiersin.org</p></note>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability statement</head><p>The raw data supporting the conclusions of this article will be made available by the authors, without undue reservation.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics statement</head><p>The studies involving humans were approved by the University of Chichester Research Ethics Committee. The studies were conducted in accordance with the local legislation and institutional requirements. The participants provided their written informed consent to participate in this study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>MT: Conceptualization, Data curation, Methodology, Project administration, Writing-original draft, Writing-review and editing. EO: Data curation, Formal analysis, Methodology, Writing-review and editing. BS: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Project administration, Writing-original draft, Writing-review and editing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head><p>The authors declare that no financial support was received for the research, authorship, and/or publication of this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's note</head><p>All claims expressed in this article are solely those the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The one billion dollar myth</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Collis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jenny</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Esports</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Personality, coping, and challenge and threat states in athletes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Frings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/1612197X.2012.682375</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Sport Exerc. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="264" to="275" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<author>
+			<persName><forename type="first">M</forename><surname>Appelbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Kline</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mayo-Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Nezu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Rao</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/amp0000191</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Journal article reporting standards for quantitative research in psychology: The APA Publications and Communications Board task force report</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="3" to="25" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The moderator-mediator variable distinction in social psychological research: Conceptual, strategic, and statistical considerations</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Kenny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Pers. Soc. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1173" to="1182" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Self-regulated learning predicts skill group differences in developing athletes</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bartulovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2017.04.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol. Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="61" to="69" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Social challenge and threat predict performance and cardiovascular responses during competitive video gaming</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Behnke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kosakowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Kaczmarek</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2019.101584</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol. Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">101584</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Challenge and threat</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Blascovich</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2019.101584</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of approach and avoidance motivation</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Elliot</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Psychology Press</publisher>
+			<date type="published" when="1584">1584. 2008</date>
+			<biblScope unit="page" from="431" to="445" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">How far have we moved toward the integration of theory and practice in self-regulation?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Boekaerts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cascallar</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10648-006-9013-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Educ. Psychol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="199" to="210" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Psychological skills in esports: Qualitative study of individual and team players</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bonilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chamarro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Venutura</surname></persName>
+		</author>
+		<idno type="DOI">10.51698/aloma.2022.40.1.36-41</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aloma</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="35" to="41" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Delineating adaptive esports involvement from maladaptive gaming: A self-regulation perspective</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brevers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Billieux</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.copsyc.2020.07.025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="141" to="146" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Challenge and threat states, performance, and attentional control during a pressurized soccer penalty task</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brimmell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Vine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/spy0000147</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sport Exerc. Perform. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="63" to="79" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Self-regulation and the addictive behaviors</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lawendowski</surname></persName>
+		</author>
+		<editor>L. VandeCreek and T. L. Jackson</editor>
+		<imprint>
+			<date type="published" when="1998">1998. 1999</date>
+			<publisher>Professional Resource Press</publisher>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="281" to="292" />
+			<pubPlace>New York, NY; Sarasota, FL</pubPlace>
+		</imprint>
+	</monogr>
+	<note>The Self-regulation Questionnaire (SRQ). in Innovations in clinical practice: A source book</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Terminology matters: Defining the Esports athlete</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bubna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Trotter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Polman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Poulus</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fspor.2023.1232028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Sports Active Living</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">1232028</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Statistical power analysis for the behavioral sciences, 2nd Edn</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+			<publisher>Lawrence Erlbaum Associates</publisher>
+			<pubPlace>Hillsdale, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Sport psychology in a virtual world: Considerations for practitioners working in eSports</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cottrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mcmillen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Harris</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/21520704.2018.1518280</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sport Psychol. Action</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="73" to="81" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Coping in sport</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R E</forename><surname>Crocker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Tamminen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gaudreau</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9781315813059</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Contemporary advances in sport psychology, 1st Edn</title>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Mellalieu</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Hanton</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY: Routledge</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="22" to="67" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Potential negative outcomes from sports sponsorship</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Crompton</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/IJSMS-16-03-2015-B003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Sports Market. Sponsorsh</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="20" to="34" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Bootstrap tests: How many bootstraps?</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Mackinnon</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/07474930008800459</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Econometric Rev</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="55" to="68" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The relationship between multidimensional competitive anxiety, cognitive threat appraisal, and coping strategies: A multi-sport study</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Fonseca</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/1612197X.2012.645131</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Sport Exerc. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="52" to="65" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Performance, discovery, and relational narratives among women professional tournament golfers</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Douglas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Carless</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/wspaj.15.2.14</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Women Sport Phys. Activ. J</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="14" to="27" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Using Statistics in Sport and Exercise Science Research</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Fallowfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Hale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<publisher>Lotus Publishing</publisher>
+			<pubPlace>Chichester</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Stress appraisals and training performance on a complex laboratory task</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Gildea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Shebilske</surname></persName>
+		</author>
+		<idno type="DOI">10.1518/001872007X215818</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Fact</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="745" to="758" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The benefits of playing video games</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Granic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lobel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C M E</forename><surname>Engels</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0034857</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="66" to="78" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Grit, self-regulation and resilience among college football players: A pilot study</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sudhesh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Physiol. Nutr. Phys. Educ</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="843" to="848" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The relative trustworthiness of inferential tests of the indirect effect in statistical mediation analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scharkow</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0956797613480187</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1918" to="1927" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Achievement goal theory-based psychological skills training session buffers youth athletes&apos; psychophysiological responses to performance stress</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Hogue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol. Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page">101792</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">eSports: The need for a structured support system for players</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Hong</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/16184742.2022.2028876</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Sport Manag. Q</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="24" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Differences in selfregulatory skills among talented athletes: The significance of competitive level and type of sport</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jonker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Elferink-Gemser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Visscher</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640411003797157</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="901" to="908" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>b)</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Academic performance and self-regulatory skills in elite youth soccer players</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jonker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Elferink-Gemser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Toering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lyons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Visscher</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2010.516270</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1605" to="1614" />
+			<date type="published" when="2010">2010a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Comparing self-regulatory processes among novice, non-expert, and expert volleyball players: A Microanalytic study</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kitsantas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Zimmerman</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10413200252907761</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Sport Psychol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="91" to="105" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Because I&apos;m Bad at the Game!&quot; A Microanalytic Study of self regulated learning in league of legends</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kleinman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gayle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Seif</forename><surname>El-Nasr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2021.780234</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">780234</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A Time and Phase for Everything&quot;-Towards a self regulated learning perspective on computational support for Esports</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kleinman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Habibi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gayle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Seif</forename><surname>El-Nasr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1145/3549481</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the ACM on Human-Computer Interaction, 6(CHI PLAY)</title>
+		<meeting>the ACM on Human-Computer Interaction, 6(CHI PLAY)<address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="page" from="1" to="27" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Structural equation modeling</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Kline</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Psychoeduc. Assess</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="343" to="364" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Ranking practices and distinction in league of legends</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Kow</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2967934.2968078</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2016 Annual Symposium on Computer-Human Interaction in Play</title>
+		<meeting>the 2016 Annual Symposium on Computer-Human Interaction in Play<address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="4" to="9" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Exploring cyberbullying and other toxic behavior in team competition online games</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Blackburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Han</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2023.1265778</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 33rd Annual</title>
+		<meeting>the 33rd Annual</meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<idno type="DOI">10.1145/2702123.2702529</idno>
+		<title level="m">ACM Conference on Human Factors in Computing Systems</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<biblScope unit="page" from="3739" to="3748" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Toward better research on stress and coping</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Lazarus</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0003-066X.55.6.665</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="665" to="673" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Psychological and physiological stress in noncompetitive and competitive esports settings: A systematic review</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Leis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lautenbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2020.101738</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol. Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page">101738</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Sport psychological support in Esports: A qualitative study on the appraisal and perceived effectiveness of support strategies and sport psychologists</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Leis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meichsner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Poulus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lautenbach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Psychology of elite Esports athletes and coaches</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Poulus</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Polman</surname></persName>
+		</editor>
+		<meeting>the Psychology of elite Esports athletes and coaches<address><addrLine>Taipei</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>ISSP 15th World Congress</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Stress management strategies in Esports: An exploratory online survey on applied practice</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Leis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Swettenham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Pedraza-Ramirez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lautenbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jege.2023-0002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Electron. Gaming Esports</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Effectiveness of acceptance and commitment therapy (ACT) on emotional regulation and loneliness of divorced women in Iran</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahmoudpour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rayesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ghanbarian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rezaee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Marital Fam. Ther</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="831" to="842" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Two-phase evaluation of the validity of a measure for self-regulated learning in sport practice</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mccardle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2018.02641</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">2641</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The effect of Psychological Skills Training (PST) on self-regulation behavior, self-efficacy, and psychological skill use in military pilot-trainees</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mccrory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cobley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Marchant</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/h0094955</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Milit. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="136" to="147" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Self-regulation as a conceptual basis for the prevention and treatment of addictive behaviours</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Self-control and the addictive behaviours</title>
+		<editor>
+			<persName><forename type="first">N</forename><surname>Heather</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Miller</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Greeley</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Sydney</addrLine></address></meeting>
+		<imprint>
+			<publisher>Maxwell Macmillan Publishing Australia</publisher>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<author>
+			<persName><surname>Newzoo</surname></persName>
+		</author>
+		<title level="m">Newzoo global esports market report 2022 | Free version</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Coping in sport: A systematic review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Nicholls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C J</forename><surname>Polman</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640410600630654</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="11" to="31" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The applicability of self-regulation theories in sport: Goal adjustment capacities, stress appraisals, coping, and well-being among athletes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Nicholls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Carson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Perry</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2016.07.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol. Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="47" to="55" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Self-regulation</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ntoumanis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cumming</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Routledge international handbook of sport psychology</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Schinke</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Mcgannon</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Smith</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="315" to="323" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Relations between social support, appraisal and coping and both positive and negative outcomes in young carers</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Pakenham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bursnall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cannon</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1359105307071743</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Health Psychol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="89" to="102" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">A review of self-regulated learning: Six models and four directions for research</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Panadero</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2017.00422</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">422</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Longitudinal analysis of stressors, stress, coping and coping effectiveness in elite e&apos;athletes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Poulus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Coulter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Trotter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Polman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2021.102093</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol. Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page">102093</biblScope>
+			<date type="published" when="2022">2022b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">A qualitative analysis of the perceived determinants of success in elite e&apos;athletes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Poulus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Coulter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Trotter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Polman</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2021.2015916</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="742" to="753" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Stress and coping in Esports and the influence of mental toughness</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Poulus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Coulter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Trotter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Polman</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2020.00628</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">628</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Perceived stressors experienced by competitive E&apos;athletes</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Poulus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Coulter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Trotter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Polman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Esports</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2022">2022c</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Relationship of emotional intelligence and selfregulation of male elite swimmers</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sadri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Janani</surname></persName>
+		</author>
+		<idno type="DOI">10.18869/acadpub.aassjournal.3.4.9</idno>
+		<idno>doi: 10.18869</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Appl. Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="9" to="18" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Effect of acute caffeine intake on hit accuracy and reaction time in professional e-sports players</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sainz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Collado-Mateo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Del Coso</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physbeh.2020.113031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Behav</title>
+		<imprint>
+			<biblScope unit="volume">224</biblScope>
+			<biblScope unit="page">113031</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Scholz</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-11199-1</idno>
+		<title level="m">eSports is Business: Management in the World of Competitive Gaming</title>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Comparison of Self-regulation strategies in elite basketball players based on personality types</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Ardekani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mehri</surname></persName>
+		</author>
+		<idno type="DOI">10.11648/j.ajss.20160402.11</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Indexing Esport performance</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Sharpe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Besombes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Welsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D J</forename><surname>Birch</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jege.2022-0017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Electron. Gaming Esports</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<date type="published" when="2023">2023a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Sharpe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A C</forename><surname>Obine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D J</forename><surname>Birch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pocock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Performance breakdown under pressure among Esports Competitors. Sport Exerc. Perform. Psychol</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Examining the predictors of mental ill health in Esport competitors</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sharpe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arumuham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Birch</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/healthcare10040626</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Healthcare</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">626</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Bootstrapping and PLS-SEM: A stepby-step guide to get more out of your bootstrap results</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Streukens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Leroi-Werelds</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.emj.2016.06.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Manag. J</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="618" to="632" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The importance and development of ball control and (selfreported) self-regulatory skills in basketball players for different positions</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C M</forename><surname>Te Wierike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C H</forename><surname>Huijgen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jonker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Elferink-Gemser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Visscher</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2017.1334954</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="710" to="716" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Investigating grit among para sportspersons in relation to self-regulation and motivation factors</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Thapar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nancy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Univ. Rev</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Selfregulation and performance level of elite and non-elite youth soccer players</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Toering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Elferink-Gemser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jordet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Visscher</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640410903369919</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J.f Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1509" to="1517" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Subjective, physiological, and behavioral effects of threat and challenge appraisal</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tomaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Blascovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Kelsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Leitten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Pers. Soc. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="248" to="260" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The color-word stroop task does not differentiate cognitive inhibition ability among Esports gamers of varying expertise</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Toth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kowal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Campbell</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2019.02852</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2852</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">The Association between Esports participation, health and physical activity behaviour</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Trotter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Coulter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Poulus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Polman</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijerph17197329</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Environ. Res. Public Health</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">7329</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Social support, self-regulation, and psychological skill use in E&apos;athletes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Trotter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Coulter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Poulus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Polman</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2021.722030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">722030</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Examining the impact of school Esports program participation on student health and psychological development</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Trotter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Coulter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Poulus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Polman</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2021.807341</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">807341</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Further evidence for the validity of a survey for self-regulated learning in sport practice</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2021.101975</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol. Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">101975</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">On the self-regulation of sport practice: Moving the narrative from theory and assessment toward practice</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Siekańska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2023.1089110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1089110</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Attaining self-regulation</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Zimmerman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/B978-012109890-2/50031-7</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of Self-Regulation</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Boekaerts</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Pintrich</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Zeidner</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="page" from="13" to="39" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<title level="m" type="main">Becoming a self-regulated learner: An overview. Theory Pract</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Zimmerman</surname></persName>
+		</author>
+		<idno type="DOI">10.1207/s15430421tip4102_2</idno>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="64" to="70" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
