@@ -1,5 +1,3 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10790933.svg)](https://doi.org/10.5281/zenodo.10790933)
-
 # Text Extraction Project
 
 This project focuses on extracting structured data from PDF files using the Grobid tool and Python scripts.
@@ -38,13 +36,18 @@ python links.py
 ```
 5. Follow the prompts to provide input folder paths containing raw PDFs and output folder paths for TEI XML files
 
+## Preferred Citation
+
+If you use this project, please cite:
+Iñigo Rodriguez Saito. Text Extraction Project. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10790933.svg)](https://doi.org/10.5281/zenodo.10790933)
+
 ## Input data
 
-The input data for the scripts can be stored in any folder on your system. However, its preferred to use the provided 'input_pdfs' folder withing the project directory.
+The input data for the scripts can be stored in any folder on your system. However, its preferred to use the provided 'input_pdfs' folder withing the project directory. 
 
 ## Output data
 
-The output of the scripts will be generated in the same way input works. 
+The output of the scripts will be generated in the same way the input works. 
 
 ## More Information
 
