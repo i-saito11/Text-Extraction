@@ -64,6 +64,11 @@ The input data for the scripts can be stored in any folder on your system. Howev
 
 The output of the scripts will be generated in the folder you provide as an output to your system. 
 
+## Examples
+
+There are 2 folders inside the project that already count with 10 pdfs and its respective 10 TEI XML that they generate.
+As i suggested earlier you can use those folders as the input and output folder hence the name and they wont greatly affect the speed of the outputs because when a TEI XML already exists it skips its conversion automatically.
+
 ## More Information
 
 - [Grobid Documentation](https://grobid.readthedocs.io/en/latest/)
