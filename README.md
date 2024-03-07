@@ -62,7 +62,7 @@ The input data for the scripts can be stored in any folder on your system. Howev
 
 ## Output data
 
-The output of the scripts will be generated in the same way the input works. 
+The output of the scripts will be generated in the folder you provide as an output to your system. 
 
 ## More Information
 
