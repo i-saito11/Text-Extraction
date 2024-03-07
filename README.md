@@ -33,15 +33,23 @@ This script extracts links from TEI XML files produced by Grobid and filters out
 
 1. Install Python and Grobid.
 2. Clone this repository: `git clone https://github.com/i-saito11/Text-Extraction.git`
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run the Python scripts:
+3. **Activate the Virtual Environment:**
+   - Navigate to the project directory and activate the virtual environment:
+     ```bash
+     cd Text-Extraction
+     . env/bin/activate  # For Linux/Mac
+     # Or
+     .\env\Scripts\activate.bat  # For Windows
+     ```
+4. Install dependencies: `pip install -r requirements.txt`
+5. Run the Python scripts:
 
 ```bash
 python keyword_cloud.py
 python figures.py
 python links.py
 ```
-5. Follow the prompts to provide input folder paths containing raw PDFs and output folder paths for TEI XML files
+6. Follow the prompts to provide input folder paths containing raw PDFs and output folder paths for TEI XML files
 
 ## Preferred Citation
 
@@ -61,5 +69,4 @@ The output of the scripts will be generated in the same way the input works.
 - [Grobid Documentation](https://grobid.readthedocs.io/en/latest/)
 - [Grobid Client Python Documentation](https://github.com/kermitt2/grobid_client_python?tab=readme-ov-file#using-the-client-in-your-python)
 - [DOAJ (Directory of Open Access Journals)](https://doaj.org) - A site for obtaining open access PDFs used in the project.
-
 
